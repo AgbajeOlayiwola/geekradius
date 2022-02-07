@@ -1,0 +1,86 @@
+.PionneringMain{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding:50px 30px 20px 90px;
+    font-size: 60px;
+}
+.creative{
+    color: #FF6464;
+}
+.focussed{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: white;       
+    padding:50px 70px 20px 0px;
+    font-size: 60px;
+    /* background-image: url(/homeassets/rocks.png);
+    background-repeat: no-repeat;
+    background-size: contain; */
+}
+.fallingBoy{
+width: 818px;
+}
+.sleepWoman{
+    width: 702px;
+}
+.secondImg{
+    padding-top: 20%;
+}
+
+.mainP{
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.seeHow{
+    padding: 1px;
+        background: white;
+        text-align: center;
+        border-radius: 40px;
+        width: 234px;
+        font-size: 18px;
+        color: black;
+}
+.seeHow p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.spaceMain{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding:20px 30px 20px 30px;
+
+}
+.spaceP{
+    font-size: 80px;
+    color: #FFF2DE;
+    margin-bottom: 0px;
+}
+.youMay{
+    color: #FF6464;
+    font-size: 30px; 
+}
+.youMay{
+    color: #FF6464;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.space{
+    font-size: 20px;
+}
+.PionneringMain div div p{
+    font-family: 'Playfair Display';
+}
+.mainP{
+    font-family: 'Josefin Sans', 'sans-serif';
+    font-size: 20px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+

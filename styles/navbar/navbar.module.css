@@ -1,0 +1,30 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding: 60px 60px 0px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+.navroutes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.navroutes div{
+    margin-left: 25px;
+    cursor: pointer;
+}
+.navroutes :nth-child(3){
+    padding: 0px 20px 0px 20px;
+    border-radius: 43px;
+    background-color: white;
+    color: black;
+}
+.notActive{
+    color: white;
+}
+.active{
+    color: #FF6464;
+}

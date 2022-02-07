@@ -1,0 +1,24 @@
+.hrTag{
+    width: 30%;
+    margin: 0px;
+    transition: 0.5s ease-in;
+    border-color: #FF6464;
+}
+.hrTag:hover{
+    width: 65%;
+    transition: 0.5s ease-in;
+    border-color: #FF6464;
+    cursor: pointer;
+}
+.perHour{
+    color: #FF6464 ;
+    font-family: 'Josefin Sans', 'sans-serif';
+    
+}
+.pTag{
+    font-family: 'Josefin Sans', 'sans-serif';
+    cursor:pointer;
+}
+.price{
+    font-family: 'Josefin Sans', 'sans-serif';
+}

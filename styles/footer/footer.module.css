@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.footerWrp{
+    padding-top: 60px;
+}
+.cont{
+    width: 77%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.hr{
+    width: 70%;
+}
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.h3{
+    margin-top: 0px;
+}
+.h4{
+    margin-top: 0px;
+}
+.partJoin{
+    display: flex;
+    justify-content: space-between;
+}

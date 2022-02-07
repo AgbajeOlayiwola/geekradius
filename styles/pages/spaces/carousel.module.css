@@ -1,0 +1,32 @@
+.containerSlider {
+        overflow: hidden;
+        padding-left: 1%;
+        padding-top: 0%;
+        /* background: #001928; */
+        /* box-shadow: 0 10px 20px rgb(0 0 0 / 20%); */
+        position: relative;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 288px;
+}
+.active{
+    opacity: 0;
+    transform: 0.2s;
+    transform: translate(90px, 0px);
+}
+.slide{
+    opacity: 1;
+    transition: 0.1s;
+    
+}
+.title{
+    margin-bottom: 10px;
+}
+.content{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.control{
+    display: flex;
+    justify-content: flex-end;
+}
