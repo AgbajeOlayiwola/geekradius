@@ -4,7 +4,8 @@ import {OrbitControls,
   ContactShadows, 
   Environment, 
   Cloud,} from '@react-three/drei';
-import FrankincentsModel from './Frankincents04Anim';
+import Frankincents05AnimBaked from './Frankincents05AnimBaked';
+
 
 const Frank = () =>{
 
@@ -18,13 +19,13 @@ const Frank = () =>{
 
         <Suspense fallback={null}>
          
-            <FrankincentsModel/>
+            <Frankincents05AnimBaked/>
             </Suspense>
         <OrbitControls
             minPolarAngle={Math.PI / 2} 
             maxPolarAngle={Math.PI / 2} 
-            enableZoom={false} 
-            enablePan={true}/>
+            enableZoom={true} 
+            enablePan={Math.PI / 2} />
         </Canvas>
         </div>
     )
