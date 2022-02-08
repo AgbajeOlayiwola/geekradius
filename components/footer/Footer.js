@@ -9,6 +9,11 @@ const Footer = () =>{
 
     return(
         <footer className={styles.footerWrp}>
+            <div className={styles.inovators}>
+                <h1>
+                    A hub for social <span className={styles.inCrea}>innovators</span> and <span className={styles.inCrea}>creative</span> solutions
+                </h1>
+            </div>
         <div>
         <div className={styles.top}>
             <div className={styles.hr}>

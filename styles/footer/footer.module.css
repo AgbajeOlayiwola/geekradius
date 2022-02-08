@@ -34,3 +34,17 @@
     display: flex;
     justify-content: space-between;
 }
+.inovators{
+    color: white;
+    font-family: 'Josefin Sans', 'sans-serif';
+    font-size: 37px;
+    padding: 100px 69px 100px 69px;
+    background-image: url(/spacesassets/innovators.svg);
+    background-repeat: no-repeat;
+    background-position: 10px 44px;
+    background-size: 219px 182px;
+
+}
+.inCrea{
+    color: #FF6464;
+}
