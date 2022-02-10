@@ -1,0 +1,51 @@
+.subtitles{
+    display:flex;
+    justify-content: flex-start;
+}
+.active{
+    opacity: 1;
+    transition: 0.1s;
+    display:flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+.serviceslistNtAct{
+    opacity: 0.6;
+    padding-left: 62px;
+    width: 180px;
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 45px;
+}
+.activeTitle{
+    opacity: 1;
+    transition: 0.1s;
+    display:flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+.serviceslist{
+    opacity: 0;
+    transform: 0.2s;
+    transform: translate(90px, 0px);
+}
+.active ul{
+    list-style:none;
+    padding: 0px;
+}
+.active ul li{
+    padding: 20px 10px 5px 0px;
+    width: 157px;
+}
+.servCov{
+    padding-top: 2%;
+    padding-left: 70px;
+    /* background: #001928; */
+    /* box-shadow: 0 10px 20px rgb(0 0 0 / 20%); */
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.subtitles p{
+    padding-right: 60px;
+}

@@ -1,14 +1,15 @@
 import React, {useState} from "react";
-import Slider from 'react-slick'
 import styles from '../../styles/pages/spaces/carousel.module.css'
 
 
 const Carousel = (props) =>{
 
+  //current carrouse in view state
   const [current, setCurrent] =useState(0)
 
+  //slider content passed in as props from slider.js
   const length = props.sliderCont.length
-
+//next slide function
   const nextSlide =()=>{
     setCurrent(current === length - 1 ? 0 : current+1)
   };
@@ -17,7 +18,7 @@ const Carousel = (props) =>{
     return null
   }
 
-
+//for the current slid dot not done due to svg
   const moveDot = index => {
       setSlideIndex(index)
   }
@@ -25,10 +26,12 @@ const Carousel = (props) =>{
     return (
       <div>
       <div className={styles.containerSlider}>
+        {/* map the contnets for dispaly */}
           {props.sliderCont.map((slidercontent, index)=>{
                 {return (
                 <div key={index} style={{color:'white'}}
                 className={styles.content}>
+                  
                     <div className={index === current ? styles.slide : styles.active}>
                       {index ===current &&(
                       <div>
@@ -44,6 +47,7 @@ const Carousel = (props) =>{
             })}
           </div>
         <div className={styles.control}>
+        {/* next slide button */}
             <button onClick={nextSlide}>next</button>
         </div>
         </div>

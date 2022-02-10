@@ -29,7 +29,6 @@ width: 818px;
 }
 
 .mainP{
-    font-family: 'Playfair Display';
     font-size: 20px;
     width: 50%;
     margin-bottom: 50px;
@@ -74,13 +73,23 @@ width: 818px;
 .space{
     font-size: 20px;
 }
-.PionneringMain div div p{
-    font-family: 'Playfair Display';
-}
 .mainP{
-    font-family: 'Josefin Sans', 'sans-serif';
     font-size: 20px;
     width: 50%;
     margin-bottom: 50px;
 }
-
+.mainH1{
+    font-size:60px;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+.servicesP{
+    font-size: 80px;
+    color: #FFF2DE;
+    padding-bottom: 30px;
+}
+.bkBtn{
+    margin-left: 68px;
+}

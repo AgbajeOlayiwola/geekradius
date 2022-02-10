@@ -2,7 +2,6 @@ import React, {useState, useEffect} from "react"
 import Carousel from "./carousel"
 
 const Slider = ()=>{
-    const [count, setCount] = useState(0)
         const slider=[
             {
                 title: 'CREATOR STUDIOS',

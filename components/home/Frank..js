@@ -24,7 +24,7 @@ const Frank = () =>{
         <OrbitControls
             minPolarAngle={Math.PI / 2} 
             maxPolarAngle={Math.PI / 2} 
-            enableZoom={true} 
+            enableZoom={false} 
             enablePan={Math.PI / 2} />
         </Canvas>
         </div>

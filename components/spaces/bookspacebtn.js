@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const BookSpaceBtn =()=>{
 
-
+//Book space bfutton component
     return(
         <div>
             <div className={styles.bkSpace}>
