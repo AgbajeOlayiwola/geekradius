@@ -42,13 +42,29 @@ const Carousel = (props) =>{
                     </div>
                     
                 </div>
+ 
                 
                 )}
             })}
           </div>
         <div className={styles.control}>
-        {/* next slide button */}
-            <button onClick={nextSlide}>next</button>
+        <div className={styles.nextSlide}>
+          <div className={styles.current}>
+            <div
+             className={styles.Acticecurrent}></div>
+            <div
+            className={styles.inActivecurrent}></div>
+            <div
+            className={styles.inActivecurrent}></div>
+          </div>
+          <div>
+            <div  onClick={nextSlide} 
+            className={styles.nextBtn}>
+              <div className={styles.next}></div>
+            </div>
+          </div>
+
+        </div>
         </div>
         </div>
       )

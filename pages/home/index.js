@@ -4,9 +4,7 @@ import Frank from "../../components/home/Frank.";
 import Playvideo from "../../components/spaces/Playvideo";
 import styles from '../../styles/pages/home/home.module.css'
 import BookSpaceBtn from "../../components/spaces/bookspacebtn";
-import Image from 'next/image'
 import CarouselCont from "../../components/home/homeCarousel/carouselContent";
-import ServicesCarousel from "../../components/home/homeCarousel/services";
 import AudioImg from "../../components/spaces/Audio";
 import AOS from 'aos';
 import 'aos/dist/aos.css';

@@ -26,7 +26,53 @@
 .content{
     font-family: 'Josefin Sans', sans-serif;
 }
-.control{
+.nextSlide{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    margin-bottom: 15%;
+    margin-top: 5%;
+}
+.current{
+    display: flex;
+    justify-content: space-around;
+    width: 121px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 8px;
+}
+.Acticecurrent{
+    width: 40%;
+    height: 20px;
+    background-color: #ff6464;
+    border-radius:10px;
+}
+.inActivecurrent{
+    width: 30%;
+    height: 20px;
+    background-color: #fff2de;
+    border-radius:10px;
+}
+.current3{
+    width: 30%;
+    height: 20px;
+    background-color: #fff2de;
+    border-radius:10px;
+}
+.nextBtn{
+    width: 40px;
+    height: 30px;
+    background-color: #fff2de;
+    padding: 10px;
+    border-radius: 20px;
+}
+.next{
+    border: solid;
+    width: 10px;
+    transform: rotate(45deg);
+    height: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-bottom: none;
+    border-left: none;
 }

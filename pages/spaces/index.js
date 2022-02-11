@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import AudioImg from "../../components/spaces/Audio";
 import BookSpaceBtn from "../../components/spaces/bookspacebtn";
 import Conf from "../../components/spaces/Conf";
@@ -6,13 +6,22 @@ import Playvideo from "../../components/spaces/Playvideo";
 import Reserve from "../../components/spaces/reserve";
 import Slider from "../../components/spaces/slider";
 import styles from '../../styles/pages/spaces/spaces.module.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Spaces = () =>{
 
+    useEffect(() => {
+        AOS.init();
+      }, []);
 
     return(
         <div>
-        <div className={styles.cover}>
+        <div 
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-offset='200'
+        className={styles.cover}>
             <div className={styles.main}>
                 <div>
                     <div>
@@ -27,7 +36,11 @@ const Spaces = () =>{
             </div>
 
 
-            <div className={styles.visual}>
+            <div 
+            data-aos='fade-up'
+            data-aos-offset='200'
+            data-aos-offset='200'
+            className={styles.visual}>
                 <div className={styles.audioText}>
                     <div><h1>Visual</h1></div>
                     <div><h3>REHEARSAL STUDIO</h3></div>
@@ -39,7 +52,11 @@ const Spaces = () =>{
             </div>
 
 
-            <div className={styles.photography}>
+            <div 
+            data-aos='fade-up'
+            data-aos-offset='200'
+            data-aos-offset='200'
+            className={styles.photography}>
                 <div>
                     <Playvideo width={450} height={450}/>
                 </div>
@@ -55,7 +72,11 @@ const Spaces = () =>{
                 </div>
 
 
-                <div className={styles.audioMain}>
+                <div 
+                data-aos='fade-up'
+                data-aos-offset='200'
+                data-aos-offset='200'
+                className={styles.audioMain}>
                     <div className={styles.audioText}>
                         <div><h1 className={styles.space1}>Audio</h1></div>
                         <div><h3>RECORDING STUDIO</h3></div>
@@ -68,7 +89,11 @@ const Spaces = () =>{
                 </div>
 
 
-                <div className={styles.coWorking}>
+                <div 
+                data-aos='fade-up'
+                data-aos-offset='200'
+                data-aos-offset='200'
+                className={styles.coWorking}>
                     <div>
                         <div><h1 className={styles.coWorkH1}>CO - Working</h1></div>
                         <div className={styles.coWork}>
@@ -83,7 +108,11 @@ const Spaces = () =>{
                 </div>
             
 
-            <div className={styles.conference}>
+            <div 
+            data-aos='fade-up'
+            data-aos-offset='200'
+            data-aos-offset='200'
+            className={styles.conference}>
                 <div>
                     <Conf width={450} height={450}/>
                 </div>
@@ -97,11 +126,6 @@ const Spaces = () =>{
                     </div>
                 </div>
 
-            </div>
-            <div className={styles.inovators}>
-                <h1>
-                    A hub for social <span className={styles.inCrea}>innovators</span> and <span className={styles.inCrea}>creative</span> solutions
-                </h1>
             </div>
         </div>
         </div>
