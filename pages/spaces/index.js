@@ -12,6 +12,7 @@ const Spaces = () =>{
 
     return(
         <div>
+        <div className={styles.cover}>
             <div className={styles.main}>
                 <div>
                     <div>
@@ -102,6 +103,7 @@ const Spaces = () =>{
                     A hub for social <span className={styles.inCrea}>innovators</span> and <span className={styles.inCrea}>creative</span> solutions
                 </h1>
             </div>
+        </div>
         </div>
     )
 }

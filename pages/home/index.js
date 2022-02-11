@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Slider from "../../components/spaces/slider";
 import Frank from "../../components/home/Frank.";
 import Playvideo from "../../components/spaces/Playvideo";
@@ -7,13 +7,19 @@ import BookSpaceBtn from "../../components/spaces/bookspacebtn";
 import Image from 'next/image'
 import CarouselCont from "../../components/home/homeCarousel/carouselContent";
 import ServicesCarousel from "../../components/home/homeCarousel/services";
-
+import AudioImg from "../../components/spaces/Audio";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const HomeMain =()=>{
 
+    useEffect(() => {
+        AOS.init();
+      }, []);
+
     return (
-    <div>
+    <div className={styles.cover}>
         <div className={styles.PionneringMain}>
             <div>
                 <div>
@@ -29,7 +35,11 @@ const HomeMain =()=>{
             </div>
         </div>
 
-
+{/* How section */}
+        <div
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-offset='200'>
         <div className={styles.PionneringMain}>
             <div>
                 <div>
@@ -45,9 +55,15 @@ const HomeMain =()=>{
                 <Frank/>
             </div>
         </div>
+        
 
+        {/* images section */}
 
-
+        <div
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-offset='200'
+        >
         <div className={styles.focussed}>
             <div>
                 <div>
@@ -60,9 +76,17 @@ const HomeMain =()=>{
              className={styles.sleepWoman} />
             </div>
         </div>
+        </div>
+        </div>
+        
 
 
-
+{/* another spaces secion maybe i should have made the whole section a component oh well */}
+<div
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-offset='200'
+        >
         <div className={styles.spaceMain}>
             <div>
                 <Playvideo height='550' width='550'/>
@@ -75,6 +99,49 @@ const HomeMain =()=>{
                     <BookSpaceBtn/>
             </div>
         </div>
+</div>
+
+        {/* //Products section */}
+        <div
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-offset='200'
+        >
+        <div className={styles.spaceMain}>
+            <div>
+                <div>
+                    <p className={styles.productsP}>Products</p>
+                </div>
+                <div className={styles.products}>
+                    <div>
+                        <Playvideo height='650' width='650'/>
+                    </div>
+                    <div>
+                        <AudioImg height='650' width='650'/>
+                    </div>
+                    <div>
+                        <Playvideo height='650' width='650'/>
+                    </div>
+                    <div>
+                        <Playvideo height='650' width='650'/>
+                    </div>
+                    <div>
+                        <Playvideo height='650' width='650'/>
+                    </div>
+                </div>
+                    
+            </div>
+            </div>
+            </div>
+
+
+
+        {/* services section */}
+        <div
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-offset='200'
+        >
         <div className={styles.spaceMain}>
             <div>
                 <div>
@@ -91,7 +158,8 @@ const HomeMain =()=>{
                         </div>
                     </div>
                 </div>
-                    
+                
+            </div> 
             </div>
         </div>
     </div>

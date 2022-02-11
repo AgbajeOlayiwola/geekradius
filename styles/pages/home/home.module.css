@@ -1,8 +1,11 @@
+.cover{
+    padding: 5% 10% 5% 10%;
+}
 .PionneringMain{
     display: flex;
     justify-content: space-between;
     color: white;
-    padding:50px 30px 20px 90px;
+    padding:50px 0px 20px 0px;
     font-size: 60px;
 }
 .creative{
@@ -12,17 +15,17 @@
     display: grid;
     grid-template-columns: 50% 50%;
     color: white;       
-    padding:50px 70px 20px 0px;
+    padding:50px 0px 20px 0px;
     font-size: 60px;
     /* background-image: url(/homeassets/rocks.png);
     background-repeat: no-repeat;
     background-size: contain; */
 }
 .fallingBoy{
-width: 818px;
+width: 678px;
 }
 .sleepWoman{
-    width: 702px;
+    width: 661px;
 }
 .secondImg{
     padding-top: 20%;
@@ -51,9 +54,9 @@ width: 818px;
 
 .spaceMain{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     color: white;
-    padding:20px 30px 20px 30px;
+    padding:20px 0px 20px 0px;
 
 }
 .spaceP{
@@ -93,3 +96,26 @@ width: 818px;
 .bkBtn{
     margin-left: 68px;
 }
+
+.productsP{
+    font-size: 80px;
+    color: #FFF2DE;
+    padding-bottom: 30px;
+}
+.products{
+    display: flex;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.products div:nth-child(even) {
+    margin-top: 15%;
+}
+.products::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .products {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

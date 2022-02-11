@@ -129,8 +129,7 @@ export default function Frankincents05AnimBaked({ ...props }) {
         scale={0.89}
       />
       <mesh
-      material-color='#E3B43F'
-
+        material-color='#E3B43F'
         geometry={nodes.Cube004.geometry}
         position={[-0.57, 0.64, -3.01]}
         scale={0.89}

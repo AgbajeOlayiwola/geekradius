@@ -1,7 +1,10 @@
+.cover{
+    padding: 5% 10% 5% 10%;
+}
 .main{
     display: flex;
     justify-content: space-between;
-    padding: 55px 20px 5px 90px;
+    
 }
 
 .space1{
@@ -12,7 +15,6 @@
 }
 .visual{
     text-align: start;
-    padding:1px 0px 105px 0px;
 }
 .visual div div h1{
     font-size: 80px;
@@ -23,12 +25,12 @@
 .visual div{
     width: 55%;
     color: white;
-    padding: 0px 0px 5px 50px;
+    padding: 0px 0px 15px 0px;
 }
 .photography{
     display: flex;
     justify-content: space-between;
-    padding: 0px 0px 5px 80px;
+    padding: 30px 0px 5px 0px;
     color: white;
 }
 .photoTag{
@@ -42,13 +44,13 @@
     justify-content: space-between;
     width: 100%;
     color: white;
-    padding: 55px 90px 5px 90px;
+    padding: 55px 0px 5px 0px;
 }
 .conference{
     display: flex;
     justify-content: space-between;
     color: white;
-    padding:0px 0px 70px 94px;
+    padding:0px 0px 70px 0px;
 }
 .confTag{
     width: 76%;
@@ -71,7 +73,7 @@
 }
 .coWorking{
     color: #FFF2DE;
-    padding: 0px 0px 129px 94px;
+    padding: 0px 0px 129px 0px;
 }
 .coWorkH1{
     font-size: 80px;
