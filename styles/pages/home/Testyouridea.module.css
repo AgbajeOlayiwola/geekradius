@@ -1,0 +1,11 @@
+.testBtn{
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 10px;
+    color: black;
+    width: fit-content;
+    display: flex;
+}

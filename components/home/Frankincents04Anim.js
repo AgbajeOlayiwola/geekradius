@@ -7,14 +7,6 @@ import { useFrame } from "@react-three/fiber"
 import { proxy, useSnapshot } from "valtio"
 import { useGLTF, useAnimations } from '@react-three/drei'
 
-const state = proxy({
-  current: null,
-  items: {
-    laces: "red",
-  },
-})
-
-
 export default function FrankincentsModel({ ...props }) {
   const snap = useSnapshot(state)
 
@@ -173,7 +165,7 @@ useFrame((state) => {
       name='ring2'
         geometry={nodes.Cube002.geometry}
         position={[-0.77, -1.61, -3.11]}
-        scale={0.89}
+        scale={6.89}
       />
       <mesh
        material-color='#E3B43F'
@@ -208,7 +200,7 @@ material-color='#E3B43F'
         scale={0.89}
       />
       <mesh
-  material-color='#E3B43F'
+        material-color='#E3B43F'
         geometry={nodes.Cube009.geometry}
         position={[-0.04, 1.19, -3.01]}
         scale={0.89}

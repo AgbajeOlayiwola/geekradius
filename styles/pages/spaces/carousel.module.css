@@ -1,3 +1,8 @@
+.spacecontainer{
+    width: 367px;  
+    color: white;
+}
+
 .containerSlider {
         overflow: hidden;
         padding-left: 1%;
@@ -8,7 +13,8 @@
         align-items: center;
         display: flex;
         justify-content: center;
-        width: 288px;
+        height: 123px;
+
 }
 .active{
     opacity: 0;
@@ -34,26 +40,23 @@
 }
 .current{
     display: flex;
-    justify-content: space-around;
-    width: 121px;
+    justify-content: space-between;
+    width: 131px;
     height: 35px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, .15);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     border-radius: 24px;
     padding: 8px;
 }
 .Acticecurrent{
-    width: 40%;
+    width: 35%;
     height: 20px;
     background-color: #ff6464;
     border-radius:10px;
+    transition: 0.2s ease-in-out;
 }
 .inActivecurrent{
-    width: 30%;
-    height: 20px;
-    background-color: #fff2de;
-    border-radius:10px;
-}
-.current3{
     width: 30%;
     height: 20px;
     background-color: #fff2de;
@@ -62,7 +65,9 @@
 .nextBtn{
     width: 40px;
     height: 30px;
-    background-color: #fff2de;
+    background-color: rgba(255, 255, 255, .15);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     padding: 10px;
     border-radius: 20px;
 }
@@ -72,7 +77,7 @@
     transform: rotate(45deg);
     height: 10px;
     border-width: 2px;
-    border-color: black;
+    border-color: white;
     border-bottom: none;
     border-left: none;
 }

@@ -36,15 +36,13 @@ const ServicesCarousel =(props)=>{
                <div
                className={index === current ? styles.active:styles.serviceslist }>
 
-                        <ul>
-                {console.log(item.items[0].contI1)}
+                    <ul>
                     {item.items.map((subitem, indx)=>
                             <li>{subitem}</li>
                    )}
                     </ul>
                     
                     <ul>
-                    {console.log(item.items[0].contI1)}
                     {item.itemsI.map((subitemI, indx)=>
                             <li>{subitemI}</li>
                     )}

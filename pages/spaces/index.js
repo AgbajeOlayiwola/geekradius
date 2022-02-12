@@ -25,7 +25,6 @@ const Spaces = () =>{
             <div className={styles.main}>
                 <div>
                     <div>
-                        <h1 className={styles.space1}>Spaces</h1>
                        <Slider/>
                     </div>
                     <BookSpaceBtn/>

@@ -26,10 +26,10 @@ a {
   box-sizing: border-box;
 }
 p{
-
   font-family: 'Playfair Display';
 }
   
 h1{
-  font-family: 'Josefin Sans', 'sans-serif';
+  font-family: 'Josefin Sans';
+  font-size: 80px;
 }

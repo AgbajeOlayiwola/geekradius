@@ -6,25 +6,23 @@ const Carousel = (props) =>{
 
   //current carrouse in view state
   const [current, setCurrent] =useState(0)
+  const [currentDot, setCurrentDot] =useState(false)
 
   //slider content passed in as props from slider.js
   const length = props.sliderCont.length
 //next slide function
   const nextSlide =()=>{
     setCurrent(current === length - 1 ? 0 : current+1)
+    setCurrentDot()
   };
 
   if(!Array.isArray(props.sliderCont)|| props.sliderCont.length <= 0){
     return null
   }
 
-//for the current slid dot not done due to svg
-  const moveDot = index => {
-      setSlideIndex(index)
-  }
-
     return (
-      <div>
+      <div className={styles.spacecontainer}>
+        <h1 className={styles.space1}>Spaces</h1>
       <div className={styles.containerSlider}>
         {/* map the contnets for dispaly */}
           {props.sliderCont.map((slidercontent, index)=>{
@@ -39,8 +37,7 @@ const Carousel = (props) =>{
                       <div><p>{slidercontent.content}</p></div>
                       </div>
                       )}
-                    </div>
-                    
+                    </div> 
                 </div>
  
                 
@@ -50,12 +47,13 @@ const Carousel = (props) =>{
         <div className={styles.control}>
         <div className={styles.nextSlide}>
           <div className={styles.current}>
+            {/* not the ideal way to do it will refactor later */}
             <div
-             className={styles.Acticecurrent}></div>
+             className={current === 0?styles.Acticecurrent:styles.inActivecurrent}></div>
             <div
-            className={styles.inActivecurrent}></div>
+            className={current === 1?styles.Acticecurrent:styles.inActivecurrent}></div>
             <div
-            className={styles.inActivecurrent}></div>
+            className={current === 2?styles.Acticecurrent:styles.inActivecurrent}></div>
           </div>
           <div>
             <div  onClick={nextSlide} 

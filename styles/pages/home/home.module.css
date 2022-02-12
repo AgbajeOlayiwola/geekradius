@@ -119,3 +119,8 @@ width: 678px;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
+  .btnParent{
+      display: flex;
+      justify-content: center;
+      padding-top: 10%;
+  }

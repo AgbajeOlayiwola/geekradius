@@ -56,7 +56,6 @@
     width: 76%;
     padding-left: 27%;
     padding-top: 50px;
-    font-family: 'Josefin Sans', 'sans-serif';
 }
 .audioText{
     width: 27%;
@@ -64,11 +63,8 @@
 .coWork{
     color: white;
     width: 26%;
-    font-family: 'Josefin Sans', 'sans-serif';
-    letter-spacing: 2px;
 }
 .pFont{
-    font-family: 'Josefin Sans', 'sans-serif';
     font-size: 18px;
 }
 .coWorking{
@@ -79,21 +75,9 @@
     font-size: 80px;
     margin-bottom: 7px;
 }
-.space1 div h3{
-    font-family: 'Josefin Sans', 'sans-serif';
-    letter-spacing: 2px;
-}
-.photoTag div h3{
-    font-family: 'Josefin Sans', 'sans-serif';
-    letter-spacing: 2px;
-}
-.audioText div h3{
-    font-family: 'Josefin Sans', 'sans-serif';
-    letter-spacing: 2px;
-}
 .inovators{
     color: white;
-    font-family: 'Josefin Sans', 'sans-serif';
+    
     font-size: 37px;
     padding: 100px 69px 100px 69px;
     background-image: url(/spacesassets/innovators.svg);

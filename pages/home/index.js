@@ -8,6 +8,9 @@ import CarouselCont from "../../components/home/homeCarousel/carouselContent";
 import AudioImg from "../../components/spaces/Audio";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Seehow from "../../components/home/seehow";
+import Testyouridea from "../../components/home/testyouridea";
+import OurProductsBtn from "../../components/home/ourproducts";
 
 
 const HomeMain =()=>{
@@ -24,9 +27,9 @@ const HomeMain =()=>{
                     <h1 className={styles.mainH1}>We're Pioneering <span className={styles.creative}>Creative-Tech</span></h1>
                     <p className={styles.mainP}>We’re realising, articulating, capturing and exchanging value</p>
                 </div>
-                <div className={styles.seeHow}>
-                    <p>SEE HOW</p>
-                </div>
+  
+                <Seehow/>
+
             </div>
             <div>
                 <Frank/>
@@ -45,12 +48,13 @@ const HomeMain =()=>{
                     <p className={styles.youMay}>You may ask?</p>
                     <p className={styles.mainP}>We’re realising, articulating, capturing and exchanging value</p>
                 </div>
-                <div className={styles.seeHow}>
-                    <p>SEE HOW</p>
-                </div>
+                <Testyouridea/>
             </div>
             <div>
                 <Frank/>
+                <div className={styles.btnParent}>
+                <OurProductsBtn/>
+                </div>
             </div>
         </div>
         
@@ -87,11 +91,10 @@ const HomeMain =()=>{
         >
         <div className={styles.spaceMain}>
             <div>
-                <Playvideo height='550' width='550'/>
+                <Playvideo height='650' width='650'/>
             </div>
             <div>
                 <div>
-                    <p className={styles.spaceP}>Spaces</p>
                     <Slider/>
                 </div>
                     <BookSpaceBtn/>

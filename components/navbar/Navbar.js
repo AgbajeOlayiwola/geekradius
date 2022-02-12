@@ -13,7 +13,7 @@ const Navbar = ()=>{
         <div>
             <nav className={styles.nav}>
             <Link href='./'>
-                <div>
+                <div  style={{cursor:'pointer'}}>
                     <Grlogo/>
                 </div>
             </Link>
