@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     color: white;
+     /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 }
 .footerWrp{
     padding-top: 60px;
@@ -47,4 +48,45 @@
 }
 .inCrea{
     color: #FF6464;
+}
+.socialsCove{
+    width:'18%' 
+}
+@media screen and (min-width:320px) and (max-width:1200px)  {
+    .socialsCove{
+        width:'100%' 
+    }
+    .footer{
+    display: block;
+    text-align: center; 
+    }
+    .cont{
+        width: 100%;
+        display: block;
+        justify-content: space-around;
+        color: white;
+    }
+    .hr{
+        display:none;
+    }
+    .socials{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .top{
+        display: block;
+        justify-content: space-around;
+        color: white;
+    }
+    .h3{
+        margin-top: 0px;
+        text-align: center;
+    }
+    .h4{
+        margin-top: 0px;
+    }
+    .partJoin{
+        display: flex;
+        justify-content: space-between;
+    }
 }

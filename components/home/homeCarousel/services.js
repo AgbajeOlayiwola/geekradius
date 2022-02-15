@@ -11,6 +11,7 @@ const ServicesCarousel =(props)=>{
 
   const nextSlide =()=>{
     setCurrent(current === length - 1 ? 0 : current+1)
+
   };
 
   
@@ -24,9 +25,9 @@ const ServicesCarousel =(props)=>{
             {return(
             <div key={index}>
                <h1
-                className= {index === current ?styles.activeTitle :  styles.serviceslistNtAct}
-               onClick={nextSlide}
-               >{item.title}</h1>
+               onClick={nextSlide} 
+                className= {index === current ?styles.activeTitle :  styles.serviceslistNtAct}>
+                    {item.title}</h1>
                <div className={styles.subtitles}>
                     <p 
                     className= {index === current ? styles.active : styles.serviceslist}>{item.subTitlei}</p>
@@ -38,13 +39,13 @@ const ServicesCarousel =(props)=>{
 
                     <ul>
                     {item.items.map((subitem, indx)=>
-                            <li>{subitem}</li>
+                            <li key={indx}>{subitem}</li>
                    )}
                     </ul>
                     
                     <ul>
                     {item.itemsI.map((subitemI, indx)=>
-                            <li>{subitemI}</li>
+                            <li key={indx}>{subitemI}</li>
                     )}
                     </ul>
                </div>

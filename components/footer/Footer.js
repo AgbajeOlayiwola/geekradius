@@ -40,7 +40,7 @@ const Footer = () =>{
                     <h4 className={styles.h4}>Partners</h4>
                 </div>
             </div>
-            <div style={{width:'18%'}}>
+            <div className={styles.socialsCove}>
                 <div className={styles.socials}>
                     <div>
                         <IoMdMail/>

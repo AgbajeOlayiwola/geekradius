@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   margin: 0;
+font-family: 'Playfair Display', serif;
     background-color: #000;
     background-size: cover;
     background-position: center;
@@ -30,4 +31,10 @@ p{
 h1{
   font-family: 'Josefin Sans';
   font-size: 80px;
+}
+@media (min-width:320px)  {
+  h1{
+    font-family: 'Josefin Sans';
+    font-size: 40px;
+  }
 }
