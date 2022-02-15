@@ -24,10 +24,10 @@ const Spaces = () =>{
         className={styles.cover}>
             <div className={styles.main}>
                 <div>
-                    <div>
+                    <div className={styles.sliderCont}>
                        <Slider/>
-                    </div>
                     <BookSpaceBtn/>
+                    </div>
                 </div>
                 <div>
                     <Playvideo width={550} height={550}/>

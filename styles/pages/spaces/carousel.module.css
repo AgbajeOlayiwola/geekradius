@@ -81,3 +81,10 @@
     border-bottom: none;
     border-left: none;
 }
+@media screen and (min-width:320px) and (max-width:1223px)  {
+
+    .spacecontainer{
+        width: 100%;  
+        color: white;
+    }
+}

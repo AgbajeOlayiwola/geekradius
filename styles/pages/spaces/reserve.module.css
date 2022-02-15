@@ -22,3 +22,31 @@
 .price{
     font-family: 'Josefin Sans', 'sans-serif';
 }
+.preserveSpan{
+    display: block;
+    justify-content: center;
+}
+@media screen and (min-width:320px) and (max-width:1223px)  {
+    .pTag{
+        font-family: 'Josefin Sans', 'sans-serif';
+        cursor:pointer;
+        display: flex;
+        justify-content: center;
+    }
+    #hrTag{
+        width: 30%;
+        margin: 0px;
+        transition: 0.5s ease-in;
+        border-color: #FF6464;
+    }
+    .pTag:hover + #hrTag{
+        width: 65%;
+        transition: 0.5s ease-in;
+        border-color: #FF6464;
+        cursor: pointer;
+    }
+    .preserveSpan{
+        display: flex;
+        justify-content: center;
+    }
+}
