@@ -127,6 +127,15 @@ width: 678px;
   @media screen and (min-width:320px) and (max-width:1200px)  {
     .cover{
         padding: 5% 5% 5% 5%;
+        text-align: center;
+    }
+    .test{
+        display: flex;
+        justify-content: center;
+    }
+    .how{
+        display: flex;
+        justify-content: center;      
     }
     .PionneringMain{
         display: block;
@@ -204,7 +213,7 @@ width: 678px;
     }
     .mainP{
         font-size: 20px;
-        width: 50%;
+        width: 100%;
         margin-bottom: 50px;
     }
     .mainH1{

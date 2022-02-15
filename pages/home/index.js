@@ -27,8 +27,9 @@ const HomeMain =()=>{
                     <h1 className={styles.mainH1}>We're Pioneering <span className={styles.creative}>Creative-Tech</span></h1>
                     <p className={styles.mainP}>We’re realising, articulating, capturing and exchanging value</p>
                 </div>
-  
+                <div className={styles.how}>
                 <Seehow/>
+                </div>
 
             </div>
             <div>
@@ -48,7 +49,9 @@ const HomeMain =()=>{
                     <p className={styles.youMay}>You may ask?</p>
                     <p className={styles.mainP}>We’re realising, articulating, capturing and exchanging value</p>
                 </div>
+                <div className={styles.test}>
                 <Testyouridea/>
+                </div>
             </div>
             <div>
                 <Frank/>
