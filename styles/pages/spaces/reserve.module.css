@@ -40,7 +40,7 @@
         border-color: #FF6464;
     }
     .pTag:hover + #hrTag{
-        width: 65%;
+        width: 100%;
         transition: 0.5s ease-in;
         border-color: #FF6464;
         cursor: pointer;

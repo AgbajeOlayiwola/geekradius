@@ -126,7 +126,7 @@ width: 678px;
   }
   @media screen and (min-width:320px) and (max-width:1223px)  {
     .cover{
-        padding: 5% 5% 5% 5%;
+        padding: 5% 1% 5% 1%;
         text-align: center;
     }
     .test{
@@ -188,7 +188,7 @@ width: 678px;
     
     
     .spaceMain{
-        display: flex;
+        display: block;
         justify-content: space-between;
         color: white;
         padding:20px 0px 20px 0px;
