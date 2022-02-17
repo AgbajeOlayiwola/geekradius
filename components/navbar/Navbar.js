@@ -58,7 +58,7 @@ const Navbar = ()=>{
           height: 'fit-content'
         },
         bmMenu: {
-          background: '#373a47',
+          background: 'none',
           padding: '2.5em 1.5em 0',
           fontSize: '1.15em'
         },
@@ -67,6 +67,7 @@ const Navbar = ()=>{
         },
         bmItemList: {
           color: '#b8b7ad',
+          display: 'block',
           padding: '0.8em'
         },
         bmItem: {
@@ -77,7 +78,7 @@ const Navbar = ()=>{
         }
       }
 
-      const isBreakpoint = useMediaQuery(2250)
+      const isBreakpoint = useMediaQuery(1350)
     const router = useRouter()
     return (
         

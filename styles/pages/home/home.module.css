@@ -23,9 +23,11 @@
 }
 .fallingBoy{
 width: 678px;
+opacity: 0.5;
 }
 .sleepWoman{
     width: 661px;
+    opacity: 0.5;
 }
 .secondImg{
     padding-top: 20%;
@@ -127,7 +129,7 @@ width: 678px;
   @media screen and (min-width:320px) and (max-width:1223px)  {
     .cover{
         padding: 5% 1% 5% 1%;
-        text-align: center;
+        text-align: start;
     }
     .test{
         display: flex;
