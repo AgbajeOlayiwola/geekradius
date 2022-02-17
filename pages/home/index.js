@@ -146,7 +146,7 @@ const HomeMain =()=>{
         data-aos-offset='200'
         data-aos-offset='200'
         >
-        <div className={styles.spaceMain}>
+        <div className={styles.serveMain}>
             <div>
                 <div>
                     <p className={styles.servicesP}>Services</p>

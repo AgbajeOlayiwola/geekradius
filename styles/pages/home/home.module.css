@@ -61,6 +61,12 @@ opacity: 0.5;
     padding:20px 0px 20px 0px;
 
 }
+.serveMain{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding:20px 0px 20px 0px;
+}
 .spaceP{
     font-size: 80px;
     color: #FFF2DE;
@@ -132,12 +138,12 @@ opacity: 0.5;
         text-align: start;
     }
     .test{
-        display: flex;
-        justify-content: center;
+        text-align: -webkit-center;
+        /* justify-content: center; */
     }
     .how{
-        display: flex;
-        justify-content: center;      
+        text-align: -webkit-center;
+        /* justify-content: center;       */
     }
     .PionneringMain{
         display: block;
@@ -261,4 +267,10 @@ opacity: 0.5;
           justify-content: center;
           padding-top: 10%;
       }
+  .serveMain{
+    display: none;
+    /* justify-content: space-between;
+    color: white;
+    padding:20px 0px 20px 0px; */
   }
+}

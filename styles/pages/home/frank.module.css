@@ -1,0 +1,12 @@
+.FrankCover{
+    display: block;
+    /* justify-content: center; */
+}
+
+@media screen and (min-width:320px) and (max-width:1223px)  {
+    .FrankCover{
+        padding-top: 10%;
+        display: flex;
+        justify-content: center;
+    }
+}
