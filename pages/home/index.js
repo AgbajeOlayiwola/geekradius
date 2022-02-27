@@ -25,7 +25,7 @@ const HomeMain =()=>{
             <div>
                 <div>
                     <h1 className={styles.mainH1}>We're Pioneering <span className={styles.creative}>Creative-Tech</span></h1>
-                    <p className={styles.mainP}>We’re realising, articulating, capturing and exchanging value</p>
+                    <p className={styles.mainP}>We're realising, articulating, capturing and exchanging value</p>
                 </div>
                 <div className={styles.how}>
                 <Seehow/>
@@ -40,7 +40,6 @@ const HomeMain =()=>{
 {/* How section */}
         <div
         data-aos='fade-up'
-        data-aos-offset='200'
         data-aos-offset='200'>
         <div className={styles.PionneringMain}>
             <div>
@@ -67,7 +66,6 @@ const HomeMain =()=>{
         <div
         data-aos='fade-up'
         data-aos-offset='200'
-        data-aos-offset='200'
         >
         <div className={styles.focussed}>
             <div>
@@ -90,7 +88,6 @@ const HomeMain =()=>{
 <div
         data-aos='fade-up'
         data-aos-offset='200'
-        data-aos-offset='200'
         >
         <div className={styles.spaceMain}>
             <div>
@@ -108,7 +105,6 @@ const HomeMain =()=>{
         {/* //Products section */}
         <div
         data-aos='fade-up'
-        data-aos-offset='200'
         data-aos-offset='200'
         >
         <div className={styles.spaceMain}>
@@ -143,7 +139,6 @@ const HomeMain =()=>{
         {/* services section */}
         <div
         data-aos='fade-up'
-        data-aos-offset='200'
         data-aos-offset='200'
         >
         <div className={styles.serveMain}>
