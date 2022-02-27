@@ -20,7 +20,6 @@ const Spaces = () =>{
         <div 
         data-aos='fade-up'
         data-aos-offset='200'
-        data-aos-offset='200'
         className={styles.cover}>
             <div className={styles.main}>
                 <div>
@@ -38,7 +37,6 @@ const Spaces = () =>{
             <div 
             data-aos='fade-up'
             data-aos-offset='200'
-            data-aos-offset='200'
             className={styles.visual}>
                 <div className={styles.audioText}>
                     <div><h1>Visual</h1></div>
@@ -53,7 +51,6 @@ const Spaces = () =>{
 
             <div 
             data-aos='fade-up'
-            data-aos-offset='200'
             data-aos-offset='200'
             className={styles.photography}>
                 <div>
@@ -74,7 +71,6 @@ const Spaces = () =>{
                 <div 
                 data-aos='fade-up'
                 data-aos-offset='200'
-                data-aos-offset='200'
                 className={styles.audioMain}>
                     <div className={styles.audioText}>
                         <div><h1 className={styles.space1}>Audio</h1></div>
@@ -90,7 +86,6 @@ const Spaces = () =>{
 
                 <div 
                 data-aos='fade-up'
-                data-aos-offset='200'
                 data-aos-offset='200'
                 className={styles.coWorking}>
                     <div>
@@ -109,7 +104,6 @@ const Spaces = () =>{
 
             <div 
             data-aos='fade-up'
-            data-aos-offset='200'
             data-aos-offset='200'
             className={styles.conference}>
                 <div>
