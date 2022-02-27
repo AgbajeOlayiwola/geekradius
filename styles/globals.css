@@ -40,6 +40,7 @@ h1{
 }
 h4{
   font-family: 'Josefin Sans';
+  letter-spacing: 5px;
 }
 
 @media screen and (min-width:320px) and (max-width:1223px)  {
@@ -56,5 +57,6 @@ h4{
   }
   h4{
     font-family: 'Josefin Sans';
+    letter-spacing: 3px;
   }
 }

@@ -10,9 +10,9 @@ const Footer = () =>{
     return(
         <footer className={styles.footerWrp}>
             <div className={styles.inovators}>
-                <h1>
+                <p className={styles.footerH1}>
                     A hub for social <span className={styles.inCrea}>innovators</span> and <span className={styles.inCrea}>creative</span> solutions
-                </h1>
+                </p>
             </div>
         <div>
         <div className={styles.top}>
@@ -20,7 +20,7 @@ const Footer = () =>{
                 <hr/>
             </div>
             <div>
-                <h3 className={styles.h3}>STAY IN TOUCH</h3>
+                <h4 className={styles.h3}>STAY IN TOUCH</h4>
             </div>
         </div>
             <div className={styles.footer}>
@@ -54,7 +54,7 @@ const Footer = () =>{
                 </div>
                 <div className={styles.partJoin}>
                     <div>
-                        <p>Partner With Us</p>
+                        <p className={styles.part}>Partner With Us</p>
                     </div>
                     <div>
                         <p>Join Us</p>

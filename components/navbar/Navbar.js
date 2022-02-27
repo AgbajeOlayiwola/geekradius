@@ -124,9 +124,9 @@ const Navbar = ()=>{
                 <div>
                     <div className={styles.navroutes}>
                       
-                    { router.pathname == '/services'?
+                    { router.pathname == '/services' && '/products'?
                           <>
-                        <Link href='./product'>
+                        <Link href='./products'>
                             <div 
                             className={router.pathname == '/products' ?styles.active: styles.notActive}><p>PRODUCTS</p></div>
                         </Link>
