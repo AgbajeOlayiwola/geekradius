@@ -24,8 +24,8 @@ const HomeMain =()=>{
         <div className={styles.PionneringMain}>
             <div>
                 <div>
-                    <h1 className={styles.mainH1}>We`&apos;`re Pioneering <span className={styles.creative}>Creative-Tech</span></h1>
-                    <p className={styles.mainP}>We`&apos;`re realising, articulating, capturing and exchanging value</p>
+                    <h1 className={styles.mainH1}>We&apos;re Pioneering <span className={styles.creative}>Creative-Tech</span></h1>
+                    <p className={styles.mainP}>We&apos;re realising, articulating, capturing and exchanging value</p>
                 </div>
                 <div className={styles.how}>
                 <Seehow/>
