@@ -22,7 +22,7 @@ const Carousel = (props) =>{
 
     return (
       <div className={styles.spacecontainer}>
-        <h1 className={styles.space1}>Spaces</h1>
+        <h3 className={styles.space1}>Spaces</h3>
       <div className={styles.containerSlider}>
         {/* map the contnets for dispaly */}
           {props.sliderCont.map((slidercontent, index)=>{

@@ -32,15 +32,13 @@ const Spaces = () =>{
                     <Playvideo width={550} height={550}/>
                 </div>
             </div>
-
-
-            <div 
+            <div
             data-aos='fade-up'
             data-aos-offset='200'
             className={styles.visual}>
                 <div className={styles.audioText}>
                     <div><h1>Visual</h1></div>
-                    <div><h3>REHEARSAL STUDIO</h3></div>
+                    <div><h4>REHEARSAL STUDIO</h4></div>
                     <div className={styles.pFont}><p>Recording spaces with a talented community of producers, song writers and artists…</p></div>
                 </div>
                 <div>
@@ -58,7 +56,7 @@ const Spaces = () =>{
                 </div>
                 <div>
                     <div className={styles.photoTag}>
-                        <div><h3>PHOTOGRAPHY</h3></div>
+                        <div><h4>PHOTOGRAPHY STUDIO</h4></div>
                         <div className={styles.pFont}><p>Recording spaces with a talented community of producers, song writers and artists…</p></div>
                         <div>
                             <Reserve price={'15,000'}/>
@@ -74,7 +72,7 @@ const Spaces = () =>{
                 className={styles.audioMain}>
                     <div className={styles.audioText}>
                         <div><h1 className={styles.space1}>Audio</h1></div>
-                        <div><h3>RECORDING STUDIO</h3></div>
+                        <div><h4>RECORDING STUDIO</h4></div>
                         <div className={styles.pFont}><p>Recording spaces with a talented community of producers, song writers and artists…</p></div>
                         <div><Reserve price={'15,000'}/></div>
                     </div>
@@ -91,7 +89,7 @@ const Spaces = () =>{
                     <div>
                         <div><h1 className={styles.coWorkH1}>CO - Working</h1></div>
                         <div className={styles.coWork}>
-                            <div><h3>OPEN SEATS</h3></div>
+                            <div><h4>OPEN SEATS</h4></div>
                             <div className={styles.pFont}><p>Recording spaces with a talented community of producers, song writers and artists…</p></div>
                             <div>
                         <Reserve price={'15,000'}/>
@@ -111,7 +109,7 @@ const Spaces = () =>{
                 </div>
                 <div>
                     <div className={styles.confTag}>
-                        <div><h3>CONFERENCE ROOM</h3></div>
+                        <div><h4>CONFERENCE ROOM</h4></div>
                         <div className={styles.pFont}><p>Recording spaces with a talented community of producers, song writers and artists…</p></div>
                         <div>
                             <Reserve price={'15,000'}/>

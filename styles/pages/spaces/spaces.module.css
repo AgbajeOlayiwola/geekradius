@@ -7,7 +7,6 @@
 }
 
 .space1{
-    font-size: 80px;
     margin-bottom: 0px;
     margin-top: 25px;
     color: #FFF2DE;
@@ -16,7 +15,6 @@
     text-align: start;
 }
 .visual div div h1{
-    font-size: 80px;
     margin-bottom: 0px;
     margin-top: 25px;
     color: #FFF2DE;
@@ -63,21 +61,15 @@
     color: white;
     width: 26%;
 }
-.pFont{
-    font-size: 18px;
-}
 .coWorking{
     color: #FFF2DE;
     padding: 0px 0px 129px 0px;
 }
 .coWorkH1{
-    font-size: 80px;
     margin-bottom: 7px;
 }
 .inovators{
     color: white;
-    
-    font-size: 37px;
     padding: 100px 69px 100px 69px;
     background-image: url(/spacesassets/innovators.svg);
     background-repeat: no-repeat;
@@ -101,7 +93,6 @@
 }
 
 .space1{
-    font-size: 40px;
     margin-bottom: 0px;
     margin-top: 25px;
     color: #FFF2DE;
@@ -112,7 +103,6 @@
     padding-bottom: 15%;
 }
 .visual div div h1{
-    font-size: 40px;
     margin-bottom: 0px;
     margin-top: 25px;
     color: #FFF2DE;
@@ -161,9 +151,6 @@
 .coWork{
     color: white;
     width: 100%;
-}
-.pFont{
-    font-size: 18px;
 }
 .coWorking{
     color: #FFF2DE;
