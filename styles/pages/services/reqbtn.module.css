@@ -1,0 +1,13 @@
+.btnReq{
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+    padding: 0% 5% 0% 5%;
+    width: 70%;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+.btnReq h5{
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}

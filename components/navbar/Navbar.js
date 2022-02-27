@@ -78,7 +78,7 @@ const Navbar = ()=>{
         }
       }
 
-      const isBreakpoint = useMediaQuery(1350)
+    const isBreakpoint = useMediaQuery(1350)
     const router = useRouter()
     return (
         
@@ -106,6 +106,7 @@ const Navbar = ()=>{
                             <div 
                             className={router.pathname == '/spaces' ?styles.active: styles.notActive}><p>SPACES</p></div>
                             </Link>
+
                             {/* <Link href='./partner'>
                             <div><p>PARTNER WITH US</p></div>
                             </Link> */}
@@ -122,6 +123,21 @@ const Navbar = ()=>{
             </Link>
                 <div>
                     <div className={styles.navroutes}>
+                      
+                    { router.pathname == '/services'?
+                          <>
+                        <Link href='./product'>
+                            <div 
+                            className={router.pathname == '/products' ?styles.active: styles.notActive}><p>PRODUCTS</p></div>
+                        </Link>
+                        <Link href='./services'>
+                            <div 
+                            className={router.pathname == '/services' ?styles.active: styles.notActive}><p>SERVICES</p></div>
+                         </Link>
+                         </>
+                         :
+                         null
+                       }
                         <Link href='./about'>
                         <div
                         className={router.pathname == '/about' ? styles.active : styles.notActive}
@@ -132,7 +148,7 @@ const Navbar = ()=>{
                         className={router.pathname == '/spaces' ?styles.active: styles.notActive}><p>SPACES</p></div>
                         </Link>
                         <Link href='./partner'>
-                        <div><p>PARTNER WITH US</p></div>
+                        <div className={styles.partner}><p>PARTNER WITH US</p></div>
                         </Link>
                         
                         <div>

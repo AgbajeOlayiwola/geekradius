@@ -1,0 +1,11 @@
+.serv{
+    color: white;
+}
+.servux{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 10% 0% 8%;
+}
+.servLft{
+    width: 40%;
+}
