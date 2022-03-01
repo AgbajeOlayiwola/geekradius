@@ -119,6 +119,15 @@ const Navbar = ()=>{
                 right>
                     <div>
                         <div className={styles.navroutes}>
+                        <Link href='./products'>
+                            <div 
+                              className={router.pathname == '/products' ?styles.active: styles.notActive}><p>PRODUCTS</p></div>
+                           </Link>
+                          <Link href='./services'>
+                           <div 
+                            className={router.pathname == '/services' ?styles.active: styles.notActive}><p>SERVICES</p></div>
+                           </Link>
+
                             <Link href='./about'>
                             <div
                             className={router.pathname == '/about' ? styles.active : styles.notActive}
@@ -146,8 +155,6 @@ const Navbar = ()=>{
                 <div>
                     <div className={styles.navroutes}>
                       
-                    { prodserv ?
-                        <>
                           <Link href='./products'>
                             <div 
                               className={router.pathname == '/products' ?styles.active: styles.notActive}><p>PRODUCTS</p></div>
@@ -156,10 +163,7 @@ const Navbar = ()=>{
                            <div 
                             className={router.pathname == '/services' ?styles.active: styles.notActive}><p>SERVICES</p></div>
                            </Link>
-                        </>
-                        :
-                         null
-                       }
+
                         <Link href='./about'>
                         <div
                         className={router.pathname == '/about' ? styles.active : styles.notActive}

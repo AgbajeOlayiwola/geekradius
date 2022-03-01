@@ -50,8 +50,8 @@ const ServicesCarousel =(props)=>{
                     
                     <ul>
                     {item.itemsI.map((subitemI, indx)=>
-                    <Link key={indx} href={`${subitem.link}`}>
-                            <li key={indx}>{subitemI}</li>
+                    <Link key={indx} href={`${subitemI.link}`}>
+                            <li key={indx}>{subitemI.cont}</li>
                     </Link>
                     )}
                     </ul>

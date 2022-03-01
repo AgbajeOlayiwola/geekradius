@@ -1,0 +1,25 @@
+.main{
+    background-color: white;
+    color: black;
+    width: fit-content;
+    border-radius: 20px;
+    padding-left: 10%;
+    padding-right:10%;
+    transition: width 1s ease-in-out;
+}
+.texts{
+    display: flex;
+}
+.seehoweye{
+    padding-right: 15px;
+}
+.readP{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.readDiv{
+    margin-bottom: 40%;
+}
+.reqDiv{
+    margin-bottom: 10%;
+}

@@ -1,0 +1,6 @@
+.eyesvg{
+    transform: translate(20px, 12px);
+}
+.seeHow:hover ~ #openeye {
+    display:none;
+}

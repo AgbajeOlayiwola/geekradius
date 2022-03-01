@@ -9,3 +9,22 @@
 .servLft{
     width: 40%;
 }
+.jocaro{
+    padding-top: 60%;
+    font-size: 40px;
+    color: #FF6464;
+}
+.servHr{
+    border-color: #FF6464;
+}
+.subText{
+    color: #FF6464;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.mainText{
+    margin-bottom: 10px;
+}
+.content{
+    margin-bottom: 13%;
+}
