@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import styles from '../../../styles/pages/home/services.module.css'
 import BookSpaceBtn from '../../spaces/bookspacebtn'
+import Link from 'next/link'
 import RequestServiceBtn from '../requestservicebtn'
 
 const ServicesCarousel =(props)=>{
@@ -21,6 +22,7 @@ const ServicesCarousel =(props)=>{
     return(
         <div>
         <div className={styles.servCov}>
+
         {props.CarouselContent.map((item, index)=>{
             {return(
             <div key={index}>
@@ -29,6 +31,7 @@ const ServicesCarousel =(props)=>{
                 className= {index === current ?styles.activeTitle :  styles.serviceslistNtAct}>
                     {item.title}</h1>
                <div className={styles.subtitles}>
+
                     <p 
                     className= {index === current ? styles.active : styles.serviceslist}>{item.subTitlei}</p>
                     <p 
@@ -39,13 +42,17 @@ const ServicesCarousel =(props)=>{
 
                     <ul>
                     {item.items.map((subitem, indx)=>
-                            <li key={indx}>{subitem}</li>
+                    <Link key={indx} href={`${subitem.link}`}>
+                            <li>{subitem.cont}</li>
+                     </Link>
                    )}
                     </ul>
                     
                     <ul>
                     {item.itemsI.map((subitemI, indx)=>
+                    <Link key={indx} href={`${subitem.link}`}>
                             <li key={indx}>{subitemI}</li>
+                    </Link>
                     )}
                     </ul>
                </div>

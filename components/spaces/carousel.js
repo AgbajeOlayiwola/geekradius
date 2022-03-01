@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import styles from '../../styles/pages/spaces/carousel.module.css'
+import Link from 'next/link'
 
 
 const Carousel = (props) =>{

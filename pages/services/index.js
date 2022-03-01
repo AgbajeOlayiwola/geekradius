@@ -17,13 +17,11 @@ const Services = () => {
                     </p>
                 </div>
                 <Requetbtn/>
-
             </div>
             <div>
                 <AudioImg  width='450' height='450'/>
             </div>
         </div>
-
         <div className={styles.servux}>
             <div>
                 <h1>SAMPLES</h1>

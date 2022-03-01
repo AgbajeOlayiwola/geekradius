@@ -80,6 +80,28 @@ const Navbar = ()=>{
 
     const isBreakpoint = useMediaQuery(1350)
     const router = useRouter()
+
+    const [prodserv, setProserv] = useState()
+
+
+
+    console.log(router.pathname)
+    useEffect(() => {
+
+      // for(var i =0; i<3; i++){
+      //   setProserv(function(){alert(i)}, 1000+1)
+      // }
+
+      // if(router.pathname === '/services' || router.pathname === '/products'){
+      //   setProserv(true)
+      // }
+    
+      return () => {
+      }
+    }, [])
+    
+    console.log(prodserv)
+
     return (
         
         <div>
@@ -124,18 +146,18 @@ const Navbar = ()=>{
                 <div>
                     <div className={styles.navroutes}>
                       
-                    { router.pathname == '/services' && '/products'?
-                          <>
-                        <Link href='./products'>
+                    { prodserv ?
+                        <>
+                          <Link href='./products'>
                             <div 
-                            className={router.pathname == '/products' ?styles.active: styles.notActive}><p>PRODUCTS</p></div>
-                        </Link>
-                        <Link href='./services'>
-                            <div 
+                              className={router.pathname == '/products' ?styles.active: styles.notActive}><p>PRODUCTS</p></div>
+                           </Link>
+                          <Link href='./services'>
+                           <div 
                             className={router.pathname == '/services' ?styles.active: styles.notActive}><p>SERVICES</p></div>
-                         </Link>
-                         </>
-                         :
+                           </Link>
+                        </>
+                        :
                          null
                        }
                         <Link href='./about'>

@@ -10,8 +10,41 @@ const CarouselCont =()=>{
             title: 'Design',
             subTitlei: 'Web & App',
             subTitleii: 'Logo & Branding',         
-            items:['User Experience','Websites','Email','Mobile Apps'],
-            itemsI:['User Experience','Websites','Email','Mobile Apps']
+            items:[
+                {cont:'User Experience',
+                link:'/services'
+                },
+                {
+                    cont:'Websites',
+                    link:'/#'
+                },
+                {
+                    cont:'Email',
+                    link:'/#'
+                },
+                {
+                    cont:'Mobile Apps',
+                    link:'/#'
+                }
+                ],
+            itemsI:[
+                {
+                    cont:'User Experience',
+                    link:'/#'
+                },
+                {
+                    cont:'Websites',
+                    link:'/#'
+                },
+                {
+                    cont:'Email',
+                    link:'/#'
+                },
+                {
+                    cont:'Mobile Apps',
+                    link:'/#'
+                }
+                ]
             },
             {
                 title: 'Development',
