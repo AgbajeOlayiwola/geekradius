@@ -146,7 +146,7 @@ const Navbar = ()=>{
                 </Menu>
                 </nav>
                 :
-            <nav className={styles.nav}>
+            <nav className={router.pathname == '/reservespace'?styles.navFixed:styles.nav}>
             <Link href='./'>
                 <div  style={{cursor:'pointer'}}>
                     <Grlogo/>

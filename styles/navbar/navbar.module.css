@@ -8,6 +8,18 @@
     font-weight: 700;
     font-size: 12px;
 }
+.navFixed{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding: 60px 60px 0px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    position: fixed;
+    width: 90%;
+}
 .navroutes{
     display: flex;
     justify-content: space-evenly;

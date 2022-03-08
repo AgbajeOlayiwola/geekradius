@@ -7,7 +7,7 @@ const BookSpaceBtn =()=>{
 //Book space bfutton component
     return(
         <div>
-            <Link href="./bookspace">
+            <Link href="./reservespace">
              <div className={styles.bkSpace}>
                  Book A Space
             </div>
