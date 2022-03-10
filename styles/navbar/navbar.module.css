@@ -17,8 +17,9 @@
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
     font-size: 12px;
-    position: fixed;
-    width: 90%;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 .navroutes{
     display: flex;

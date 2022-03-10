@@ -1,9 +1,12 @@
-import React from 'react'
+import React, {useState} from 'react'
+import AvailableSpaces from '../../components/availablespaces';
 import styles from '../../styles/pages/reservespace/reservespace.module.css'
 
 const ReserveSpace = () => {
+
+    
   return (
-    <div>
+    <div className={styles.resSpace}>
         <nav className={styles.reserveNav}>
             <div className={styles.navLeft}>
                 <div className={styles.navLeftCont}>
@@ -26,6 +29,17 @@ const ReserveSpace = () => {
                 </div>
             </div>
         </nav>
+        <h1>Reserve A Space</h1>
+
+        <div className={styles.respace}>
+           <div>
+               <p>what spac are you reserving</p>
+            </div>
+            <div>
+                <AvailableSpaces/>
+
+            </div>
+        </div>
     </div>
   )
 }

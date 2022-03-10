@@ -1,3 +1,7 @@
+.resSpace{
+    color: white;
+}
+
 .reserveNav{
     display: flex;
     justify-content: space-between;
@@ -8,8 +12,10 @@
     padding: 0% 5% 0% 5%;
     border-radius: 20px;
     margin-top: 5%;
-    position: fixed;
-    width: 80%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
 .navLeft{
     display: flex;
@@ -23,4 +29,48 @@
     padding-left: 13px;
     padding-right: 19px;
     margin: 20px;
+}
+.respace{
+    background-color: rgba(255, 255, 255, .15);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    padding: 5% 5% 5% 5%;
+    border-radius: 20px;
+    color: white;
+}
+.spaces{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.spaces div{
+    padding-left: 2%;
+}
+.texts{
+    position: absolute;
+    top:50%;
+    border-bottom: #FF6464;
+    border-bottom-width: 2px;
+}
+.Image{
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    filter: brightness(50%);
+}
+.Image:hover{
+    filter: brightness(40%);
+}
+
+.imagediv hr{
+    width: 20%;
+    border-color: #FF6464;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out; 
+}
+.imagediv:hover hr{
+    width:100%; 
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
