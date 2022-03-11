@@ -26,9 +26,10 @@
 }
 
 .navLeftCont p{
-    padding-left: 13px;
+    padding-left: 1px;
     padding-right: 19px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
 }
 .respace{
     background-color: rgba(255, 255, 255, .15);
@@ -67,10 +68,33 @@
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out; 
+    margin-left: 0px;
 }
 .imagediv:hover hr{
     width:100%; 
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+}
+.payment{
+    padding: 0% 5% 0% 5%;
+    border: none;
+    background-color: #fff;
+    border-radius: 20px;
+    transition: all .2s ease-in-out;
+    letter-spacing: 2px;
+}
+.payment:hover{
+    padding: 0% 5% 0% 5%;
+    border: none;
+    background-color: #fff;
+    border-radius: 20px;
+    letter-spacing: 5px;
+    transition: all .2s ease-in-out;
+}
+.buttonSect{
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
 }

@@ -40,6 +40,21 @@ const ReserveSpace = () => {
 
             </div>
         </div>
+
+        {/* calendar */}
+
+
+        <div>
+        </div>
+
+        <div className={styles.buttonSect}>
+
+            <button className={styles.payment}>
+                <p>
+                CONTINUE TO PAYMENT
+                </p>    
+            </button>
+        </div>
     </div>
   )
 }

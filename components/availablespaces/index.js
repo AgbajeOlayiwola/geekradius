@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import styles from '../../styles/pages/reservespace/reservespace.module.css'
 import Image from 'next/image'
+
+
 const AvailableSpaces = (props) => {
     
 
