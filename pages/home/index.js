@@ -46,7 +46,7 @@ const HomeMain =()=>{
                 <div>
                     <h1 className={styles.howH1}>How</h1>
                     <p className={styles.youMay}>You may ask?</p>
-                    <p className={styles.mainP}>We’re realising, articulating, capturing and exchanging value</p>
+                    <p className={styles.incP}>Incubating and exploring solutions that target infrastructural growth.</p>
                 </div>
                 <div className={styles.test}>
                 <Testyouridea/>

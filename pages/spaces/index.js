@@ -8,6 +8,8 @@ import Slider from "../../components/spaces/slider";
 import styles from '../../styles/pages/spaces/spaces.module.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import handleViewport from 'react-in-viewport';
+
 
 const Spaces = () =>{
 
@@ -25,7 +27,6 @@ const Spaces = () =>{
                 <div>
                     <div className={styles.sliderCont}>
                        <Slider/>
-                    <BookSpaceBtn/>
                     </div>
                 </div>
                 <div>

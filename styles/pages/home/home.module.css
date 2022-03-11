@@ -38,8 +38,15 @@ opacity: 0.5;
     letter-spacing: -2.4px;
     width: 50%;
     margin-bottom: 50px;
+    color:#EAFCFF;
 }
-
+.incP{
+    font-size: 30px;
+    letter-spacing: -2.4px;
+    width: 80%;
+    margin-bottom: 50px; 
+    color:#EAFCFF;
+}
 .seeHow{
     padding: 1px;
         background: white;
@@ -85,7 +92,8 @@ opacity: 0.5;
 }
 .mainH1{
     font-size:94px;
-    font-weight: 600;
+    font-weight: 400;
+    color: #FFF2DE;
 }
 .services{
     display: flex;
