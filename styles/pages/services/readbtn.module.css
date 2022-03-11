@@ -16,6 +16,8 @@
 .readP{
     margin-top: 5px;
     margin-bottom: 5px;
+    transition: all 0.2 ease-in-out;
+
 }
 .readDiv{
     margin-bottom: 40%;

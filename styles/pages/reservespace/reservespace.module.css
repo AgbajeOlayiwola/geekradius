@@ -39,13 +39,13 @@
     border-radius: 20px;
     color: white;
 }
+.resspace div p{
+    font-size:20px;
+}
 .spaces{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     position: relative;
-}
-.spaces div{
-    padding-left: 2%;
 }
 .texts{
     position: absolute;
