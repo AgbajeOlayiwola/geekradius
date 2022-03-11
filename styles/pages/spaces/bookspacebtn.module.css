@@ -1,9 +1,8 @@
 .bkSpace{
-    background: white;
+    background: #EAFCFF;
     text-align: center;
-    padding: 1px;
+    padding: 15px 40px 15px 40px;
     border-radius: 40px;
-    width: 154px;
-    padding: 12px;
+    width: fit-content;
     color: black;
 }

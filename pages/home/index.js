@@ -93,12 +93,9 @@ const HomeMain =()=>{
             <div>
                 <Playvideo height='650' width='650'/>
             </div>
-            <div>
-                <div>
                     <Slider/>
-                </div>
-                    <BookSpaceBtn/>
-            </div>
+                    
+            
         </div>
 </div>
 
@@ -110,7 +107,7 @@ const HomeMain =()=>{
         <div className={styles.spaceMain}>
             <div>
                 <div>
-                    <p className={styles.productsP}>Products</p>
+                    <h1 className={styles.productsP}>Products</h1>
                 </div>
                 <div className={styles.products}>
                     <div>
@@ -144,7 +141,7 @@ const HomeMain =()=>{
         <div className={styles.serveMain}>
             <div>
                 <div>
-                    <p className={styles.servicesP}>Services</p>
+                    <h1 className={styles.servicesP}>Services</h1>
                 </div>
                 <div className={styles.services}>
                     <div>

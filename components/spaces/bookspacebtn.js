@@ -9,7 +9,7 @@ const BookSpaceBtn =()=>{
         <div>
             <Link href="./reservespace">
              <div className={styles.bkSpace}>
-                 Book A Space
+                 SEE ALL SPACES
             </div>
             </Link>
         </div>

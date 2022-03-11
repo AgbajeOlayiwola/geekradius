@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import styles from '../../styles/pages/spaces/carousel.module.css'
 import Link from 'next/link'
+import BookSpaceBtn from "./bookspacebtn";
 
 
 const Carousel = (props) =>{
@@ -64,6 +65,7 @@ const Carousel = (props) =>{
           </div>
 
         </div>
+        <BookSpaceBtn/>
         </div>
         </div>
       )

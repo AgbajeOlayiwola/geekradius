@@ -84,14 +84,15 @@ opacity: 0.5;
     font-size: 20px;
 }
 .mainH1{
-    font-size:60px;
+    font-size:94px;
+    font-weight: 600;
 }
 .services{
     display: flex;
     justify-content: space-between;
 }
 .servicesP{
-    font-size: 80px;
+    font-size: 154px;
     color: #FFF2DE;
     padding-bottom: 30px;
 }
@@ -100,7 +101,7 @@ opacity: 0.5;
 }
 
 .productsP{
-    font-size: 80px;
+    font-size: 154px;
     color: #FFF2DE;
     padding-bottom: 30px;
 }
