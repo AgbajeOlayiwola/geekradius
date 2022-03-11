@@ -34,8 +34,8 @@ const Carousel = (props) =>{
                     <div className={index === current ? styles.slide : styles.active}>
                       {index ===current &&(
                       <div>
-                      <div><h2>{slidercontent.title}</h2></div>
-                      <div><p>{slidercontent.content}</p></div>
+                      <div><h2 className={styles.title}>{slidercontent.title}</h2></div>
+                      <div><p className={styles.content}>{slidercontent.content}</p></div>
                       </div>
                       )}
                     </div> 

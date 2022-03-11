@@ -121,21 +121,21 @@ const Navbar = ()=>{
                         <div className={styles.navroutes}>
                         <Link href='./products'>
                             <div 
-                              className={router.pathname == '/products' ?styles.active: styles.notActive}><p>PRODUCTS</p></div>
+                              className={router.pathname == '/products' ?styles.active: styles.notActive}><p className={styles.navText}>PRODUCTS</p></div>
                            </Link>
                           <Link href='./services'>
                            <div 
-                            className={router.pathname == '/services' ?styles.active: styles.notActive}><p>SERVICES</p></div>
+                            className={router.pathname == '/services' ?styles.active: styles.notActive}><p> className={styles.navText}SERVICES</p></div>
                            </Link>
 
                             <Link href='./about'>
                             <div
                             className={router.pathname == '/about' ? styles.active : styles.notActive}
-                             ><p>ABOUT</p></div>
+                             ><p className={styles.navText}>ABOUT</p></div>
                             </Link>
                             <Link href='./spaces'>
                             <div 
-                            className={router.pathname == '/spaces' ?styles.active: styles.notActive}><p>SPACES</p></div>
+                            className={router.pathname == '/spaces' ?styles.active: styles.notActive}><p  className={styles.navText}>SPACES</p></div>
                             </Link>
 
                             {/* <Link href='./partner'>
@@ -157,21 +157,20 @@ const Navbar = ()=>{
                       
                           <Link href='./products'>
                             <div 
-                              className={router.pathname == '/products' ?styles.active: styles.notActive}><p>PRODUCTS</p></div>
+                              className={router.pathname == '/products' ?styles.active: styles.notActive}><p className={styles.navText}>PRODUCTS</p></div>
                            </Link>
                           <Link href='./services'>
                            <div 
-                            className={router.pathname == '/services' ?styles.active: styles.notActive}><p>SERVICES</p></div>
+                            className={router.pathname == '/services' ?styles.active: styles.notActive}><p className={styles.navText}>SERVICES</p></div>
                            </Link>
 
                         <Link href='./about'>
                         <div
-                        className={router.pathname == '/about' ? styles.active : styles.notActive}
-                         ><p>ABOUT</p></div>
+                        className={router.pathname == '/about' ? styles.active : styles.notActive}><p className={styles.navText}>ABOUT</p></div>
                         </Link>
                         <Link href='./spaces'>
                         <div 
-                        className={router.pathname == '/spaces' ?styles.active: styles.notActive}><p>SPACES</p></div>
+                        className={router.pathname == '/spaces' ?styles.active: styles.notActive}><p className={styles.navText}>SPACES</p></div>
                         </Link>
                         <Link href='./partner'>
                         <div className={styles.partner}><p>PARTNER WITH US</p></div>

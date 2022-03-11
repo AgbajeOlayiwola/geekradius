@@ -34,7 +34,8 @@ opacity: 0.5;
 }
 
 .mainP{
-    font-size: 20px;
+    font-size: 30px;
+    letter-spacing: -2.4px;
     width: 50%;
     margin-bottom: 50px;
 }
@@ -67,27 +68,20 @@ opacity: 0.5;
     color: white;
     padding:20px 0px 20px 0px;
 }
-.spaceP{
-    font-size: 80px;
+.howH1{
+    font-size: 154px;
     color: #FFF2DE;
     margin-bottom: 0px;
 }
 .youMay{
     color: #FF6464;
     font-size: 30px; 
+    letter-spacing: -1.7px;
+    font-weight: 300;
 }
-.youMay{
-    color: #FF6464;
-    font-size: 20px;
-    margin-top: 5px;
-}
+
 .space{
     font-size: 20px;
-}
-.mainP{
-    font-size: 20px;
-    width: 50%;
-    margin-bottom: 50px;
 }
 .mainH1{
     font-size:60px;
@@ -174,11 +168,6 @@ opacity: 0.5;
         padding-top: 20%;
     }
     
-    .mainP{
-        font-size: 20px;
-        width: 50%;
-        margin-bottom: 50px;
-    }
     
     .seeHow{
         padding: 1px;
@@ -202,7 +191,7 @@ opacity: 0.5;
         padding:20px 0px 20px 0px;
     
     }
-    .spaceP{
+    .howH1{
         font-size: 80px;
         color: #FFF2DE;
         margin-bottom: 0px;
@@ -220,7 +209,7 @@ opacity: 0.5;
         font-size: 20px;
     }
     .mainP{
-        font-size: 20px;
+        font-size: 30px;
         width: 100%;
         margin-bottom: 50px;
     }

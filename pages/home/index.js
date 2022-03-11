@@ -44,7 +44,7 @@ const HomeMain =()=>{
         <div className={styles.PionneringMain}>
             <div>
                 <div>
-                    <h1 className={styles.spaceP}>How</h1>
+                    <h1 className={styles.howH1}>How</h1>
                     <p className={styles.youMay}>You may ask?</p>
                     <p className={styles.mainP}>We’re realising, articulating, capturing and exchanging value</p>
                 </div>

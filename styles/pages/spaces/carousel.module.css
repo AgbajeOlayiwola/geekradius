@@ -1,5 +1,5 @@
 .spacecontainer{
-    width: 367px;  
+    width: 60%;  
     color: white;
 }
 
@@ -35,6 +35,21 @@
     justify-content: space-between;
     margin-bottom: 15%;
     margin-top: 5%;
+}
+.space1{
+    font-size:150px;
+    margin-top: 0px;
+    font-weight: 100;
+    color: #FFF2DE;
+    margin-bottom: 40px;
+}
+.title{
+    font-size: 24px;
+    letter-spacing: 2.88px;
+}
+.content{
+    font-size: 30px;
+    font-size: -2.4px;
 }
 .current{
     display: flex;
