@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding-top: 60px;
-    padding: 120px 60px 0px;
+    padding: 100px 60px 0px;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
@@ -48,7 +48,7 @@
     color: #FF6464;
 }
 .navText{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     letter-spacing: 2.4px;
     color: #FFF2DE;
