@@ -1,13 +1,21 @@
 .btnReq{
     border: solid;
-    border-width: 2px;
-    border-color: white;
-    padding: 0% 5% 0% 5%;
-    width: 70%;
+    border-width: 1px;
+    border-color: #DAE1E1;
+    padding: 2% 5% 2% 5%;
+    width: 60%;
     margin-top: 5%;
-    border-radius: 20px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
 }
-.btnReq h5{
+.btnReq p{
     margin: 10px 0px 10px 0px;
     text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.68px;
+}
+.btnReq div{
+    padding-top: 2%;
 }

@@ -6,12 +6,16 @@
     justify-content: space-between;
     padding: 5% 10% 0% 8%;
 }
+.servux h1{
+ font-size: 154px;
+ color: #fff2de;
+}
 .servLft{
     width: 40%;
 }
 .jocaro{
     padding-top: 60%;
-    font-size: 40px;
+    font-size: 30px;
     color: #FF6464;
 }
 .servHr{
@@ -20,6 +24,9 @@
 .subText{
     color: #FF6464;
     margin-top: 0px;
+    font-size:30px;
+    font-weight: 500;
+    letter-spacing: -1.4px;
     margin-bottom: 30px;
 }
 .mainText{
@@ -27,4 +34,44 @@
 }
 .content{
     margin-bottom: 13%;
+    font-size:30px;
+    letter-spacing: -2.4px;
+    line-height: 37px;
+}
+.uiux{
+    display: flex;
+    justify-content: space-between;
+}
+.uiux h1{
+    font-size: 75px;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.dropSvg{
+    padding-top:14%;
+}
+.reqDiv p{
+    font-size: 30px;
+    letter-spacing: -2.4px;
+}
+.servuxArchi h1{
+    font-size: 154px;
+    color: #fff2de;
+   }
+.servuxArchi{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5% 10% 0% 8%;
+}
+.servLftArchi{
+    text-align: end;
+    width: 50%;
+}
+.reqbtn{
+    display: flex;
+    justify-content: flex-end;
 }
