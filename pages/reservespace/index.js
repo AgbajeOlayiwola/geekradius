@@ -29,17 +29,19 @@ const ReserveSpace = () => {
                 </div>
             </div>
         </nav>
-        <h1>Reserve A Space</h1>
+        <h1 className={styles.resSpacesh1}>Reserve A Space</h1>
 
         <div className={styles.respace}>
            <div>
-               <p>what spac are you reserving</p>
+               <p className={styles.whatSpace}>WHAT SPACE ARE YOU RESERVING ?</p>
             </div>
             <div>
                 <AvailableSpaces/>
 
             </div>
         </div>
+
+        {/* calendar */}
 
         {/* calendar */}
 

@@ -1,0 +1,32 @@
+.calcMain{
+    background-color: rgb(0 0 0 / 42%);
+    width: 100%;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(4px);
+    padding: 5% 10% 5% 10%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.btnCal{
+    border: solid;
+    border-width: 1px;
+    border-color: #DAE1E1;
+    padding: 1% 2% 1% 2%;
+    width: 40%;
+    margin-top: 5%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btnCal p{
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.68px;
+    color: #eafcff;
+}
+.btnCal div{
+    padding-top: 2%;
+}

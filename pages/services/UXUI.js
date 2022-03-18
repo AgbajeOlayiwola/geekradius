@@ -6,8 +6,13 @@ import DisplayContent from '../../components/servcontent/display'
 import AudioImg from '../../components/spaces/Audio'
 import styles from '../../styles/pages/services/services.module.css'
 import {Contcontents}  from '../../components/data/Contentdata'
+import MockupsImage from '../../components/commons/mockupsImage'
+import Uxuiimage from '../../components/commons/Uxuiimage'
+import Calculatecost from '../../components/commons/Calculatecost'
+import FlexwrapperSingle from '../../components/layout/FlexwrapperSingle'
+import Flexwrapper from '../../components/layout/Flexwrapper'
 
-const Services = () => {
+const UXUI = () => {
     const [hovered, setHovered] = useState(false)
     const [display, setDisplay] = useState(false)
     const onMouseEnter =()=>{
@@ -24,7 +29,7 @@ const Services = () => {
   console.log(display)
   return (
     <div className={styles.serv}>
-        <div className={styles.servux}>
+        <Flexwrapper>
             <div className={styles.servLft}>
                 <div
                 onMouseEnter={onMouseEnter}
@@ -44,7 +49,7 @@ const Services = () => {
                 <DisplayContent displayData={Contcontents}/>
                 </div>
                 </div>
-                <hr  className={hovered? styles.servHr:null}/>
+                <hr  className={hovered? styles.servHr:styles.servHrinitial}/>
                 </div>
                 <div className={styles.reqDiv}>
                     <p>
@@ -54,58 +59,46 @@ const Services = () => {
                 <Requetbtn/>
             </div>
             <div>
-                <AudioImg  width='450' height='450'/>
+                <Uxuiimage  width='550' height='550'/>
             </div>
-        </div>
+            </Flexwrapper>
 
 
 
-        <div className={styles.servux}>
+    <Flexwrapper>
             <div>
-                <h1>SAMPLES</h1>
+                <h1>Samples</h1>
                 <AudioImg  width='450' height='450'/>
             </div>
-            {/* slidig components to go down here?÷ */}
-            <div className={styles.servLft}>
-                
-            <h4 className={styles.jocaro}>Jocaro</h4>
-                <div className={styles.readDiv}>
-                    <p>
-                        lorem ipsum dolor fkjkvxf fgfbz dfwkejvdfn fweadvaszv div
-                        Szdjvxhfn fdjehdv efejdgfh dsfhgf dskrejh disuajhf.
-                    </p>
-                </div>
-                <ReadBtn/>
-
-            </div>
-        </div>
+    </Flexwrapper>
+{/* horizontal slidig components to go down here?÷ */}
+ 
  {/* slidig components to go up here?÷ */}
-        <div className={styles.servux}>
+        <FlexwrapperSingle display='displayflexStart'>
             <div className={styles.servLft}>
                 <div>
                 <h1 className={styles.mainText}>Process</h1>
                 <p className={styles.subText}>Framework For The Right Ocassion</p>
                 </div>
                 <div>
-                    <p className={styles.content}>
+                    <p className={styles.contentProcess}>
                     We have enough design experience with Human Centered Design frameworks like Design Thinking to know when and where they should be applied. We prioritise your business goals and limitations to create your unique solution.</p>
                 </div>
                 <Requetbtn/>
             </div>
-
-        </div>
-
+        </FlexwrapperSingle>
 
 
 
-        <div className={styles.servuxArchi}>
+
+        <FlexwrapperSingle display='displayflex'>
             <div className={styles.servLftArchi}>
                 <div>
                 <h1 className={styles.mainText}>Architecture</h1>
                 <p className={styles.subText}>We’ll organize everything like it’s spring</p>
                 </div>
-                <div>
-                    <p className={styles.content}>
+                <div className={styles.content}>
+                    <p>
                         Your information architecture defines your user’s experience. The effort put into your content could make or break your SEO rank which could in turn reflect on your customer’s journey
                     </p>
                 </div>
@@ -114,31 +107,28 @@ const Services = () => {
                 </div>
 
             </div>
-        </div>
+            </FlexwrapperSingle>
 
 
-        <div className={styles.servux}>
+        <Flexwrapper>
             <div className={styles.servLft}>
                 <div>
                 <h1 className={styles.mainText}>Mockups</h1>
-                <p className={styles.subText}>Framework For The Right Ocassion</p>
+                <p className={styles.subText}>Visual stimulation for you faceholes</p>
                 </div>
                 <div>
-                    <p className={styles.content}>
-                        lorem ipsum dolor fkjkvxf fgfbz dfwkejvdfn fweadvaszv div
-                        Szdjvxhfn fdjehdv efejdgfh dsfhgf dskrejh disuajhf.
-                        lorem ipsum dolor fkjkvxf fgfbz dfwkejvdfn fweadvaszv div
-                        Szdjvxhfn fdjehdv efejdgfh dsfhgf dskrejh disuajhf.
-                    </p>
+                    <p className={styles.contentProcess}>
+                    Our multidisciplinary team of experts are mutually skilled in graphic design. Hence, our team has an easy time creating strong options for your team to debate over.</p>
                 </div>
                 <Requetbtn/>
             </div>
             <div>
-                <AudioImg  width='450' height='450'/>
+                <MockupsImage width='950' height='950'/>
             </div>
-        </div>
+        </Flexwrapper>
+        <Calculatecost/>
     </div>
   )
 }
 
-export default Services
+export default UXUI

@@ -15,10 +15,6 @@ const ServicesCarousel =(props)=>{
 
   };
 
-  
-//   if(!Array.isArray(props.sliderCont)|| props.sliderCont.length <= 0){
-//     return null
-//   }
     return(
         <div>
         <div className={styles.servCov}>

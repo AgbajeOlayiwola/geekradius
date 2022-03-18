@@ -1,25 +1,22 @@
 .serv{
     color: white;
 }
-.servux{
-    display: flex;
-    justify-content: space-between;
-    padding: 5% 10% 0% 8%;
-}
-.servux h1{
- font-size: 154px;
- color: #fff2de;
-}
+
 .servLft{
-    width: 40%;
+    width: 55%;
 }
 .jocaro{
     padding-top: 60%;
     font-size: 30px;
     color: #FF6464;
 }
-.servHr{
+.servHrinitial{
     border-color: #FF6464;
+    transition: all 0.2s ease-in-out;
+}
+.servHr{
+    border-color: #fff;
+    transition: all 0.2s ease-in-out;
 }
 .subText{
     color: #FF6464;
@@ -31,12 +28,23 @@
 }
 .mainText{
     margin-bottom: 10px;
+    font-size: 154px;
+    color: #fff2de;
 }
 .content{
     margin-bottom: 13%;
     font-size:30px;
     letter-spacing: -2.4px;
     line-height: 37px;
+    text-align: end;
+    margin-bottom: 10px;
+}
+.contentProcess{
+    margin-bottom: 13%;
+    font-size:30px;
+    letter-spacing: -2.4px;
+    line-height: 37px;
+    text-align: start;
 }
 .uiux{
     display: flex;
@@ -62,14 +70,10 @@
     font-size: 154px;
     color: #fff2de;
    }
-.servuxArchi{
-    display: flex;
-    justify-content: flex-end;
-    padding: 5% 10% 0% 8%;
-}
+
 .servLftArchi{
     text-align: end;
-    width: 50%;
+    width:60%;
 }
 .reqbtn{
     display: flex;

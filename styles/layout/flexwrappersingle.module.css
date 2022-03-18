@@ -1,0 +1,13 @@
+
+.displayflexMain{
+    max-width: 80%;
+    margin: auto;
+}
+.displayflex{
+    display: flex;
+    justify-content: flex-end;
+}
+.displayflexStart{
+    display: flex;
+    justify-content: flex-start;
+}

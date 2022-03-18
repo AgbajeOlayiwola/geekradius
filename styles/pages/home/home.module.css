@@ -1,5 +1,7 @@
 .cover{
     padding: 5% 5% 5% 5%;
+    max-width: 80%;
+    margin: auto;
 }
 .PionneringMain{
     display: flex;

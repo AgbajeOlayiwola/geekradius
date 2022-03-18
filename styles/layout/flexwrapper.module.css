@@ -1,0 +1,9 @@
+.flexwrapper{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 10%;
+}
+.flexwraperin{
+    display: flex;
+    justify-content: space-between;
+}
