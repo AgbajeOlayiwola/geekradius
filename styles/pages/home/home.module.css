@@ -1,9 +1,14 @@
+.mainCover{
+    display: flex;
+    justify-content: center;
+}
+
 .cover{
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 80%;
+    max-width: 1280px;
     margin-top: 5%;
 }
+
 .PionneringMain{
     display: flex;
     justify-content: space-between;

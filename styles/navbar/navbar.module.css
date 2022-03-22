@@ -1,21 +1,24 @@
+.navCover{
+    display: flex;
+    justify-content: center;
+}
 .nav{
     display: flex;
     justify-content: space-between;
-    max-width: 90%;
+    width: 88%;
+    max-width: 1280px;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
     font-size: 12px;
-    margin-left: auto;
-    margin-right: auto;
     margin-top:3%;
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 1999;
+    z-index: 2;
 }
 .mainLogo{
-    width: 4%;
+    width: 7%;
     cursor: pointer;
     display: flex;
     justify-content: center;

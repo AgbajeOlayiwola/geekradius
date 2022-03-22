@@ -104,7 +104,7 @@ const Navbar = ()=>{
 
     return (
         
-        <div>
+        <div className={styles.navCover}>
             {
                 isBreakpoint ? 
 

@@ -40,7 +40,9 @@ const HomeMain =()=>{
 {/* How section */}
         <div
         data-aos='fade-up'
-        data-aos-offset='200'>
+        data-aos-offset='200'
+        className={styles.mainCover}
+        >
         <div className={styles.PionneringMain}>
             <div>
                 <div>
@@ -66,6 +68,7 @@ const HomeMain =()=>{
         <div
         data-aos='fade-up'
         data-aos-offset='200'
+        className={styles.mainCover}
         >
         <div className={styles.focussed}>
             <div>
@@ -88,6 +91,7 @@ const HomeMain =()=>{
 <div
         data-aos='fade-up'
         data-aos-offset='200'
+        className={styles.mainCover}
         >
         <div className={styles.spaceMain}>
             
@@ -104,6 +108,7 @@ const HomeMain =()=>{
         <div
         data-aos='fade-up'
         data-aos-offset='200'
+        className={styles.mainCover}
         >
         <div className={styles.spaceMain}>
             <div>
@@ -138,6 +143,7 @@ const HomeMain =()=>{
         <div
         data-aos='fade-up'
         data-aos-offset='200'
+        className={styles.mainCover}
         >
         <div className={styles.serveMain}>
             <div>
@@ -146,7 +152,7 @@ const HomeMain =()=>{
                 </div>
                 <div className={styles.services}>
                 
-                        <Playvideo height={450} width={450}/>
+                        <Playvideo height={650} width={650}/>
                     
                     <div>
                         <CarouselCont/>
