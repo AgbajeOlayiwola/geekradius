@@ -1,7 +1,6 @@
 .cover{
-    padding: 5% 5% 5% 5%;
     max-width: 80%;
-    margin: auto;
+    margin: 5% auto auto auto;
 }
 .main{
     display: flex;
@@ -13,13 +12,31 @@
     margin-top: 25px;
     color: #FFF2DE;
 }
-.visual{
-    text-align: start;
+.sliderCont{
+    width: 33%;
 }
-.visual div div h1{
+.visualHead{
     margin-bottom: 0px;
     margin-top: 25px;
     color: #FFF2DE;
+    font-size: 154px;
+}
+.photoHead{
+ font-size: 24px;
+ letter-spacing: 2.88px;
+}
+.visual{
+    text-align: start;
+    margin-top: 7%;
+}
+.visual div div h4{
+ font-size: 24px;
+ letter-spacing: 2.88px;
+}
+.pFont{
+    font-size: 30px;
+    letter-spacing: -2.4px;
+    font-weight: 100;
 }
 .visual div{
     width: 55%;

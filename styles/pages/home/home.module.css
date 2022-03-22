@@ -1,7 +1,8 @@
 .cover{
-    padding: 5% 5% 5% 5%;
     max-width: 80%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
 }
 .PionneringMain{
     display: flex;
@@ -26,6 +27,9 @@
 .fallingBoy{
 width: 678px;
 opacity: 0.5;
+}
+.sliderCont{
+    width: 33%;
 }
 .sleepWoman{
     width: 661px;

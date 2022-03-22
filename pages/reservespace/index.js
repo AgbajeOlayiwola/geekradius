@@ -29,8 +29,9 @@ const ReserveSpace = () => {
                 </div>
             </div>
         </nav>
-        <h1 className={styles.resSpacesh1}>Reserve A Space</h1>
 
+        <div className={styles.cov}>
+        <h1 className={styles.resSpacesh1}>Reserve A Space</h1> 
         <div className={styles.respace}>
            <div>
                <p className={styles.whatSpace}>WHAT SPACE ARE YOU RESERVING ?</p>
@@ -56,6 +57,7 @@ const ReserveSpace = () => {
                 CONTINUE TO PAYMENT
                 </p>    
             </button>
+        </div>
         </div>
     </div>
   )

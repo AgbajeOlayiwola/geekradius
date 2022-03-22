@@ -24,13 +24,13 @@ const Spaces = () =>{
         data-aos-offset='200'
         className={styles.cover}>
             <div className={styles.main}>
-                <div>
+                
                     <div className={styles.sliderCont}>
                        <Slider/>
                     </div>
-                </div>
+            
                 <div>
-                    <Playvideo width={550} height={550}/>
+                    <Playvideo width={800} height={800}/>
                 </div>
             </div>
             <div
@@ -38,7 +38,7 @@ const Spaces = () =>{
             data-aos-offset='200'
             className={styles.visual}>
                 <div className={styles.audioText}>
-                    <div><h1>Visual</h1></div>
+                    <div><h1 className={styles.visualHead}>Visual</h1></div>
                     <div><h4>REHEARSAL STUDIO</h4></div>
                     <div className={styles.pFont}><p>Recording spaces with a talented community of producers, song writers and artists…</p></div>
                 </div>
@@ -57,7 +57,7 @@ const Spaces = () =>{
                 </div>
                 <div>
                     <div className={styles.photoTag}>
-                        <div><h4>PHOTOGRAPHY STUDIO</h4></div>
+                        <div><h4 className={styles.photoHead}>PHOTOGRAPHY STUDIO</h4></div>
                         <div className={styles.pFont}><p>Recording spaces with a talented community of producers, song writers and artists…</p></div>
                         <div>
                             <Reserve price={'15,000'}/>
@@ -72,7 +72,7 @@ const Spaces = () =>{
                 data-aos-offset='200'
                 className={styles.audioMain}>
                     <div className={styles.audioText}>
-                        <div><h1 className={styles.space1}>Audio</h1></div>
+                        <div><h1 className={styles.visualHead}>Audio</h1></div>
                         <div><h4>RECORDING STUDIO</h4></div>
                         <div className={styles.pFont}><p>Recording spaces with a talented community of producers, song writers and artists…</p></div>
                         <div><Reserve price={'15,000'}/></div>
@@ -88,7 +88,7 @@ const Spaces = () =>{
                 data-aos-offset='200'
                 className={styles.coWorking}>
                     <div>
-                        <div><h1 className={styles.coWorkH1}>CO - Working</h1></div>
+                        <div><h1 className={styles.visualHead}>CO - Working</h1></div>
                         <div className={styles.coWork}>
                             <div><h4>OPEN SEATS</h4></div>
                             <div className={styles.pFont}><p>Recording spaces with a talented community of producers, song writers and artists…</p></div>

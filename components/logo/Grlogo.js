@@ -1,8 +1,8 @@
 import React from "react";
-
+import styles from '../../styles/navbar/navbar.module.css'
 const Grlogo = ()=>{
     return(
-            <svg xmlns="http://www.w3.org/2000/svg" width="76.367" height="77.113" viewBox="0 0 76.367 77.113">
+            <svg style={{width:'100%'}} xmlns="http://www.w3.org/2000/svg" width="76.367" height="77.113" viewBox="0 0 76.367 77.113">
             <g id="Group_24" data-name="Group 24" transform="translate(0 0)">
                 <g id="Group_3" data-name="Group 3" transform="translate(0 0)">
                 <g id="Group_2" data-name="Group 2" transform="translate(0 0)">

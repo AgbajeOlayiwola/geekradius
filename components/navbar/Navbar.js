@@ -117,7 +117,6 @@ const Navbar = ()=>{
                 <Menu 
                 styles={ navstyles}
                 right>
-                    <div>
                         <div className={styles.navroutes}>
                         <Link href='./products'>
                             <div 
@@ -125,7 +124,7 @@ const Navbar = ()=>{
                            </Link>
                           <Link href='./services'>
                            <div 
-                            className={router.pathname == '/services' ?styles.active: styles.notActive}><p> className={styles.navText}SERVICES</p></div>
+                            className={router.pathname == '/services' ?styles.active: styles.notActive}><p>SERVICES</p></div>
                            </Link>
 
                             <Link href='./about'>
@@ -141,18 +140,18 @@ const Navbar = ()=>{
                             {/* <Link href='./partner'>
                             <div><p>PARTNER WITH US</p></div>
                             </Link> */}
-                        </div>
+                      
                     </div>
                 </Menu>
                 </nav>
                 :
             <nav className={styles.nav}>
             <Link href='./'>
-                <div  style={{cursor:'pointer'}}>
+                <div  className={styles.mainLogo}>
                     <Grlogo/>
                 </div>
             </Link>
-                <div>
+                
                     <div className={styles.navroutes}>
                       
                           <Link href='./products'>
@@ -179,7 +178,7 @@ const Navbar = ()=>{
                         <div>
                             <Lettermarklogo/>
                         </div>
-                    </div>
+                  
                 </div>
             </nav>
         }

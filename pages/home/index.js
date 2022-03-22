@@ -90,10 +90,11 @@ const HomeMain =()=>{
         data-aos-offset='200'
         >
         <div className={styles.spaceMain}>
-            <div>
-                <Playvideo height='650' width='650'/>
-            </div>
+            
+                <Playvideo height={850} width={850}/>
+                <div className={styles.sliderCont}>
                     <Slider/>
+                </div>
                     
             
         </div>
@@ -144,9 +145,9 @@ const HomeMain =()=>{
                     <h1 className={styles.servicesP}>Services</h1>
                 </div>
                 <div className={styles.services}>
-                    <div>
-                        <Playvideo height='450' width='450'/>
-                    </div>
+                
+                        <Playvideo height={450} width={450}/>
+                    
                     <div>
                         <CarouselCont/>
                         <div className={styles.bkBtn}>
