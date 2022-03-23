@@ -3,8 +3,10 @@ import React from 'react'
 import styles from '../../styles/servcontent/display.module.css'
 
 const DisplayContent = ({displayData})=>{
-    return(
+    return(<>
+    <p>Services</p>
         <div className={styles.main}>
+            
             {
             displayData.map((newContnent, index)=>{
                 return(
@@ -15,6 +17,7 @@ const DisplayContent = ({displayData})=>{
             })
             }
         </div>
+        </>
     )
 }
 export default DisplayContent

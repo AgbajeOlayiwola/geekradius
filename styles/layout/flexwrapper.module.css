@@ -1,6 +1,10 @@
+.flex{
+    display: flex;
+    justify-content: center;
+}
 .flexwrapper{
-    max-width: 80%;
-    margin: auto;
+    width: 75%;
+    max-width: 1280px;
     margin-top: 10%;
 }
 .flexwraperin{

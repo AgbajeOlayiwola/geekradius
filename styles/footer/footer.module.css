@@ -1,4 +1,9 @@
+.inner{
+    display: flex;
+    justify-content: center;
+}
 .footer{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     color: white;
@@ -6,16 +11,17 @@
 }
 .footerWrp{
     padding-top: 60px;
+    max-width: 1280px;
 }
 .cont{
-    width: 77%;
+    width: 70%;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
     color: white;
 }
 .hr{
-    width: 70%;
-    margin-left: 5%;
+    width: 80%;
 }
 .socials{
     display: flex;
@@ -24,14 +30,10 @@
 .top{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: white;
 }
-.h3{
-    margin-top: 0px;
-}
-.h4{
-    margin-top: 0px;
-}
+
 .partJoin{
     display: flex;
     justify-content: space-between;

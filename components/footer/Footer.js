@@ -8,6 +8,7 @@ import {IoMdMail} from 'react-icons/io'
 const Footer = () =>{
 
     return(
+        <div className={styles.inner}>
         <footer className={styles.footerWrp}>
             <div className={styles.inovators}>
                 <p className={styles.footerH1}>
@@ -64,6 +65,7 @@ const Footer = () =>{
             </div>
         </div>
         </footer>
+        </div>
     )
 }
 export default Footer
