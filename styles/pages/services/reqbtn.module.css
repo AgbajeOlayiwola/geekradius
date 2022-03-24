@@ -8,6 +8,7 @@
     border-radius: 50px;
     display: flex;
     justify-content: space-evenly;
+    cursor: pointer;
 }
 .btnReq p{
     margin: 10px 0px 10px 0px;

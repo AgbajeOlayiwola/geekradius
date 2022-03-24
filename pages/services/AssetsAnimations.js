@@ -65,12 +65,6 @@ const AssetsAnimations = () => {
 
 
 
-
-            <div>
-                <h1>Samples</h1>
-                <AudioImg  width='450' height='450'/>
-            </div>
-
 {/* horizontal slidig components to go down here?÷ */}
  
  {/* slidig components to go up here?÷ */}

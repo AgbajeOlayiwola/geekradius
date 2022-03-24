@@ -1,9 +1,9 @@
-.mainCover{
+.cover{
     display: flex;
     justify-content: center;
 }
 
-.cover{
+.PionneringMain{
     width: 80%;
     max-width: 1280px;
     margin-top: 5%;
@@ -34,7 +34,16 @@ width: 678px;
 opacity: 0.5;
 }
 .sliderCont{
-    width: 33%;
+    width: 30%;
+}
+.spaceImage{
+    width: 60%;
+}
+.productscar{
+    width: 30%;
+}
+.productImage{
+    width: 53%;
 }
 .sleepWoman{
     width: 661px;
@@ -43,10 +52,14 @@ opacity: 0.5;
 .secondImg{
     padding-top: 20%;
 }
-
+.products{
+    display: flex;
+    justify-content: space-between;
+}
 .mainP{
     font-size: 30px;
     letter-spacing: -2.4px;
+    font-weight: 100;
     width: 50%;
     margin-bottom: 40px;
     color:#EAFCFF;
@@ -57,7 +70,7 @@ opacity: 0.5;
     width: 80%;
     margin-bottom: 50px; 
     color:#EAFCFF;
-    font-weight: 600;
+    font-weight: 100;
 }
 .seeHow{
     padding: 1px;
@@ -78,8 +91,16 @@ opacity: 0.5;
     display: flex;
     justify-content: space-between;
     color: white;
+    width: 70%;
+    max-width: 2180px;
     padding:20px 0px 20px 0px;
 
+}
+.spP{
+    font-size: 130px;
+    font-weight: 100;
+    color: #fff2de;
+    margin-bottom: 10%;
 }
 .serveMain{
     display: flex;
@@ -128,18 +149,6 @@ opacity: 0.5;
     color: #FFF2DE;
     padding-bottom: 30px;
 }
-.products{
-    display: flex;
-    overflow: scroll;
-    scrollbar-width: none;
-}
-.products div:nth-child(even) {
-    margin-top: 15%;
-}
-.products::-webkit-scrollbar {
-    display: none;
-  }
-  
   /* Hide scrollbar for IE, Edge and Firefox */
   .products {
     -ms-overflow-style: none;  /* IE and Edge */

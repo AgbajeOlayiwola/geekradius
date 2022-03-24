@@ -5,6 +5,7 @@
     color: black;
     width: fit-content;
     display: flex;
+    cursor: pointer;
 }
 .testBtn p{
     margin-top: 5px;

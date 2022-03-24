@@ -1,5 +1,4 @@
 import React, {useEffect} from "react";
-import Slider from "../../components/spaces/slider";
 import Frank from "../../components/home/Frank.";
 import Playvideo from "../../components/spaces/Playvideo";
 import styles from '../../styles/pages/home/home.module.css'
@@ -11,6 +10,9 @@ import 'aos/dist/aos.css';
 import Seehow from "../../components/home/seehow";
 import Testyouridea from "../../components/home/testyouridea";
 import OurProductsBtn from "../../components/home/ourproducts";
+import {slider} from '../../components/data/Contentdata'
+import {products} from '../../components/data/Contentdata'
+import Carousel from "../../components/spaces/carousel";
 
 
 const HomeMain =()=>{
@@ -18,8 +20,9 @@ const HomeMain =()=>{
     useEffect(() => {
         AOS.init();
       }, []);
-
+      console.log(slider)
     return (
+        <>
     <div className={styles.cover}>
         <div className={styles.PionneringMain}>
             <div>
@@ -36,13 +39,16 @@ const HomeMain =()=>{
                 <Frank/>
             </div>
         </div>
+    </div>
 
 {/* How section */}
-        <div
+<div
         data-aos='fade-up'
         data-aos-offset='200'
         className={styles.mainCover}
         >
+<div className={styles.cover}>
+
         <div className={styles.PionneringMain}>
             <div>
                 <div>
@@ -61,8 +67,7 @@ const HomeMain =()=>{
                 </div>
             </div>
         </div>
-        
-
+        </div>
         {/* images section */}
 
         <div
@@ -70,6 +75,7 @@ const HomeMain =()=>{
         data-aos-offset='200'
         className={styles.mainCover}
         >
+        <div className={styles.cover}>
         <div className={styles.focussed}>
             <div>
                 <div>
@@ -84,6 +90,7 @@ const HomeMain =()=>{
         </div>
         </div>
         </div>
+        </div>
         
 
 
@@ -93,14 +100,22 @@ const HomeMain =()=>{
         data-aos-offset='200'
         className={styles.mainCover}
         >
+         <div className={styles.cover}>
         <div className={styles.spaceMain}>
             
+        <div>
+ 
+                </div>
+            <div className={styles.spaceImage}>
                 <Playvideo height={850} width={850}/>
+                </div>
                 <div className={styles.sliderCont}>
-                    <Slider/>
+                <p className={styles.spP}>Spaces</p>
+                    <Carousel sliderConts={slider}/>
                 </div>
                     
             
+        </div>
         </div>
 </div>
 
@@ -108,7 +123,7 @@ const HomeMain =()=>{
         <div
         data-aos='fade-up'
         data-aos-offset='200'
-        className={styles.mainCover}
+        className={styles.cover}
         >
         <div className={styles.spaceMain}>
             <div>
@@ -116,20 +131,11 @@ const HomeMain =()=>{
                     <h1 className={styles.productsP}>Products</h1>
                 </div>
                 <div className={styles.products}>
-                    <div>
-                        <Playvideo height='650' width='650'/>
+                    <div className={styles.productscar}>
+                        <Carousel sliderConts={products}/>
                     </div>
-                    <div>
-                        <AudioImg height='650' width='650'/>
-                    </div>
-                    <div>
-                        <Playvideo height='650' width='650'/>
-                    </div>
-                    <div>
-                        <Playvideo height='650' width='650'/>
-                    </div>
-                    <div>
-                        <Playvideo height='650' width='650'/>
+                    <div className={styles.productImage}>
+                        <Playvideo height='950' width='950'/>
                     </div>
                 </div>
                     
@@ -165,7 +171,8 @@ const HomeMain =()=>{
             </div> 
             </div>
         </div>
-    </div>
+    </>
+    
     )
 }
 export default HomeMain

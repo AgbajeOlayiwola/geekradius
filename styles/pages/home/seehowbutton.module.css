@@ -11,6 +11,7 @@
     padding-left: 64px;
     font-size: 18px;
     color: black;
+    cursor: pointer;
 }
 .seeHow p{
     margin-top:11px;

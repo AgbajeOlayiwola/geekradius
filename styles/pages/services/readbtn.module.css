@@ -6,6 +6,7 @@
     padding-left: 10%;
     padding-right:10%;
     transition: width 1s ease-in-out;
+    cursor: pointer;
 }
 .texts{
     display: flex;

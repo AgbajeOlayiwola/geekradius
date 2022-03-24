@@ -118,6 +118,7 @@
     letter-spacing: 2.28px;
     font-size: 19px;
     font-weight: 600;
+    cursor: pointer;
 }
 .payment:hover{
     padding: 0% 5% 0% 5%;

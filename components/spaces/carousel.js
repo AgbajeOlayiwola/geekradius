@@ -11,23 +11,22 @@ const Carousel = (props) =>{
   const [currentDot, setCurrentDot] =useState(false)
 
   //slider content passed in as props from slider.js
-  const length = props.sliderCont.length
+  const length = props.sliderConts.length
 //next slide function
   const nextSlide =()=>{
     setCurrent(current === length - 1 ? 0 : current+1)
     setCurrentDot()
   };
 
-  if(!Array.isArray(props.sliderCont)|| props.sliderCont.length <= 0){
+  if(!Array.isArray(props.sliderConts)|| props.sliderConts.length <= 0){
     return null
   }
 
     return (
       <div className={styles.spacecontainer}>
-        <h1 className={styles.space1}>Spaces</h1>
       <div className={styles.containerSlider}>
         {/* map the contnets for dispaly */}
-          {props.sliderCont.map((slidercontent, index)=>{
+          {props.sliderConts.map((slidercontent, index)=>{
                 {return (
                 <div key={index} style={{color:'white'}}
                 className={styles.content}>

@@ -1,10 +1,20 @@
+.cov{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
 .cover{
-    max-width: 80%;
-    margin: 5% auto auto auto;
+    width: 80%;
+    max-width: 1280px;
 }
 .main{
     display: flex;
     justify-content: space-between;
+}
+.spacesH1{
+    font-size: 94px;
+    color: #FFF2DE;
+    margin-bottom: 20%;
 }
 
 .space1{
@@ -13,7 +23,7 @@
     color: #FFF2DE;
 }
 .sliderCont{
-    width: 33%;
+    width: 35%;
 }
 .visualHead{
     margin-bottom: 0px;
@@ -46,35 +56,37 @@
 .photography{
     display: flex;
     justify-content: space-between;
-    padding: 30px 0px 5px 0px;
+    align-items: center;
+    margin-top: 10%;
     color: white;
 }
+.imageOuter{
+    width: 60%;
+}
 .photoTag{
-    width: 76%;
-    padding-left: 27%;
-    padding-top: 50px;
+    width: 33%;
 }
 
 .audioMain{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     color: white;
-    padding: 55px 0px 5px 0px;
+    margin-top: 10%;
 }
 .conference{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: white;
-    padding:0px 0px 70px 0px;
+    margin-top: 10%;
 }
 .confTag{
-    width: 76%;
-    padding-left: 27%;
-    padding-top: 50px;
+    width: 33%;
 }
 .audioText{
-    width: 27%;
+    width: 33%;
 }
 .coWork{
     color: white;
@@ -82,7 +94,7 @@
 }
 .coWorking{
     color: #FFF2DE;
-    padding: 0px 0px 129px 0px;
+    margin-top: 10%;
 }
 .coWorkH1{
     margin-bottom: 7px;
