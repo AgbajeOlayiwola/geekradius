@@ -112,7 +112,7 @@
     color: #FF6464;
 }
 
-@media screen and (min-width:320px) and (max-width:1223px)  {
+@media screen and (min-width:320px) and (max-width:723px)   {
 
 .cover{
     padding: 5% 1% 5% 1%;

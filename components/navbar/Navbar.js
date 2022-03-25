@@ -78,7 +78,7 @@ const Navbar = ()=>{
         }
       }
 
-    const isBreakpoint = useMediaQuery(1350)
+    const isBreakpoint = useMediaQuery(723)
     const router = useRouter()
 
     const [prodserv, setProserv] = useState()

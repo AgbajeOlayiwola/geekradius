@@ -63,7 +63,7 @@
 .part {
     padding-right: 35px;
 }
-@media screen and (min-width:320px) and (max-width:1200px)  {
+@media screen and (min-width:320px) and (max-width:723px)   {
     .socialsCove{
         width:'100%' 
     }

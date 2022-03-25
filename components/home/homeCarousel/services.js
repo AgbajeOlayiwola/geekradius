@@ -3,6 +3,9 @@ import styles from '../../../styles/pages/home/services.module.css'
 import BookSpaceBtn from '../../spaces/bookspacebtn'
 import Link from 'next/link'
 import RequestServiceBtn from '../requestservicebtn'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+import Slider from 'react-slick'
 
 const ServicesCarousel =(props)=>{
   //current carrouse in view state
@@ -15,49 +18,38 @@ const ServicesCarousel =(props)=>{
 
   };
 
-    return(
-        <div>
-        <div className={styles.servCov}>
+  const sliderSettings = {
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    infinite: false,
+  }
 
+    return(
+        <div className={styles.servCov}>
+        {/* <Slider {...sliderSettings}> */}
         {props.CarouselContent.map((item, index)=>{
             {return(
             <div key={index}>
-               <h1
+               <p
                onClick={nextSlide} 
-                className= {index === current ?styles.activeTitle :  styles.serviceslistNtAct}>
-                    {item.title}</h1>
-               <div className={styles.subtitles}>
-
-                    <p 
-                    className= {index === current ? styles.active : styles.serviceslist}>{item.subTitlei}</p>
-                    <p 
-                    className= {index === current ?styles.active:styles.serviceslist}>{item.subTitleii}</p>
-               </div>
+                className= {styles.activeTitle}>
+                    {item.title}</p>
                <div
-               className={index === current ? styles.active:styles.serviceslist }>
+               className={styles.active}>
 
-                    <ul>
+                    <ul className={styles.list}>
                     {item.items.map((subitem, indx)=>
                     <Link key={indx} href={`${subitem.link}`}>
-                            <li>{subitem.cont}</li>
+                            <li><p className={styles.contP}>{subitem.cont}</p></li>
                      </Link>
                    )}
-                    </ul>
-                    
-                    <ul>
-                    {item.itemsI.map((subitemI, indx)=>
-                    <Link key={indx} href={`${subitemI.link}`}>
-                            <li key={indx}>{subitemI.cont}</li>
-                    </Link>
-                    )}
                     </ul>
                </div>
             </div>
             )}
         })}
+        {/* </Slider> */}
         </div>
-
-        </ div>
     )
 }
 

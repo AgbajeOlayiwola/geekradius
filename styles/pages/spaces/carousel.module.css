@@ -100,7 +100,7 @@
     border-bottom: none;
     border-left: none;
 }
-@media screen and (min-width:320px) and (max-width:1223px)  {
+@media screen and (min-width:320px) and (max-width:723px)   {
 
     .spacecontainer{
         width: 100%;  

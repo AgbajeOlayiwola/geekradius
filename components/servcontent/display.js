@@ -1,6 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
 import styles from '../../styles/servcontent/display.module.css'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+
 
 const DisplayContent = ({displayData})=>{
     return(<>

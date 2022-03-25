@@ -14,7 +14,6 @@
     justify-content: space-between;
     color: white;
     padding:50px 0px 20px 0px;
-    font-size: 60px;
 }
 .creative{
     color: #FF6464;
@@ -24,7 +23,7 @@
     grid-template-columns: 50% 50%;
     color: white;       
     padding:50px 0px 20px 0px;
-    font-size: 60px;
+
     /* background-image: url(/homeassets/rocks.png);
     background-repeat: no-repeat;
     background-size: contain; */
@@ -37,13 +36,13 @@ opacity: 0.5;
     width: 30%;
 }
 .spaceImage{
-    width: 60%;
+    width: 33%;
 }
 .productscar{
     width: 30%;
 }
 .productImage{
-    width: 53%;
+    width: 33%;
 }
 .sleepWoman{
     width: 661px;
@@ -55,6 +54,7 @@ opacity: 0.5;
 .products{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .mainP{
     font-size: 30px;
@@ -91,8 +91,8 @@ opacity: 0.5;
     display: flex;
     justify-content: space-between;
     color: white;
-    width: 70%;
-    max-width: 2180px;
+    width: 80%;
+    max-width: 1280px;
     padding:20px 0px 20px 0px;
 
 }
@@ -124,7 +124,8 @@ opacity: 0.5;
     font-size: 20px;
 }
 .mainH1{
-    font-size:94px;
+    font-size:5.875rem;
+    font-size: clamp(5vh, 5rem, 15vw);
     font-weight: 400;
     color: #FFF2DE;
     margin-top: 10px;
@@ -134,6 +135,8 @@ opacity: 0.5;
 .services{
     display: flex;
     justify-content: space-between;
+    width: 80%;
+    max-width: 1280px;
 }
 .servicesP{
     font-size: 154px;
@@ -159,7 +162,7 @@ opacity: 0.5;
       justify-content: center;
       padding-top: 10%;
   }
-  @media screen and (min-width:320px) and (max-width:1223px)  {
+  @media screen and (min-width:320px) and (max-width:723px)  {
     .cover{
         padding: 5% 1% 5% 1%;
         text-align: start;

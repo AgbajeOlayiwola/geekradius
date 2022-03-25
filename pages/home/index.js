@@ -4,15 +4,14 @@ import Playvideo from "../../components/spaces/Playvideo";
 import styles from '../../styles/pages/home/home.module.css'
 import BookSpaceBtn from "../../components/spaces/bookspacebtn";
 import CarouselCont from "../../components/home/homeCarousel/carouselContent";
-import AudioImg from "../../components/spaces/Audio";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Seehow from "../../components/home/seehow";
 import Testyouridea from "../../components/home/testyouridea";
 import OurProductsBtn from "../../components/home/ourproducts";
-import {slider} from '../../components/data/Contentdata'
-import {products} from '../../components/data/Contentdata'
+import {slider,Carcont,products} from '../../components/data/Contentdata'
 import Carousel from "../../components/spaces/carousel";
+import ServicesCarousel from "../../components/home/homeCarousel/services";
 
 
 const HomeMain =()=>{
@@ -149,7 +148,7 @@ const HomeMain =()=>{
         <div
         data-aos='fade-up'
         data-aos-offset='200'
-        className={styles.mainCover}
+        className={styles.cover}
         >
         <div className={styles.serveMain}>
             <div>
@@ -161,7 +160,7 @@ const HomeMain =()=>{
                         <Playvideo height={650} width={650}/>
                     
                     <div>
-                        <CarouselCont/>
+                        <ServicesCarousel CarouselContent={Carcont}/>
                         <div className={styles.bkBtn}>
                         <BookSpaceBtn/>
                         </div>

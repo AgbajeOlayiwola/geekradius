@@ -7,9 +7,7 @@ const CarouselCont =()=>{
 ///working on the Services carousel
     const Carcont =[
             {
-            title: 'Design',
-            subTitlei: 'Web & App',
-            subTitleii: 'Logo & Branding',         
+            title: 'Design',      
             items:[
                 {
                 cont:'User Experience',
@@ -32,40 +30,57 @@ const CarouselCont =()=>{
                     link:'/services/AssetsAnimations'
                 }
                 ],
-            itemsI:[
-                {
-                    cont:'User Experience',
-                    link:'/#'
-                },
-                {
-                    cont:'Websites',
-                    link:'/#'
-                },
-                {
-                    cont:'Email',
-                    link:'/#'
-                },
-                {
-                    cont:'Mobile Apps',
-                    link:'/#'
-                }
-                ]
+            
             },
             {
-                title: 'Development',
-                subTitlei: 'Front End',
-                subTitleii: 'Back End',         
-                items:['User Experience','Websites','Email','Mobile Apps'],
-                itemsI:['User Experience','Websites','Email','Mobile Apps']
-            },
+                title: 'Branding',      
+                items:[
+                    {
+                    cont:'Logo',
+                    link:'/services/UXUI'
+                    },
+                    {
+                        cont:'Visual Style Guides',
+                        link:'/services/BrandingLogo'
+                    },
+                    {
+                        cont:'Brand Book/Guidelines',
+                        link:'/services/VideoAnimation'
+                    },
+                    {
+                        cont:'Unique Brand Illustrations',
+                        link:'/services/Illustrations'
+                    },
+                    ],
+                
+                },
 
-        {
-            title: 'Business Growth',
-            subTitlei: 'Web & App',
-            subTitleii: 'Logo & Branding',         
-            items:['User Experience','Websites','Email','Mobile Apps'],
-            itemsI:['User Experience','Websites','Email','Mobile Apps']
-        },
+                {
+                    title: '3D Assets',      
+                    items:[
+                        {
+                        cont:'Graphcs',
+                        link:'/services/UXUI'
+                        },
+                        {
+                            cont:'Videos',
+                            link:'/services/BrandingLogo'
+                        },
+                        {
+                            cont:'Animations',
+                            link:'/services/VideoAnimation'
+                        },
+                        {
+                            cont:'Augmented Reality',
+                            link:'/services/Illustrations'
+                        },
+                        {
+                            cont:'Virtual Reality',
+                            link:'/services/AssetsAnimations'
+                        }
+                        ],
+                    
+                    },
     ]
     return(
         <div>
