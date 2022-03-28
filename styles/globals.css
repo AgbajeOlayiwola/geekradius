@@ -32,8 +32,6 @@ h3{
 }
 h1{
   font-family: 'Playfair Display';
- 
-  font-size: clamp(5vh, 5rem, 15vw);
   font-weight: 100;
 }
 h4{
@@ -41,7 +39,7 @@ h4{
   letter-spacing: 5px;
 }
 
-@media screen and (min-width:320px) and (max-width:1223px)  {
+@media screen and (min-width:320px) and (max-width:1280px)  {
   h1{
     font-family: 'Playfair Display', serif;
     /* font-family: 'Josefin Sans'; */

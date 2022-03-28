@@ -12,6 +12,7 @@ import OurProductsBtn from "../../components/home/ourproducts";
 import {slider,Carcont,products} from '../../components/data/Contentdata'
 import Carousel from "../../components/spaces/carousel";
 import ServicesCarousel from "../../components/home/homeCarousel/services";
+import Backgroundvideo from "../../components/commons/backgroundvideo";
 
 
 const HomeMain =()=>{
@@ -22,6 +23,7 @@ const HomeMain =()=>{
       console.log(slider)
     return (
         <>
+          {/* <Backgroundvideo/> */}
     <div className={styles.cover}>
         <div className={styles.PionneringMain}>
             <div>
@@ -39,6 +41,7 @@ const HomeMain =()=>{
             </div>
         </div>
     </div>
+  
 
 {/* How section */}
 <div
@@ -101,10 +104,6 @@ const HomeMain =()=>{
         >
          <div className={styles.cover}>
         <div className={styles.spaceMain}>
-            
-        <div>
- 
-                </div>
             <div className={styles.spaceImage}>
                 <Playvideo height={850} width={850}/>
                 </div>
@@ -156,10 +155,12 @@ const HomeMain =()=>{
                     <h1 className={styles.servicesP}>Services</h1>
                 </div>
                 <div className={styles.services}>
-                
+                    <div className={styles.servicesContainer}>
                         <Playvideo height={650} width={650}/>
+
+                        </div>
                     
-                    <div>
+                    <div className={styles.containers}>
                         <ServicesCarousel CarouselContent={Carcont}/>
                         <div className={styles.bkBtn}>
                         <BookSpaceBtn/>

@@ -1,74 +1,82 @@
 .svg :nth-child(1){
-    animation:animatesvg 1s ease-in-out forwards infinite;
+    animation:animatesvg 5s ease-in-out forwards infinite;
 }
 
 @keyframes animatesvg {
     0%{
-        transform: translate(-220px, 0px);
+        transform: scale(1);
     }
-    100%{
-        transform: translate(0px, 0px);
+    70%{
+        transform: scale(0.92);
+    }100%{
+        transform: scale(1);
     }
 }
 
 
 .svg :nth-child(2){
-    animation:animatesvgi 1s ease-in-out forwards infinite;
+    animation:animatesvgi 2s ease-in-out forwards infinite;
 }
 
 @keyframes animatesvgi {
     0%{
         stroke-dasharray: 1000;
         stroke-dashoffset: 1000;
-        opacity: 0;
     }
     50%{
         stroke-dasharray: 0;
         stroke-dashoffset: 0;
-        opacity: 1;
     }
     100%{
         stroke-dasharray: 1000;
         stroke-dashoffset: 1000;
-        opacity: 0;
     }
 }
 
 .svg :nth-child(21){
-    animation:animatesvg21 1s ease-in-out forwards infinite;
+    animation:animatesvg21 5s ease-in-out forwards infinite;
 }
 @keyframes animatesvg21{
     0%{
-        transform: translate(0px, -220px);
+        transform: rotate(0deg);
+    }
+    60%{
+        transform: rotate(2deg);
     }
     100%{
-        transform: translate(0px, 0px);
+        transform: rotate(0deg);
     }
 }
 
 
 
 .svg :nth-child(17){
-    animation:animatesvg17 1s ease-in-out forwards infinite;
+    animation:animatesvg17 5s ease-in-out forwards infinite;
 }
 @keyframes animatesvg17{
     0%{
-        transform: translate(0px, -220px);
+        transform: translate(0px, -20px);
+    }
+    60%{
+        transform: translate(0px, 0px);
     }
     100%{
-        transform: translate(0px, 0px);
+        transform: translate(0px, -20px);
     }
 }
 
 .svg :nth-child(16){
-    animation:animatesvg16 1s ease-in-out forwards infinite;
+    animation:animatesvg16 5s ease-in-out forwards infinite;
 }
 @keyframes animatesvg16{
     0%{
-        transform: translate(0px, 220px);
+        transform: translate(0px, 20px);
+    }
+    60%{
+        transform: translate(0px, 0px);
     }
     100%{
-        transform: translate(0px, 0px);
+        transform: translate(0px, 20px);
     }
 }
 
@@ -77,13 +85,78 @@
 }
 @keyframes animatesvg19{
     0%{
-        opacity: 0;
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
     }
-    70%{
-        opacity: 1;
+    50%{
+        stroke-dasharray: 0;
+        stroke-dashoffset: 0;
     }
     100%{
-        opacity: 0;
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
     }
 }
+
+.svg :nth-child(20){
+    animation:animatesvg16 5s ease-in-out forwards infinite;
+}
+@keyframes animatesvg16{
+    0%{
+        transform: translate(0px, 20px);
+    }
+    60%{
+        transform: translate(0px, 0px);
+    }
+    100%{
+        transform: translate(0px, 20px);
+    }
+}
+
+
+.svg :nth-child(4){
+    animation:animatesvg16 5s ease-in-out forwards infinite;
+}
+@keyframes animatesvg16{
+    0%{
+        transform: translate(10px, 0px);
+    }
+    60%{
+        transform: translate(0px, 0px);
+    }
+    100%{
+        transform: translate(10px, 0px);
+    }
+}
+.svg :nth-child(10){
+    animation:animatesvg16 5s ease-in-out forwards infinite;
+}
+@keyframes animatesvg16{
+    0%{
+        transform: translate(10px, 30px);
+    }
+    60%{
+        transform: translate(0px, 0px);
+    }
+    100%{
+        transform: translate(0px, 30px);
+    }
+}
+
+
+.svg :nth-child(11){
+    animation:animatesvg16 5s ease-in-out forwards infinite;
+}
+@keyframes animatesvg16{
+    0%{
+        transform: translate(-10px, 0px);
+    }
+    60%{
+        transform: translate(0px, 0px);
+    }
+    100%{
+        transform: translate(-10px, 0px);
+    }
+}
+
 /* #3C99FF */
