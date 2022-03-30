@@ -6,6 +6,7 @@ const ReserveSpace = () => {
 
     
   return (
+      <div className={styles.cover}>
     <div className={styles.resSpace}>
         <nav className={styles.reserveNav}>
             <div className={styles.navLeft}>
@@ -59,6 +60,7 @@ const ReserveSpace = () => {
             </button>
         </div>
         </div>
+    </div>
     </div>
   )
 }

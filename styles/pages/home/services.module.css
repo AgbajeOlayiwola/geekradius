@@ -5,6 +5,21 @@
     justify-content: flex-start;
     list-style: none;
 }
+.pHr{
+    border-color: #ff6464;
+}
+.slide{
+    opacity:0.2;
+}
+.slide ul{
+    display: none;
+}
+.slide div .pHr{
+    display: none;
+}
+.sliderzDIv{
+    position: relative;
+}
 /* .serviceslistNtAct{
     opacity: 0.6;
     padding-left: 62px;

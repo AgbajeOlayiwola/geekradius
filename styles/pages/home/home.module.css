@@ -6,7 +6,7 @@
 
 .PionneringMain{
     width: 80%;
-    max-width: 1280px;
+    max-width: 1440px;
     margin-top: 5%;
 }
 
@@ -61,7 +61,7 @@ opacity: 0.5;
     font-size: 30px;
     letter-spacing: -2.4px;
     font-weight: 100;
-    width: 50%;
+    width: 80%;
     margin-bottom: 40px;
     color:#EAFCFF;
 }
@@ -125,7 +125,7 @@ opacity: 0.5;
     font-size: 20px;
 }
 .mainH1{
-    font-size:72px;
+    font-size:94px;
     font-weight: 400;
     color: #FFF2DE;
     margin-top: 10px;
