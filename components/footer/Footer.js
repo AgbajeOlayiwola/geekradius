@@ -4,6 +4,7 @@ import Lettermarklogo from "../logo/Lettermarklogo";
 import { FaLinkedin } from 'react-icons/fa';
 import {BsInstagram} from 'react-icons/bs'
 import {IoMdMail} from 'react-icons/io'
+import Link from 'next/link'
 
 const Footer = () =>{
 
@@ -27,7 +28,11 @@ const Footer = () =>{
             <div className={styles.footer}>
             
             <div className={styles.cont}>
+            <Link href='./'>
+                <div className={styles.letterLogo}>
                 <Lettermarklogo/>
+                </div>
+            </Link>
                 <div>
                     <h4 className={styles.h4}>About</h4>
                 </div>

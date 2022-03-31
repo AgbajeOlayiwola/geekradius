@@ -9,6 +9,9 @@
     color: white;
      /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 }
+.letterLogo{
+    cursor: pointer;
+}
 .footerWrp{
     padding-top: 60px;
     max-width: 1440px;
@@ -26,6 +29,7 @@
 .socials{
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 .top{
     display: flex;
@@ -48,6 +52,9 @@
     background-position: 10px 44px;
     background-size: 219px 182px;
 
+}
+.h4{
+    cursor: pointer;
 }
 .inCrea{
     color: #FF6464;

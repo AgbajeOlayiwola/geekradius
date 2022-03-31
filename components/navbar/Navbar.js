@@ -104,11 +104,11 @@ const Navbar = ()=>{
 
     return (
         
-        <div className={styles.navCover}>
+        <nav className={styles.navCover}>
             {
                 isBreakpoint ? 
 
-                <nav className={styles.nav}>
+                <div className={styles.nav}>
                 <Link href='./'>
                     <div  style={{cursor:'pointer'}}>
                         <Grlogo/>
@@ -143,9 +143,9 @@ const Navbar = ()=>{
                       
                     </div>
                 </Menu>
-                </nav>
+                </div>
                 :
-            <nav className={styles.nav}>
+            <div className={styles.nav}>
             <Link href='./'>
                 <div  className={styles.mainLogo}>
                     <Grlogo/>
@@ -174,15 +174,16 @@ const Navbar = ()=>{
                         <Link href='./partner'>
                         <div className={styles.partner}><p>PARTNER WITH US</p></div>
                         </Link>
-                        
+                        <Link href='./'>
                         <div>
                             <Lettermarklogo/>
                         </div>
+                        </Link>
                   
                 </div>
-            </nav>
+            </div>
         }
-        </div>
+        </nav>
     )
 }
 
