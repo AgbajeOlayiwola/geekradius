@@ -5,9 +5,9 @@ const Testyouridea = () =>{
 
     return(
         <div>
-            <div className={styles.testBtn}>
+            <button className={styles.testBtn}>
                 <p>TEST YOUR IDEA</p>
-            </div>
+            </button>
         </div>
     )
 }

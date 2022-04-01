@@ -52,10 +52,11 @@ const UXUI = () => {
                 <hr  className={hovered? styles.servHr:styles.servHrinitial}/>
                 </div>
                 <div className={styles.reqDiv}>
-                    <p>
+                    <p >
                     With our team of multidisciplinary experts, we’ll craft a seamless and gorgeous experience for your product
                     </p>
                 </div>
+                
                 <Requetbtn/>
             </div>
             <div>
@@ -93,11 +94,12 @@ const UXUI = () => {
                 <p className={styles.subText}>We’ll organize everything like it’s spring</p>
                 </div>
                 <div className={styles.content}>
-                    <p>
+                    <p className={styles.archiP}>
                         Your information architecture defines your user’s experience. The effort put into your content could make or break your SEO rank which could in turn reflect on your customer’s journey
                     </p>
                 </div>
                 <div className={styles.reqbtn}>
+                    
                 <Requetbtn/>
                 </div>
 

@@ -15,10 +15,10 @@ const Seehow =()=>{
         <div
         onMouseEnter={onMouseEnter}
         onMouseLeave={onMouseLeave}>
-            <div className={styles.seeHow}>
+            <button className={styles.seeHow}>
             <Seehowsvg  hovered={hovered}/>
                     <p>SEE HOW</p>
-            </div>
+            </button>
         </div>
     )
 }

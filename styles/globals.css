@@ -25,17 +25,34 @@ a {
 p{
   font-family: 'Josefin Sans';
 }
+:root{
+  --global-font-family: 'Playfair Display';
+  --global-font-familyI: 'Josefin Sans';
+  --global-h1-font-size:clamp(2.625rem, -0.4493rem + 7.027vw, 5.875rem);
+  --global-h3-font-size:clamp(1.5625rem, 0.2232rem + 6.6964vw, 6.25rem);
+  --global-h4-font-size:clamp(2.625rem, -0.4493rem + 7.027vw, 5.875rem);
+  /* --global-p-font-size:clamp(2.625rem, -0.4493rem + 7.027vw, 5.875rem);
+ */
+ --global-text-color:#eafcff;
+ --global-button-padding: 16px 50px 16px 50px;
+ --global-button-border-radius: 77px;
+}
+button{
+  padding: var(--global-button-padding);
+  border-radius: var(--global-button-border-radius);
+}
 h3{
-  font-family: 'Josefin Sans';
-  font-size: 80px;
+  font-family: var(--global-font-familyI);
+  font-size: var(--global-h3-font-size);
   font-weight: 100;
 }
 h1{
-  font-family: 'Playfair Display';
+  font-family: var(--global-font-family);
   font-weight: 100;
+  font-size: var(--global-h1-font-size);
 }
 h4{
-  font-family: 'Josefin Sans';
+  font-family: var(--global-font-family);
   letter-spacing: 5px;
 }
 
@@ -43,7 +60,7 @@ h4{
   h1{
     font-family: 'Playfair Display', serif;
     /* font-family: 'Josefin Sans'; */
-    font-size: 40px;
+    font-size: clamp(2.625rem, -0.4493rem + 7.027vw, 5.875rem);
     font-weight: 100;
   }
   h3{

@@ -3,7 +3,7 @@ import styles from '../../styles/pages/services/reqbtn.module.css'
 
 const Requetbtn = () => {
   return (
-    <div className={styles.btnReq}>
+    <button className={styles.btnReq}>
       <div>
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="19" viewBox="0 0 24 19">
   <g id="screen-sharing-2" transform="translate(1 1)">
@@ -15,8 +15,8 @@ const Requetbtn = () => {
       </div>
 
 
-        <p>REQUEST A CONSULTATION</p>
-    </div>
+        <p className={styles.btnReqp}>REQUEST A CONSULTATION</p>
+    </button>
   )
 }
 

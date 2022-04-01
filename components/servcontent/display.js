@@ -7,18 +7,22 @@ import 'slick-carousel/slick/slick-theme.css'
 
 const DisplayContent = ({displayData})=>{
     return(<>
-    <p>Services</p>
         <div className={styles.main}>
-            
+        <p className={styles.servicesP}>SERVICES</p>
+        <div className={styles.mainGrid}>
             {
             displayData.map((newContnent, index)=>{
                 return(
+                    <>
+                   
                 <Link key={index} href={`${newContnent.link}`}>
-                    <p>{newContnent.subhead}</p>
+                    <p className={styles.servContent}>{newContnent.subhead}</p>
                 </Link>
+                </>
                 )
             })
             }
+            </div>
         </div>
         </>
     )

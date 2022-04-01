@@ -83,7 +83,7 @@ const Navbar = ()=>{
 
     const [prodserv, setProserv] = useState()
 
-
+console.log(router.pathname)
 
     console.log(router.pathname)
     useEffect(() => {
@@ -155,24 +155,20 @@ const Navbar = ()=>{
                     <div className={styles.navroutes}>
                       
                           <Link href='./products'>
-                            <div 
-                              className={router.pathname == '/products' ?styles.active: styles.notActive}><p className={styles.navText}>PRODUCTS</p></div>
+                            <div><p className={router.pathname == '/products' ?styles.active:styles.notActive}>PRODUCTS</p></div>
                            </Link>
                           <Link href='./services'>
-                           <div 
-                            className={router.pathname == '/services' ?styles.active: styles.notActive}><p className={styles.navText}>SERVICES</p></div>
+                           <div ><p className={router.pathname == '/services' ?styles.active: styles.notActive}>SERVICES</p></div>
                            </Link>
 
                         <Link href='./about'>
-                        <div
-                        className={router.pathname == '/about' ? styles.active : styles.notActive}><p className={styles.navText}>ABOUT</p></div>
+                        <div><p className={router.pathname == '/about' ?styles.active: styles.notActive}>ABOUT</p></div>
                         </Link>
                         <Link href='./spaces'>
-                        <div 
-                        className={router.pathname == '/spaces' ?styles.active: styles.notActive}><p className={styles.navText}>SPACES</p></div>
+                        <div><p className={router.pathname == '/spaces' ?styles.active: styles.notActive}>SPACES</p></div>
                         </Link>
                         <Link href='./partner'>
-                        <div className={styles.partner}><p>PARTNER WITH US</p></div>
+                        <button className={styles.partner}><p>PARTNER WITH US</p></button>
                         </Link>
                         <Link href='./'>
                         <div>

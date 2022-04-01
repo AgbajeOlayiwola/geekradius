@@ -4,7 +4,7 @@ import styles from '../../styles/pages/services/Calculatecost.module.css'
 const Calculatecost = () => {
   return (
     <div className={styles.calcMain}>
-        <div className={styles.btnCal}>
+        <button className={styles.btnCal}>
             <div>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="19" viewBox="0 0 24 19">
             <g id="screen-sharing-2" transform="translate(1 1)">
@@ -14,8 +14,8 @@ const Calculatecost = () => {
             </g>
             </svg>
             </div>
-            <p>CALCULATE THE COST OF YOUR PROJECT</p>
-        </div>
+            <p className={styles.btnCalp}>CALCULATE THE COST OF YOUR PROJECT</p>
+        </button>
 
 
         

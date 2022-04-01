@@ -5,9 +5,9 @@ const OurProductsBtn = () =>{
 
     return(
         <div>
-            <div className={styles.ourProductsBtn}>
-                <p>OUR PRODUCTS</p>
-            </div>
+            <button className={styles.ourProductsBtn}>
+                <p className={styles.buttonP}>OUR PRODUCTS</p>
+            </button>
         </div>
     )
 }
