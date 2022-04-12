@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     width: 88%;
-    max-width: 1280px;
+    max-width: 1440px;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
@@ -50,10 +50,9 @@
     cursor: pointer;
 }
 .partner{
-    padding: 4px 35px 4px 35px;
-    border-radius: 43px;
     background-color: white;
     color: black;
+    cursor: pointer;
 }
 .partner p{
     font-size: 14px;
@@ -62,17 +61,18 @@
     margin-top: 15px;
 }
 .notActive{
-    color: white;
-}
-.active{
-    color: #FF6464;
-}
-.navText{
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 2.4px;
     color: #FFF2DE;
 }
+.active{
+    color: #FF6464;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2.4px;
+}
+
 @media screen and (min-width:320px) and (max-width:723px)   {
     .navroutes{
         display: block;

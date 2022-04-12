@@ -13,15 +13,14 @@
     border: solid;
     border-width: 1px;
     border-color: #DAE1E1;
-    padding: 1% 2% 1% 2%;
     width: 23%;
     margin-top: 5%;
-    border-radius: 50px;
     display: flex;
     cursor: pointer;
+    background: none;
     justify-content: space-evenly;
 }
-.btnCal p{
+.btnCalp{
     margin: 10px 0px 10px 0px;
     text-align: center;
     font-size: 14px;

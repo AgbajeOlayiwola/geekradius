@@ -1,39 +1,48 @@
 import React, {useState} from 'react'
 import styles from '../../../styles/pages/home/services.module.css'
-import BookSpaceBtn from '../../spaces/bookspacebtn'
 import Link from 'next/link'
-import RequestServiceBtn from '../requestservicebtn'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Slider from 'react-slick'
+import {Carcont2} from '../../data/Contentdata'
 
 const ServicesCarousel =(props)=>{
-  //current carrouse in view state
-  const [current, setCurrent] =useState(0)
+  // //current carrouse in view state
+  const [currentslide, setCurrentSlide] =useState(0)
     
-  const length = props.CarouselContent.length
+  // const length = props.CarouselContent.length
 
-  const nextSlide =()=>{
-    setCurrent(current === length - 1 ? 0 : current+1)
+  // const nextSlide =()=>{
+  //   setCurrent(current === length - 1 ? 0 : current+1)
 
-  };
+  // };
 
-  const sliderSettings = {
+  const settings = {
+    focusOnSelect: true,
+    infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    infinite: false,
+    slideCount:3,
+    autoPlay:true,
+    centerMode:false,
+    speed: 500,
+    loopIfEqual:true,
+    arrows: false,
+    beforeChange:(prev, next) => setCurrentSlide(next),
   }
 
     return(
-        <div className={styles.servCov}>
-        {/* <Slider {...sliderSettings}> */}
-        {props.CarouselContent.map((item, index)=>{
+      
+        <Slider {...settings}>
+        {Carcont2.map((item, index)=>{
             {return(
-            <div key={index}>
+            <div className={index === currentslide? styles.active: styles.slide} key={index}>
+              <div>
                <p
-               onClick={nextSlide} 
                 className= {styles.activeTitle}>
                     {item.title}</p>
+                    <hr className={styles.pHr}/>
+                </div>
                <div
                className={styles.active}>
 
@@ -48,8 +57,7 @@ const ServicesCarousel =(props)=>{
             </div>
             )}
         })}
-        {/* </Slider> */}
-        </div>
+        </Slider>
     )
 }
 

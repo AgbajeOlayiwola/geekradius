@@ -13,6 +13,7 @@ import {slider,Carcont,products} from '../../components/data/Contentdata'
 import Carousel from "../../components/spaces/carousel";
 import ServicesCarousel from "../../components/home/homeCarousel/services";
 import Backgroundvideo from "../../components/commons/backgroundvideo";
+import StrategyImage from "../../components/commons/startegyImage";
 
 
 const HomeMain =()=>{
@@ -20,7 +21,6 @@ const HomeMain =()=>{
     useEffect(() => {
         AOS.init();
       }, []);
-      console.log(slider)
     return (
         <>
           {/* <Backgroundvideo/> */}
@@ -37,7 +37,7 @@ const HomeMain =()=>{
 
             </div>
             <div>
-                <Frank/>
+                <StrategyImage width={1350} height={850}/>
             </div>
         </div>
     </div>

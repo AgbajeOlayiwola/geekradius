@@ -8,9 +8,9 @@ const BookSpaceBtn =()=>{
     return(
         <div>
             <Link href="./reservespace">
-             <div className={styles.bkSpace}>
+             <button className={styles.bkSpace}>
                  SEE ALL SPACES
-            </div>
+            </button>
             </Link>
         </div>
     )

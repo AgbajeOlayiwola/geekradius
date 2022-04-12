@@ -6,6 +6,7 @@ const ReserveSpace = () => {
 
     
   return (
+      <div className={styles.cover}>
     <div className={styles.resSpace}>
         <nav className={styles.reserveNav}>
             <div className={styles.navLeft}>
@@ -31,14 +32,16 @@ const ReserveSpace = () => {
         </nav>
 
         <div className={styles.cov}>
-        <h1 className={styles.resSpacesh1}>Reserve A Space</h1> 
-        <div className={styles.respace}>
-           <div>
-               <p className={styles.whatSpace}>WHAT SPACE ARE YOU RESERVING ?</p>
-            </div>
-            <div>
-                <AvailableSpaces/>
+        <h1 className={styles.resSpacesh1}>Reserve A Space</h1>
 
+        <div className={styles.coverSpace}> 
+            <div className={styles.respace}>
+            <div>
+                <p className={styles.whatSpace}>WHAT SPACE ARE YOU RESERVING ?</p>
+                </div>
+                <div>
+                    <AvailableSpaces/>
+                </div>
             </div>
         </div>
 
@@ -59,6 +62,7 @@ const ReserveSpace = () => {
             </button>
         </div>
         </div>
+    </div>
     </div>
   )
 }

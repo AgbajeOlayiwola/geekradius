@@ -11,7 +11,7 @@ const onMouseLeave = () =>{
     setHovered(false)
 }
   return (
-    <div className={styles.main}
+    <button className={styles.main}
     onMouseEnter={onMouseEnter}
     onMouseLeave={onMouseLeave}>
       <div className={styles.texts}>
@@ -25,7 +25,7 @@ const onMouseLeave = () =>{
         }
       </div>
 
-    </div>
+    </button>
   )
 }
 

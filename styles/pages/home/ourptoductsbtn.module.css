@@ -1,13 +1,14 @@
 .ourProductsBtn{
-    border-radius: 20px;
     border: solid;
     border-color: white;
     border-width: 1px;
-    padding: 5px 30px 5px 30px;
     font-size: 18px;
     cursor: pointer;
+    background: none;
 }
-.ourProductsBtn p{
+.buttonP{
+    color: #eafcff;
+    white-space: nowrap;
     margin-top: 5px;
     margin-bottom: 5px;
 }

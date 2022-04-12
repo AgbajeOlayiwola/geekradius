@@ -86,80 +86,163 @@ export const products =[
 
 
     ///working on the Services carousel
-  export const Carcont =[
+
+///working on the Services carousel
+export const Carcont2 =[
+    {
+    title: 'Design',      
+    items:[
         {
-        title: 'Design',      
+        cont:'User Experience',
+        link:'/services/UXUI'
+        },
+        {
+            cont:'Branding and Logo',
+            link:'/services/BrandingLogo'
+        },
+        {
+            cont:'Vide & Animation',
+            link:'/services/VideoAnimation'
+        },
+        {
+            cont:'Illustrations',
+            link:'/services/Illustrations'
+        },
+        {
+            cont:'3D Assets & Animations',
+            link:'/services/AssetsAnimations'
+        }
+        ],
+    
+    },
+    {
+        title: 'Branding',      
         items:[
             {
-            cont:'User Experience',
+            cont:'Logo',
             link:'/services/UXUI'
             },
             {
-                cont:'Branding and Logo',
+                cont:'Visual Style Guides',
                 link:'/services/BrandingLogo'
             },
             {
-                cont:'Vide & Animation',
+                cont:'Brand Book/Guidelines',
                 link:'/services/VideoAnimation'
             },
             {
-                cont:'Illustrations',
+                cont:'Unique Brand Illustrations',
                 link:'/services/Illustrations'
             },
-            {
-                cont:'3D Assets & Animations',
-                link:'/services/AssetsAnimations'
-            }
             ],
         
         },
+
         {
-            title: 'Branding',      
+            title: '3D Assets',      
             items:[
                 {
-                cont:'Logo',
+                cont:'Graphcs',
                 link:'/services/UXUI'
                 },
                 {
-                    cont:'Visual Style Guides',
+                    cont:'Videos',
                     link:'/services/BrandingLogo'
                 },
                 {
-                    cont:'Brand Book/Guidelines',
+                    cont:'Animations',
                     link:'/services/VideoAnimation'
                 },
                 {
-                    cont:'Unique Brand Illustrations',
+                    cont:'Augmented Reality',
                     link:'/services/Illustrations'
                 },
+                {
+                    cont:'Virtual Reality',
+                    link:'/services/AssetsAnimations'
+                }
                 ],
             
             },
-
             {
-                title: '3D Assets',      
+                title: 'Design',      
                 items:[
                     {
-                    cont:'Graphcs',
+                    cont:'User Experience',
                     link:'/services/UXUI'
                     },
                     {
-                        cont:'Videos',
+                        cont:'Branding and Logo',
                         link:'/services/BrandingLogo'
                     },
                     {
-                        cont:'Animations',
+                        cont:'Vide & Animation',
                         link:'/services/VideoAnimation'
                     },
                     {
-                        cont:'Augmented Reality',
+                        cont:'Illustrations',
                         link:'/services/Illustrations'
                     },
                     {
-                        cont:'Virtual Reality',
+                        cont:'3D Assets & Animations',
                         link:'/services/AssetsAnimations'
                     }
                     ],
                 
                 },
+                {
+                    title: 'Branding',      
+                    items:[
+                        {
+                        cont:'Logo',
+                        link:'/services/UXUI'
+                        },
+                        {
+                            cont:'Visual Style Guides',
+                            link:'/services/BrandingLogo'
+                        },
+                        {
+                            cont:'Brand Book/Guidelines',
+                            link:'/services/VideoAnimation'
+                        },
+                        {
+                            cont:'Unique Brand Illustrations',
+                            link:'/services/Illustrations'
+                        },
+                        ],
+                    
+                    },
+            
+                    {
+                        title: '3D Assets',      
+                        items:[
+                            {
+                            cont:'Graphcs',
+                            link:'/services/UXUI'
+                            },
+                            {
+                                cont:'Videos',
+                                link:'/services/BrandingLogo'
+                            },
+                            {
+                                cont:'Animations',
+                                link:'/services/VideoAnimation'
+                            },
+                            {
+                                cont:'Augmented Reality',
+                                link:'/services/Illustrations'
+                            },
+                            {
+                                cont:'Virtual Reality',
+                                link:'/services/AssetsAnimations'
+                            }
+                            ],
+                        
+                        },
+            
+            
+             
+            
+
+ 
 ]

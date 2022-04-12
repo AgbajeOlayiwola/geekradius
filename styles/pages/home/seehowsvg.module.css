@@ -1,6 +1,14 @@
 .eyesvg{
     transform: translate(20px, 12px);
+    transition: all 1s ease-in-out;
+
 }
-.seeHow:hover ~ #openeye {
-    display:none;
+.show{
+    display: block;
+    transition: all 1s ease-in-out;
+}
+
+.noShow{
+    display: none;
+    transition: all 1s ease-in-out;
 }

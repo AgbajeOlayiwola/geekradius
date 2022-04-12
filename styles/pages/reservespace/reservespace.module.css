@@ -3,6 +3,10 @@
    
     margin: auto;
 }
+.cover{
+    display: flex;
+    justify-content: center;
+}
 
 .reserveNav{
     display: flex;
@@ -11,19 +15,19 @@
     background-color: rgba(167, 237, 230, 0.15);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
-    max-width: 90%;
-    margin: auto;
+    width: 100%;
+    max-width: 1440px;
     border-radius: 20px;
     margin-top: 5%;
     position: sticky;
     padding-right: 3%;
-    top: 0;
+    top: 265px;
     left: 0;
     z-index: 999;
 }
-.cov{
-    max-width: 80%;
-    margin: auto;
+.coverSpace{
+    display: flex;
+    justify-content: center;
 }
 .whatSpace{
     font-size: 24px;
@@ -62,18 +66,22 @@
     padding: 5% 5% 5% 5%;
     border-radius: 20px;
     color: white;
+    width: 93%;
+    max-width: 1440px;
 }
 .spaces{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     position: relative;
+    width: 100%;
 }
 .spaces div{
-    padding-left: 2%;
+    width: 18%;
 }
 .texts{
     position: absolute;
     top:50%;
+    padding-left: 21px;
     border-bottom: #FF6464;
     border-bottom-width: 2px;
 }

@@ -39,6 +39,8 @@
     line-height: 37px;
     text-align: end;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
 }
 .contentArch{
     width: 100%;
@@ -81,9 +83,14 @@
 
 .servLftArchi{
     text-align: end;
-    width:60%;
 }
 .reqbtn{
     display: flex;
     justify-content: flex-end;
+}
+.reqbtnDiv{
+    width: 60%;
+}
+.archiP{
+    width: 60%;
 }

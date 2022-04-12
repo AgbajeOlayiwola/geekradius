@@ -6,6 +6,21 @@
     backdrop-filter: blur(4px);
     padding: 5% 10% 5% 10%;
     position: absolute;
+
+}
+.mainGrid{
     display: grid;
     grid-template-columns: 40% 40%;
+}
+.servContent{
+    font-size: 20px;
+    letter-spacing: -1.6px;
+    color:#eafcff;
+    font-weight: 600;
+}
+.servicesP{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color:#fff2de;  
+    font-weight: 300;
 }
