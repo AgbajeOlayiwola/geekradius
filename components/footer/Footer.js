@@ -11,19 +11,40 @@ const Footer = () =>{
     return(
         <div className={styles.inner}>
         <footer className={styles.footerWrp}>
-            <div className={styles.inovators}>
-                <p className={styles.footerH1}>
-                    A hub for social <span className={styles.inCrea}>innovators</span> and <span className={styles.inCrea}>creative</span> solutions
+            <div className={styles.letsStart}>
+                <h1 className={styles.start}>Let's start a <span className={styles.proj}>project</span></h1>
+            </div>
+        
+        <div className={styles.locatStart}>
+            <div className={styles.locat}>
+                <p>LOCATION</p>
+                <hr/>
+                <p>
+                    Geek Radius
+                    2A Surveyor Joseph Amadi
+                    Bera Estate, Chevron Drive
+                    Lekki, 105405
                 </p>
             </div>
+            <div className={styles.getin}>
+            <div>
+                <p>GET IN TOUCH</p>
+                <hr/>
+                <p>
+                    info@geekradius.com
+                </p>
+                <button className={styles.hireTeam}>HIRE A TEAM</button>
+            </div>
+            </div>
+        </div>
+
         <div>
         <div className={styles.top}>
-            <div className={styles.hr}>
-                <hr/>
-            </div>
             <div>
-                <h4 className={styles.h3}>STAY IN TOUCH</h4>
+                <h4 className={styles.h3}>STAY CONNECTED</h4>
+                <hr className={styles.h3hr}/>
             </div>
+            
         </div>
             <div className={styles.footer}>
             

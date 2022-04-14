@@ -246,3 +246,24 @@ export const Carcont2 =[
 
  
 ]
+
+
+// services Data
+
+// const ServicesData = [
+//     Uiux{
+
+//     },
+//     BrandingLogo{
+
+//     },
+//     VideoAnimation{
+
+//     },
+//     Illustration{
+
+//     },
+//     AssetsandAnimation{
+
+//     }
+// ]

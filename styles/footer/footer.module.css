@@ -9,12 +9,60 @@
     color: white;
      /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 }
+.letsStart{
+    display: flex;
+    justify-content: center;
+}
 .letterLogo{
     cursor: pointer;
+}
+.hireTeam{
+    padding: 8%;
+    background: none;
+    color: white;
+    border: solid;
+    border-width: 2px;
+}
+.h3hr{
+    border-color:#ff6464;
+}
+.getin{
+    width: 20%;
+    color:white;
+    display: flex;
+    justify-content:  flex-end;
+    text-align: end;
+    font-weight: 100;
+    line-height: 22px;
+}
+.proj{
+    color:#ff6464;  
+}
+.getin hr{
+    border-color:#ff6464;
+}
+.locat{
+    color:white;
+    width:13%;
+    font-weight:100;
+    line-height: 22px;
+}
+.locat hr{
+    border-color:#ff6464;
+}
+.locatStart{
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+}
+.start{
+    color:white;
+    font-weight:100;
 }
 .footerWrp{
     padding-top: 60px;
     max-width: 1440px;
+    width:80%;
 }
 .cont{
     width: 70%;
@@ -33,7 +81,7 @@
 }
 .top{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     color: white;
 }
