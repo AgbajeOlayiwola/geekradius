@@ -1,0 +1,83 @@
+.contact{
+    display: flex;
+    justify-content: center;
+
+}
+.phonem{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactform{
+    width: 45%;
+    max-width: 1440px;
+    background-color: rgb(238 238 238 / 6%);
+    padding: 5% 10% 5% 10%;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    margin-top: 5%;
+
+}
+.name{
+    width: 100%;
+    border: solid;
+    background:none ;
+    border-color: white;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    color: white;
+    padding: 2px 2px 3px 4px;
+}
+.phone{
+    border: solid;
+    background:none ;
+    border-color: white;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    color: white;
+    padding: 2px 2px 3px 4px;
+}
+.email{
+    border: solid;
+    background:none ;
+    border-color: white;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    color: white;
+    padding: 2px 2px 3px 4px;
+}
+.options{
+    width: 100%;
+    border: solid;
+    background:none ;
+    border-color: white;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    color: white;
+    padding: 2px 2px 3px 4px;
+    margin-bottom: 20px;
+}
+.options option{
+    color: black;
+    background-color: #d3d3d3;
+}
+.textare{
+width: 100%;
+height: 178px;
+border-radius: 10px;
+padding: 9px 2px 11px 16px;
+}
+.sndMsg{
+    display: flex;
+    justify-content: center;
+}
+.sndMsg button{
+    background-color: #ff6464;
+    color: white;
+    margin-top: 20px;
+}

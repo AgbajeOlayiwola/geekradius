@@ -9,7 +9,6 @@ import {Contcontents}  from '../../components/data/Contentdata'
 import MockupsImage from '../../components/commons/mockupsImage'
 import Uxuiimage from '../../components/commons/Uxuiimage'
 import Calculatecost from '../../components/commons/Calculatecost'
-import FlexwrapperSingle from '../../components/layout/FlexwrapperSingle'
 import Flexwrapper from '../../components/layout/Flexwrapper'
 
 const UXUI = () => {
@@ -70,7 +69,7 @@ const UXUI = () => {
 {/* horizontal slidig components to go down here?÷ */}
  
  {/* slidig components to go up here?÷ */}
-        <FlexwrapperSingle display='displayflexStart'>
+        <Flexwrapper>
             <div className={styles.servLft}>
                 <div>
                 <h1 className={styles.mainText}>Process</h1>
@@ -82,12 +81,13 @@ const UXUI = () => {
                 </div>
                 <Requetbtn/>
             </div>
-        </FlexwrapperSingle>
+        </Flexwrapper>
 
 
 
 
-        <FlexwrapperSingle display='displayflex'>
+        <Flexwrapper>
+
             <div className={styles.servLftArchi}>
                 <div>
                 <h1 className={styles.mainText}>Architecture</h1>
@@ -104,7 +104,10 @@ const UXUI = () => {
                 </div>
 
             </div>
-            </FlexwrapperSingle>
+            {/* <div>
+                <Uxuiimage  width='550' height='550'/>
+            </div> */}
+            </Flexwrapper>
 
 
         <Flexwrapper>

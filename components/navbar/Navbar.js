@@ -7,11 +7,28 @@ import { useRouter } from 'next/router'
 import { slide as Menu } from 'react-burger-menu'
 
 const Navbar = ()=>{
+  const [navbarcolor, setNavbarcolor] = useState()
+useEffect(() => {
+  const background = () =>{
+    if(window.scrollY >= 80){
+    setNavbarcolor(true)
+    }else{
+      setNavbarcolor(false)
+    }
+  }
+window.addEventListener('scroll', background)
+
+}, [])
+
 
 
     const useMediaQuery = (width) => {
+ 
         const [targetReached, setTargetReached] = useState(false);
       
+
+
+
         const updateTarget = useCallback((e) => {
           if (e.matches) {
             setTargetReached(true);
@@ -104,7 +121,7 @@ console.log(router.pathname)
 
     return (
         
-        <nav className={styles.navCover}>
+        <nav className={navbarcolor ? styles.navBlack:styles.navCover}>
             {
                 isBreakpoint ? 
 

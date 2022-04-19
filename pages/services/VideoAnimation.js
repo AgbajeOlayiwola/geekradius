@@ -9,10 +9,9 @@ import {Contcontents}  from '../../components/data/Contentdata'
 import MockupsImage from '../../components/commons/mockupsImage'
 import Uxuiimage from '../../components/commons/Uxuiimage'
 import Calculatecost from '../../components/commons/Calculatecost'
-import FlexwrapperSingle from '../../components/layout/FlexwrapperSingle'
 import Flexwrapper from '../../components/layout/Flexwrapper'
 
-const BrandingLogo = () => {
+const VideoAnimation = () => {
     const [hovered, setHovered] = useState(false)
     const [display, setDisplay] = useState(false)
     const onMouseEnter =()=>{
@@ -69,7 +68,7 @@ const BrandingLogo = () => {
 {/* horizontal slidig components to go down here?÷ */}
  
  {/* slidig components to go up here?÷ */}
-        <FlexwrapperSingle display='displayflexStart'>
+        <Flexwrapper>
             <div className={styles.servLft}>
                 <div>
                 <h1 className={styles.mainText}>Concepts</h1>
@@ -82,12 +81,15 @@ const BrandingLogo = () => {
                 </div>
                 <Requetbtn/>
             </div>
-        </FlexwrapperSingle>
+            <div>
+                <Uxuiimage  width='550' height='550'/>
+            </div>
+        </Flexwrapper>
 
 
 
 
-        <FlexwrapperSingle display='displayflex'>
+        <Flexwrapper>
             <div className={styles.servLftArchi}>
                 <div>
                 <h1 className={styles.mainText}>Story</h1>
@@ -103,7 +105,10 @@ const BrandingLogo = () => {
                 </div>
 
             </div>
-            </FlexwrapperSingle>
+            <div>
+                <Uxuiimage  width='550' height='550'/>
+            </div>
+            </Flexwrapper>
 
 
         <Flexwrapper>
@@ -119,10 +124,13 @@ const BrandingLogo = () => {
                 </div>
                 <Requetbtn/>
             </div>
+            <div>
+                <Uxuiimage  width='550' height='550'/>
+            </div>
         </Flexwrapper>
         <Calculatecost/>
     </div>
   )
 }
 
-export default BrandingLogo
+export default VideoAnimation

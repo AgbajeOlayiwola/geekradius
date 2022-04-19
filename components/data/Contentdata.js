@@ -1,19 +1,19 @@
 export const Contcontents =[
     {
         subhead: 'UI/UX',
-        link:'#'
+        link:'/services'
     },
     {
         subhead: 'Branding & Logo',
-        link:'#'
+        link:'/services/BrandingLogo'
     },
     {
         subhead: 'Concepts & Storyboarding',
         link:'#'
     },
     {
-        subhead: 'Video Editing and Animation',
-        link:'#'
+        subhead: 'Video & Animation',
+        link:'/services/VideoAnimation'
     },
     {
         subhead: 'Front-end Development',
@@ -21,11 +21,11 @@ export const Contcontents =[
     },
     {
         subhead: 'Illustration',
-        link:'#'
+        link:'/services/Illustrations'
     },
     {
         subhead: '3D and Graphics',
-        link:'#'
+        link:'/services/AssetsAnimations'
     },
 ]
 
@@ -94,7 +94,7 @@ export const Carcont2 =[
     items:[
         {
         cont:'User Experience',
-        link:'/services/UXUI'
+        link:'/services'
         },
         {
             cont:'Branding and Logo',
@@ -120,7 +120,7 @@ export const Carcont2 =[
         items:[
             {
             cont:'Logo',
-            link:'/services/UXUI'
+            link:'/services'
             },
             {
                 cont:'Visual Style Guides',
@@ -143,7 +143,7 @@ export const Carcont2 =[
             items:[
                 {
                 cont:'Graphcs',
-                link:'/services/UXUI'
+                link:'/services'
                 },
                 {
                     cont:'Videos',
@@ -169,7 +169,7 @@ export const Carcont2 =[
                 items:[
                     {
                     cont:'User Experience',
-                    link:'/services/UXUI'
+                    link:'/servicesI'
                     },
                     {
                         cont:'Branding and Logo',
@@ -195,7 +195,7 @@ export const Carcont2 =[
                     items:[
                         {
                         cont:'Logo',
-                        link:'/services/UXUI'
+                        link:'/services'
                         },
                         {
                             cont:'Visual Style Guides',
@@ -218,7 +218,7 @@ export const Carcont2 =[
                         items:[
                             {
                             cont:'Graphcs',
-                            link:'/services/UXUI'
+                            link:'/services'
                             },
                             {
                                 cont:'Videos',
@@ -250,20 +250,7 @@ export const Carcont2 =[
 
 // services Data
 
-// const ServicesData = [
-//     Uiux{
-
-//     },
-//     BrandingLogo{
-
-//     },
-//     VideoAnimation{
-
-//     },
-//     Illustration{
-
-//     },
-//     AssetsandAnimation{
-
-//     }
+// const Uiux  =[
+//     name: 'UIUX',
+//     namesubheading:
 // ]

@@ -9,7 +9,6 @@ import {Contcontents}  from '../../components/data/Contentdata'
 import MockupsImage from '../../components/commons/mockupsImage'
 import Uxuiimage from '../../components/commons/Uxuiimage'
 import Calculatecost from '../../components/commons/Calculatecost'
-import FlexwrapperSingle from '../../components/layout/FlexwrapperSingle'
 import Flexwrapper from '../../components/layout/Flexwrapper'
 
 const Illustrations = () => {
@@ -67,7 +66,7 @@ const Illustrations = () => {
 {/* horizontal slidig components to go down here?÷ */}
  
  {/* slidig components to go up here?÷ */}
-        <FlexwrapperSingle display='displayflexStart'>
+        <Flexwrapper>
             <div className={styles.servLft}>
                 <div>
                 <h1 className={styles.mainText}>Symbols</h1>
@@ -80,12 +79,12 @@ const Illustrations = () => {
                 </div>
                 <Requetbtn/>
             </div>
-        </FlexwrapperSingle>
+        </Flexwrapper>
 
 
 
 
-        <FlexwrapperSingle display='displayflex'>
+        <Flexwrapper>
             <div className={styles.servLftArchi}>
                 <div>
                 <h1 className={styles.mainText}>Abstract</h1>
@@ -101,7 +100,7 @@ const Illustrations = () => {
                 </div>
 
             </div>
-            </FlexwrapperSingle>
+            </Flexwrapper>
 
 
         <Flexwrapper>

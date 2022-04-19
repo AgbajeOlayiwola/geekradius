@@ -14,10 +14,9 @@ const DisplayContent = ({displayData})=>{
             displayData.map((newContnent, index)=>{
                 return(
                     <>
-                   
-                <Link key={index} href={`${newContnent.link}`}>
-                    <p className={styles.servContent}>{newContnent.subhead}</p>
-                </Link>
+                        <Link key={index} href={`${newContnent.link}`}>
+                            <p className={styles.servContent}>{newContnent.subhead}</p>
+                        </Link>
                 </>
                 )
             })
