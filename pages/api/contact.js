@@ -21,7 +21,11 @@ export default function (req, res){
         to: 'tech@geekradius.com',
         subject: `Request Email`,
         text: req.body.email + " | Sent from: Geekradius" ,
-        html: `<div>${req.body.email}</div><p></p>`
+        html: `<div>${req.body.email}</div>
+                <div>${req.body.name}</div>
+                <div>${req.body.number}</div>
+                <div>${req.body.reason}</div>
+                <div>${req.body.message}</div>`
         }
 
       transporter.sendMail(mailData, function (err, info) {
