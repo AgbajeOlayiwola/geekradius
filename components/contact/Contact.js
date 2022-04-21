@@ -35,14 +35,13 @@ const ContactComp = () => {
         setSubmitted(true)
         setName('')
         setEmail('')
-        setStates('')
         setNumber('')
         setMessage('')
       }
   }) .catch(error => {
       res.json(error);
       res.status(405).end();
-      return resolve(); //in case something goes wrong in the catch block (as vijay) commented
+      return resolve(); //in case something goes wrong in the catch block 
     });
 }
   return (

@@ -3,6 +3,17 @@
     justify-content: center;
 
 }
+.contactCover{
+    display: flex;
+    justify-content:center;
+}
+.contactPage{
+    width: 80%;
+    max-width: 1440px;
+}
+.contactHead{
+    color: #fff2de;
+}
 .phonem{
     display: flex;
     justify-content: space-between;
