@@ -38,8 +38,12 @@
     border-top: 1px;
     border-left: 1px;
     border-right: 1px;
+    border-width: 1px;
     color: white;
     padding: 2px 2px 3px 4px;
+}
+.name:focus{
+    outline: none;
 }
 .phone{
     border: solid;
@@ -48,8 +52,12 @@
     border-top: 1px;
     border-left: 1px;
     border-right: 1px;
+    border-width: 1px;
     color: white;
     padding: 2px 2px 3px 4px;
+}
+.phone:focus{
+    outline: none;
 }
 .email{
     border: solid;
@@ -58,20 +66,28 @@
     border-top: 1px;
     border-left: 1px;
     border-right: 1px;
+    border-width: 1px;
     color: white;
     padding: 2px 2px 3px 4px;
+}
+.email:focus{
+    outline: none;
 }
 .options{
     width: 100%;
     border: solid;
     background:none ;
-    border-color: white;
+    border-color: white;    
     border-top: 1px;
     border-left: 1px;
     border-right: 1px;
+    border-width: 1px;
     color: white;
     padding: 2px 2px 3px 4px;
     margin-bottom: 20px;
+}
+.options:focus{
+    outline: none;
 }
 .options option{
     color: black;
@@ -83,9 +99,15 @@ height: 178px;
 border-radius: 10px;
 padding: 9px 2px 11px 16px;
 }
+.textare:focus{
+    outline: none;
+}
 .sndMsg{
     display: flex;
     justify-content: center;
+}
+.sndMsg:focus{
+    outline: none;
 }
 .sndMsg button{
     background-color: #ff6464;

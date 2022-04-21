@@ -6,9 +6,11 @@ const ContactComp = () => {
   const [email, setEmail] = useState('')
   const [number, setNumber] = useState('')
   const [message, setMessage] = useState('')
+  const [reason, setReason] = useState()
 
 
   const [submitted, setSubmitted] = useState(false)
+  // console.log(reason)
 
   const handleSubmit = (e) => { 
       e.preventDefault()
@@ -18,6 +20,7 @@ const ContactComp = () => {
         name,
         email,
         number,
+        reason,
         message
       }
   
@@ -37,6 +40,7 @@ const ContactComp = () => {
         setEmail('')
         setNumber('')
         setMessage('')
+        setReason('')
       }
   }) .catch(error => {
       res.json(error);
@@ -64,8 +68,9 @@ const ContactComp = () => {
                 onChange={(e)=>{setEmail(e.target.value)}} />
 
             </div><br/>
-            <select name="cars" id="cars" className={styles.options}>
-                <option value="volvo">Volvo</option>
+            <select name="cars" id="cars" className={styles.options}
+            onChange={(e)=>{setReason(e.target.value)}} >
+                <option value="volvo">Reason</option>
                 <option value="New Project">New Project</option>
                 <option value="ExistingProject">Existing Project</option>
                 <option value="Branding">Branding</option>
