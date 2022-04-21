@@ -69,10 +69,14 @@ const UXUI = () => {
 {/* horizontal slidig components to go down here?÷ */}
  
  {/* slidig components to go up here?÷ */}
-        <Flexwrapper>
-            <div className={styles.servLft}>
+
+
+
+        <Flexwrapper orientation={'main'}>
+        <div className={styles.servLft}>
                 <div>
-                <h1 className={styles.mainText}>Process</h1>
+                <h1 className={styles.mainText}>Our Process</h1>
+                <p className={styles.relevantText}>Relevant Tools</p>
                 <p className={styles.subText}>Framework For The Right Ocassion</p>
                 </div>
                 <div>
@@ -81,34 +85,33 @@ const UXUI = () => {
                 </div>
                 <Requetbtn/>
             </div>
-        </Flexwrapper>
-
-
-
-
-        <Flexwrapper>
-
-            <div className={styles.servLftArchi}>
-                <div>
-                <h1 className={styles.mainText}>Architecture</h1>
-                <p className={styles.subText}>We’ll organize everything like it’s spring</p>
-                </div>
-                <div className={styles.content}>
-                    <p className={styles.archiP}>
-                        Your information architecture defines your user’s experience. The effort put into your content could make or break your SEO rank which could in turn reflect on your customer’s journey
-                    </p>
-                </div>
-                <div className={styles.reqbtn}>
-                    
-                <Requetbtn/>
-                </div>
-
+            <div>
+                <MockupsImage width='950' height='950'/>
             </div>
-            {/* <div>
-                <Uxuiimage  width='550' height='550'/>
-            </div> */}
-            </Flexwrapper>
+        </Flexwrapper>
+        
+        <Flexwrapper orientation={'reverse'}>
 
+        <div className={styles.servLftArchi}>
+            <div>
+            <h1 className={styles.mainText}>Architecture</h1>
+            <p className={styles.subText}>We’ll organize everything like it’s spring</p>
+            </div>
+            <div className={styles.content}>
+                <p className={styles.archiP}>
+                    Your information architecture defines your user’s experience. The effort put into your content could make or break your SEO rank which could in turn reflect on your customer’s journey
+                </p>
+            </div>
+            <div className={styles.reqbtn}>
+                
+            <Requetbtn/>
+            </div>
+
+        </div>
+        <div>
+            <MockupsImage width='950' height='950'/>
+        </div>
+        </Flexwrapper>
 
         <Flexwrapper>
             <div className={styles.servLft}>
@@ -120,7 +123,9 @@ const UXUI = () => {
                     <p className={styles.contentProcess}>
                     Our multidisciplinary team of experts are mutually skilled in graphic design. Hence, our team has an easy time creating strong options for your team to debate over.</p>
                 </div>
+                <div>
                 <Requetbtn/>
+                </div>
             </div>
             <div>
                 <MockupsImage width='950' height='950'/>

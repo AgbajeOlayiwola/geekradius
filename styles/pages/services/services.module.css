@@ -3,7 +3,12 @@
 }
 
 .servLft{
-    width: 55%;
+    width: 50%;
+}
+.relevantText{
+    font-size: 80px;
+    font-weight: 100;
+    margin-bottom: 22px;
 }
 .jocaro{
     padding-top: 60%;
@@ -28,7 +33,6 @@
 }
 .mainText{
     margin-bottom: 10px;
-    font-size: 154px;
     color: #fff2de;
 }
 .content{

@@ -11,3 +11,19 @@
     display: flex;
     justify-content: space-between;
 }
+.flexrev{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;  
+}
+.flexrev div{
+    text-align: end;
+}
+.flexrev div p{
+    text-align: end;
+}  
+.flexrev :nth-child(3){
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+}

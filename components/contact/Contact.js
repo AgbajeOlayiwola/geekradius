@@ -1,3 +1,4 @@
+import React, {useState} from 'react'
 import styles from '../../styles/pages/contact/contact.module.css'
 
 const ContactComp = () => {
@@ -5,7 +6,6 @@ const ContactComp = () => {
   const [email, setEmail] = useState('')
   const [number, setNumber] = useState('')
   const [message, setMessage] = useState('')
-  const [states, setStates] = useState('')
 
 
   const [submitted, setSubmitted] = useState(false)
@@ -18,11 +18,10 @@ const ContactComp = () => {
         name,
         email,
         number,
-        states,
         message
       }
   
-    fetch('/api/join', {
+    fetch('/api/contact', {
       method: 'POST',
       headers: {
         'Accept': 'application/json, text/plain, */*',

@@ -28,7 +28,7 @@ p{
 :root{
   --global-font-family: 'Playfair Display';
   --global-font-familyI: 'Josefin Sans';
-  --global-h1-font-size:clamp(2.625rem, -0.4493rem + 7.027vw, 5.875rem);
+  --global-h1-font-size:clamp(5.5rem, -13.3vw + 11.3rem, 3rem);
   --global-h3-font-size:clamp(1.5625rem, 0.2232rem + 6.6964vw, 6.25rem);
   --global-h4-font-size:clamp(2.625rem, -0.4493rem + 7.027vw, 5.875rem);
   /* --global-p-font-size:clamp(2.625rem, -0.4493rem + 7.027vw, 5.875rem);

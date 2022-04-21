@@ -125,7 +125,6 @@ opacity: 0.5;
     font-size: 20px;
 }
 .mainH1{
-    font-size: clamp(2.625rem, -0.4493rem + 7.027vw, 5.875rem);
     font-weight: 400;
     color: #FFF2DE;
     margin-top: 10px;
