@@ -70,12 +70,11 @@ const UXUI = () => {
  
  {/* slidig components to go up here?÷ */}
 
-
+ <h1 className={styles.mainText}>Our Process</h1>
 
         <Flexwrapper orientation={'main'}>
         <div className={styles.servLft}>
                 <div>
-                <h1 className={styles.mainText}>Our Process</h1>
                 <p className={styles.relevantText}>Relevant Tools</p>
                 <p className={styles.subText}>Framework For The Right Ocassion</p>
                 </div>

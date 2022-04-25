@@ -5,6 +5,7 @@ import BrandingLogo from './BrandingLogo'
 import Illustrations from './Illustrations'
 import UXUI from './UXUI'
 import VideoAnimation from './VideoAnimation'
+import styles from '../../styles/pages/services/services.module.css'
 
 const Index = () => {
   const router = useRouter()
@@ -12,16 +13,17 @@ const Index = () => {
 
   const route = router.pathname;
   switch (route) {
+    
     case "/services":
-      return <UXUI/>;
+      return <div className={styles.cover}><div className={styles.coverinner}><UXUI/></div></div>;
     case "/services/BrandingLogo":
-      return <BrandingLogo/>;
+      return <div className={styles.cover}><div className={styles.coverinner}><BrandingLogo/></div></div>;
     case "/services/VideoAnimation":
-      return <VideoAnimation/>;
+      return <div className={styles.cover}><div className={styles.coverinner}><VideoAnimation/></div></div>;
       case "/services/Illustrations":
-      return <Illustrations/>;
+      return <div className={styles.cover}><div className={styles.coverinner}><Illustrations/></div></div>;
       case "/services/AssetsAnimations":
-      return <AssetsAnimations/>;
+      return <div className={styles.cover}><div className={styles.coverinner}><AssetsAnimations/></div></div>;
   }
 }
 
