@@ -12,7 +12,7 @@ const Footer = () =>{
         <div className={styles.inner}>
         <footer className={styles.footerWrp}>
             <div className={styles.letsStart}>
-                <h1 className={styles.start}>Let's start a <span className={styles.proj}>project</span></h1>
+                <h1 className={styles.start}>Lets start a <span className={styles.proj}>project</span></h1>
             </div>
         
         <div className={styles.locatStart}>
