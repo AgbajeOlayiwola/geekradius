@@ -35,11 +35,13 @@ p{
  */
  --global-text-color:#eafcff;
  --global-button-padding: 16px 50px 16px 50px;
+ --global-button-cursor:pointer;
  --global-button-border-radius: 77px;
 }
 button{
   padding: var(--global-button-padding);
   border-radius: var(--global-button-border-radius);
+  cursor: var(--global-button-cursor);
 }
 h3{
   font-family: var(--global-font-familyI);

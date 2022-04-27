@@ -14,6 +14,7 @@ import Carousel from "../../components/spaces/carousel";
 import ServicesCarousel from "../../components/home/homeCarousel/services";
 import Backgroundvideo from "../../components/commons/backgroundvideo";
 import StrategyImage from "../../components/commons/startegyImage";
+import RequestService from "../../components/commons/requestservices";
 
 
 const HomeMain =()=>{
@@ -157,14 +158,13 @@ const HomeMain =()=>{
                 <div className={styles.services}>
                     <div className={styles.servicesContainer}>
                         <Playvideo height={650} width={650}/>
-
+                        <div className={styles.reqServ}>
+                        <RequestService/>
+                        </div>
                         </div>
                     
                     <div className={styles.containers}>
                         <ServicesCarousel CarouselContent={Carcont}/>
-                        <div className={styles.bkBtn}>
-                        <BookSpaceBtn/>
-                        </div>
                     </div>
                 </div>
                 

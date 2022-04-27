@@ -3,7 +3,11 @@
     
     justify-content: center;
 }
-
+.reqServ{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
 .PionneringMain{
     width: 80%;
     max-width: 1440px;
