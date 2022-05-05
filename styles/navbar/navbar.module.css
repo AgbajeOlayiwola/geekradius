@@ -7,6 +7,10 @@
     transition: all 0.5s ease-in-out;
     padding-bottom: 10px;
 }
+.covEr{
+    width: 80%;
+    max-width: 1440px;
+}
 .nav{
     display: flex;
     justify-content: space-between;

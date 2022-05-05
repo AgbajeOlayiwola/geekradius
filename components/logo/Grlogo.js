@@ -15,7 +15,6 @@ const Grlogo = ()=>{
                 </g>
             </g>
             </svg>
-
     )
 }
 

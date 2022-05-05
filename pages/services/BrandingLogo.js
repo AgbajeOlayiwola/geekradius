@@ -57,9 +57,7 @@ const BrandingLogo = () => {
                 </div>
                 <Requetbtn/>
             </div>
-            <div>
                 <Uxuiimage  width='550' height='550'/>
-            </div>
             </Flexwrapper>
 
 
@@ -79,12 +77,15 @@ const BrandingLogo = () => {
                 </div>
                 <Requetbtn/>
             </div>
+            <div>
+                <MockupsImage width='950' height='950'/>
+            </div>
         </Flexwrapper>
 
 
 
 
-        <Flexwrapper>
+        <Flexwrapper orientation={'reverse'}>
             <div className={styles.servLftArchi}>
                 <div>
                 <h1 className={styles.mainText}>Vision</h1>
@@ -98,7 +99,9 @@ const BrandingLogo = () => {
                 <div className={styles.reqbtn}>
                 <Requetbtn/>
                 </div>
-
+            </div>
+            <div>
+                <MockupsImage width='950' height='950'/>
             </div>
             </Flexwrapper>
 
@@ -115,6 +118,9 @@ const BrandingLogo = () => {
                     </p>
                 </div>
                 <Requetbtn/>
+            </div>
+            <div>
+                <MockupsImage width='950' height='950'/>
             </div>
         </Flexwrapper>
         <Calculatecost/>

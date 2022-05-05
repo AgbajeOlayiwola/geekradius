@@ -79,12 +79,15 @@ const Illustrations = () => {
                 </div>
                 <Requetbtn/>
             </div>
+            <div>
+                <MockupsImage width='950' height='950'/>
+            </div>
         </Flexwrapper>
 
 
 
 
-        <Flexwrapper>
+        <Flexwrapper orientation={'reverse'}>
             <div className={styles.servLftArchi}>
                 <div>
                 <h1 className={styles.mainText}>Abstract</h1>
@@ -99,6 +102,9 @@ const Illustrations = () => {
                 <Requetbtn/>
                 </div>
 
+            </div>
+            <div>
+                <MockupsImage width='950' height='950'/>
             </div>
             </Flexwrapper>
 
@@ -115,6 +121,9 @@ const Illustrations = () => {
                     </p>
                 </div>
                 <Requetbtn/>
+            </div>
+            <div>
+                <MockupsImage width='950' height='950'/>
             </div>
         </Flexwrapper>
         <Calculatecost/>

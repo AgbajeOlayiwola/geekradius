@@ -56,6 +56,8 @@ window.addEventListener('scroll', background)
           position: 'fixed',
           width: '36px',
           height: '30px',
+          paddingTop: '20px',
+          marginTop:'16px'
         },
         bmBurgerBars: {
           background: '#fff'

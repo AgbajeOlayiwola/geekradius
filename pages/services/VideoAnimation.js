@@ -82,14 +82,14 @@ const VideoAnimation = () => {
                 <Requetbtn/>
             </div>
             <div>
-                <Uxuiimage  width='550' height='550'/>
+                <MockupsImage width='950' height='950'/>
             </div>
         </Flexwrapper>
 
 
 
 
-        <Flexwrapper>
+        <Flexwrapper orientation={'reverse'}>
             <div className={styles.servLftArchi}>
                 <div>
                 <h1 className={styles.mainText}>Story</h1>
@@ -106,7 +106,7 @@ const VideoAnimation = () => {
 
             </div>
             <div>
-                <Uxuiimage  width='550' height='550'/>
+                <MockupsImage width='950' height='950'/>
             </div>
             </Flexwrapper>
 
@@ -125,7 +125,7 @@ const VideoAnimation = () => {
                 <Requetbtn/>
             </div>
             <div>
-                <Uxuiimage  width='550' height='550'/>
+                <MockupsImage width='950' height='950'/>
             </div>
         </Flexwrapper>
         <Calculatecost/>
