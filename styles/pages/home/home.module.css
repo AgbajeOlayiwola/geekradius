@@ -3,6 +3,9 @@
     
     justify-content: center;
 }
+.strategy2{
+    margin-top: 27%;
+}
 .reqServ{
     margin-top: 20px;
     display: flex;
@@ -191,6 +194,12 @@ opacity: 0.5;
         text-align: -webkit-center;
         /* justify-content: center;       */
     }
+    .sliderCont {
+        width: 100%;
+    }
+    .productscar{
+        width: 100%;
+    }
     .PionneringMain{
         display: block;
         justify-content: space-between;
@@ -290,9 +299,6 @@ opacity: 0.5;
         display: block;
         overflow: scroll;
         scrollbar-width: none;
-    }
-    .products div:nth-child(even) {
-        margin-top: 15%;
     }
     .products::-webkit-scrollbar {
         display: none;

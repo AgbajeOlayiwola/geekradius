@@ -21,7 +21,7 @@
 .flexrev div p{
     text-align: end;
 }  
-.flexrev :nth-child(3){
+.flexrev div:nth-child(3){
     align-items: flex-end;
     display: flex;
     justify-content: flex-end;

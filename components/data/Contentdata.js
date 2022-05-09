@@ -8,11 +8,7 @@ export const Contcontents =[
         link:'/services/BrandingLogo'
     },
     {
-        subhead: 'Concepts & Storyboarding',
-        link:'#'
-    },
-    {
-        subhead: 'Video & Animation',
+        subhead: 'Video Editing & Animation',
         link:'/services/VideoAnimation'
     },
     {
@@ -93,48 +89,60 @@ export const Carcont2 =[
     title: 'Design',      
     items:[
         {
-        cont:'User Experience',
-        link:'/services'
+            subhead: 'UI/UX',
+            link:'/services'
         },
         {
-            cont:'Branding and Logo',
+            subhead: 'Branding & Logo',
             link:'/services/BrandingLogo'
         },
         {
-            cont:'Vide & Animation',
+            subhead: 'Video Editing & Animation',
             link:'/services/VideoAnimation'
         },
         {
-            cont:'Illustrations',
+            subhead: 'Front-end Development',
+            link:'#'
+        },
+        {
+            subhead: 'Illustration',
             link:'/services/Illustrations'
         },
         {
-            cont:'3D Assets & Animations',
+            subhead: '3D and Graphics',
             link:'/services/AssetsAnimations'
-        }
-        ],
+        },
+    ]
     
     },
     {
         title: 'Branding',      
         items:[
             {
-            cont:'Logo',
-            link:'/services'
+                subhead: 'UI/UX',
+                link:'/services'
             },
             {
-                cont:'Visual Style Guides',
+                subhead: 'Branding & Logo',
                 link:'/services/BrandingLogo'
             },
             {
-                cont:'Brand Book/Guidelines',
+                subhead: 'Video Editing & Animation',
                 link:'/services/VideoAnimation'
             },
             {
-                cont:'Unique Brand Illustrations',
+                subhead: 'Front-end Development',
+                link:'#'
+            },
+            {
+                subhead: 'Illustration',
                 link:'/services/Illustrations'
             },
-            ],
+            {
+                subhead: '3D and Graphics',
+                link:'/services/AssetsAnimations'
+            },
+        ]
         
         },
 
@@ -142,74 +150,90 @@ export const Carcont2 =[
             title: '3D Assets',      
             items:[
                 {
-                cont:'Graphcs',
-                link:'/services'
+                    subhead: 'UI/UX',
+                    link:'/services'
                 },
                 {
-                    cont:'Videos',
+                    subhead: 'Branding & Logo',
                     link:'/services/BrandingLogo'
                 },
                 {
-                    cont:'Animations',
+                    subhead: 'Video Editing & Animation',
                     link:'/services/VideoAnimation'
                 },
                 {
-                    cont:'Augmented Reality',
+                    subhead: 'Front-end Development',
+                    link:'#'
+                },
+                {
+                    subhead: 'Illustration',
                     link:'/services/Illustrations'
                 },
                 {
-                    cont:'Virtual Reality',
+                    subhead: '3D and Graphics',
                     link:'/services/AssetsAnimations'
-                }
-                ],
+                },
+            ]
             
             },
             {
                 title: 'Design',      
                 items:[
                     {
-                    cont:'User Experience',
-                    link:'/servicesI'
+                        subhead: 'UI/UX',
+                        link:'/services'
                     },
                     {
-                        cont:'Branding and Logo',
+                        subhead: 'Branding & Logo',
                         link:'/services/BrandingLogo'
                     },
                     {
-                        cont:'Vide & Animation',
+                        subhead: 'Video Editing & Animation',
                         link:'/services/VideoAnimation'
                     },
                     {
-                        cont:'Illustrations',
+                        subhead: 'Front-end Development',
+                        link:'#'
+                    },
+                    {
+                        subhead: 'Illustration',
                         link:'/services/Illustrations'
                     },
                     {
-                        cont:'3D Assets & Animations',
+                        subhead: '3D and Graphics',
                         link:'/services/AssetsAnimations'
-                    }
-                    ],
+                    },
+                ]
                 
                 },
                 {
                     title: 'Branding',      
                     items:[
                         {
-                        cont:'Logo',
-                        link:'/services'
+                            subhead: 'UI/UX',
+                            link:'/services'
                         },
                         {
-                            cont:'Visual Style Guides',
+                            subhead: 'Branding & Logo',
                             link:'/services/BrandingLogo'
                         },
                         {
-                            cont:'Brand Book/Guidelines',
+                            subhead: 'Video Editing & Animation',
                             link:'/services/VideoAnimation'
                         },
                         {
-                            cont:'Unique Brand Illustrations',
+                            subhead: 'Front-end Development',
+                            link:'#'
+                        },
+                        {
+                            subhead: 'Illustration',
                             link:'/services/Illustrations'
                         },
-                        ],
+                        {
+                            subhead: '3D and Graphics',
+                            link:'/services/AssetsAnimations'
+                        },
+                    ]
                     
                     },
             
@@ -217,26 +241,30 @@ export const Carcont2 =[
                         title: '3D Assets',      
                         items:[
                             {
-                            cont:'Graphcs',
-                            link:'/services'
+                                subhead: 'UI/UX',
+                                link:'/services'
                             },
                             {
-                                cont:'Videos',
+                                subhead: 'Branding & Logo',
                                 link:'/services/BrandingLogo'
                             },
                             {
-                                cont:'Animations',
+                                subhead: 'Video Editing & Animation',
                                 link:'/services/VideoAnimation'
                             },
                             {
-                                cont:'Augmented Reality',
+                                subhead: 'Front-end Development',
+                                link:'#'
+                            },
+                            {
+                                subhead: 'Illustration',
                                 link:'/services/Illustrations'
                             },
                             {
-                                cont:'Virtual Reality',
+                                subhead: '3D and Graphics',
                                 link:'/services/AssetsAnimations'
-                            }
-                            ],
+                            },
+                        ]
                         
                         },
             
@@ -254,3 +282,20 @@ export const Carcont2 =[
 //     name: 'UIUX',
 //     namesubheading:
 // ]
+
+//products data
+
+export const prod =[
+    {
+        headerImage:"",
+        title:"CX Anywhere",
+        challenge:"CHALLENGE",
+        challengecont:"Desgning a product (from end to end) that provides customer experience professional services remootely",
+        Approach:"APPROACH",
+        ApproachCont:"for the first week we had daily check-ins with our client to really get a sense of their taste",
+        approachsub:'from this we broke into 3 missions',
+        approachList:['LOGO AND BRANDING', 'WEBSITE DESIGN', 'PRODUCT DESIGN',],
+        outcome:"OUTCOME",
+        ooutcomeCont:"An amazing logo, unique brand, compelling, website with marketing landing pages and a fully responsive web application",
+        }
+]

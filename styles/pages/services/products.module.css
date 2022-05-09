@@ -1,0 +1,65 @@
+.Products{
+    color: #fff2de;
+    display: flex;
+    justify-content: center;
+}
+.Productsinner{
+    width: 80%;
+    max-width: 1440px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+.top h1{
+    width: 40%;
+}
+.topRight{
+    width: 50%;
+}
+.outerCircle{
+    border: solid;
+    border-color: white;
+    width: 460px;
+    height: 416px;
+    border-radius: 443px;
+    border-style: dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.innerCircle{
+    border: solid;
+    width: 360px;
+    height: 365px;
+    border-radius: 443px;
+    border-style: dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(360deg);
+    transition: all 2s ease-in-out;
+}
+.innerCircle:hover{
+    transform: rotate(0deg);
+    transition: all 2s ease-in-out;
+}
+.challenge{
+    color: #FF6464;
+}
+.chall{
+    width: 30%;
+}
+.approach{
+    width: 30%;
+    text-align: start;
+}
+.list{
+    display: block;
+}
+.outcme{
+    width: 30%;
+}

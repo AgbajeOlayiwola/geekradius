@@ -59,6 +59,22 @@ h4{
 }
 
 @media screen and (min-width:320px) and (max-width:1280px)  {
+  :root{
+    --global-mobile-font-family: 'Playfair Display';
+    --global-mobile-font-familyI: 'Josefin Sans';
+    --global-mobile-h1-font-size:clamp(5.5rem, -13.3vw + 11.3rem, 3rem);
+    --global-mobile-h3-font-size:clamp(1.5625rem, 0.2232rem + 6.6964vw, 6.25rem);
+    --global-mobile-h4-font-size:clamp(2.625rem, -0.4493rem + 7.027vw, 5.875rem);
+    /* --global-p-font-size:clamp(2.625rem, -0.4493rem + 7.027vw, 5.875rem);
+   */
+   --global-mobile-text-color:#eafcff;
+   --global-mobile-button-padding: 10px 20px 10px 20px;
+   --global-mobile-button-cursor:pointer;
+   --global-mobile-button-border-radius: 77px;
+  }
+  button{
+      padding: var(--global-mobile-button-padding);
+  }
   h1{
     font-family: 'Playfair Display', serif;
     /* font-family: 'Josefin Sans'; */

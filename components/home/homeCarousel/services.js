@@ -49,7 +49,7 @@ const ServicesCarousel =(props)=>{
                     <ul className={styles.list}>
                     {item.items.map((subitem, indx)=>
                     <Link key={indx} href={`${subitem.link}`}>
-                            <li><p className={styles.contP}>{subitem.cont}</p></li>
+                            <li><p className={styles.contP}>{subitem.subhead}</p></li>
                      </Link>
                    )}
                     </ul>

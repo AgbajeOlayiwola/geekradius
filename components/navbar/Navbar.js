@@ -54,13 +54,14 @@ window.addEventListener('scroll', background)
       var navstyles = {
         bmBurgerButton: {
           position: 'fixed',
-          width: '36px',
+          width: '30px',
           height: '30px',
           paddingTop: '20px',
           marginTop:'16px'
         },
         bmBurgerBars: {
-          background: '#fff'
+          background: '#fff',
+          borderRadius: '20px'
         },
         bmBurgerBarsHover: {
           background: '#a90000'
@@ -102,9 +103,7 @@ window.addEventListener('scroll', background)
 
     const [prodserv, setProserv] = useState()
 
-console.log(router.pathname)
 
-    console.log(router.pathname)
     useEffect(() => {
 
       // for(var i =0; i<3; i++){
@@ -139,7 +138,7 @@ console.log(router.pathname)
                         <div className={styles.navroutes}>
                         <Link href='./products'>
                             <div 
-                              className={router.pathname == '/products' ?styles.active: styles.notActive}><p className={styles.navText}>PRODUCTS</p></div>
+                              className={router.pathname == '/products' ?styles.active: styles.notActive} styles={{cursor:'not-allowed'}}><p className={styles.navText}>PRODUCTS</p></div>
                            </Link>
                           <Link href='./services'>
                            <div 
@@ -174,7 +173,7 @@ console.log(router.pathname)
                     <div className={styles.navroutes}>
                       
                           <Link href='./products'>
-                            <div><p className={router.pathname == '/products' ?styles.active:styles.notActive}>PRODUCTS</p></div>
+                            <div style={{cursor:'not-allowed'}}><p className={router.pathname == '/products' ?styles.active:styles.notActive}>PRODUCTS</p></div>
                            </Link>
                           <Link href='./services'>
                            <div ><p className={router.pathname == '/services' ?styles.active: styles.notActive}>SERVICES</p></div>
