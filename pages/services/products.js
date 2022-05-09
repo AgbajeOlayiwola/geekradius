@@ -12,7 +12,7 @@ const Products = () => {
         prod.map((products, index)=>{
           console.log(prod)
           return(
-            <>
+            <React.Fragment key={index}>
             <div className={styles.top}>
               <h1>{products.title}</h1>
 
@@ -38,9 +38,9 @@ const Products = () => {
                       <span className={styles.list}>
                           {products.approachList.map((list, index)=>{
                               return(
-                                  <>
+                                  <React.Fragment key={index}>
                                   <li>{list}</li>
-                                  </>
+                                  </React.Fragment>
                               )
                           })}
                       </span>
@@ -54,7 +54,7 @@ const Products = () => {
                       </div>
                       <Uxuiimage width='350' height='350'/>
               </Flexwrapper>
-            </>
+            </React.Fragment>
           )
         })
       }
