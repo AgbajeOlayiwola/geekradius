@@ -9,7 +9,7 @@ import 'aos/dist/aos.css';
 import Seehow from "../../components/home/seehow";
 import Testyouridea from "../../components/home/testyouridea";
 import OurProductsBtn from "../../components/home/ourproducts";
-import {slider,Carcont,products} from '../../components/data/Contentdata'
+import {slider,Carcont2,products} from '../../components/data/Contentdata'
 import Carousel from "../../components/spaces/carousel";
 import ServicesCarousel from "../../components/home/homeCarousel/services";
 import Backgroundvideo from "../../components/commons/backgroundvideo";
@@ -166,7 +166,7 @@ const HomeMain =()=>{
                         </div>
                     
                     <div className={styles.containers}>
-                        <ServicesCarousel CarouselContent={Carcont}/>
+                        <ServicesCarousel CarouselContent={Carcont2}/>
                     </div>
                 </div>
                 
