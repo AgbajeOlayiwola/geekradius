@@ -5,10 +5,18 @@ import Link from 'next/link'
 import Lettermarklogo from "../logo/Lettermarklogo";
 import { useRouter } from 'next/router'
 import { slide as Menu } from 'react-burger-menu'
+import {prod} from '../../components/data/Contentdata'
 
 const Navbar = ()=>{
   const [navbarcolor, setNavbarcolor] = useState()
+  const [indx, setIndx] = useState(3)
 useEffect(() => {
+
+  prod.map((prodcts, index)=>{
+    setIndx(index)
+  })
+
+
   const background = () =>{
     if(window.scrollY >= 80){
     setNavbarcolor(true)
@@ -19,6 +27,7 @@ useEffect(() => {
 window.addEventListener('scroll', background)
 
 }, [])
+
 
 
 
@@ -100,6 +109,7 @@ window.addEventListener('scroll', background)
 
     const isBreakpoint = useMediaQuery(723)
     const router = useRouter()
+    const {indId} = router.query
 
     const [prodserv, setProserv] = useState()
 
@@ -118,7 +128,6 @@ window.addEventListener('scroll', background)
       }
     }, [])
     
-    console.log(prodserv)
 
     return (
         
@@ -173,7 +182,7 @@ window.addEventListener('scroll', background)
                     <div className={styles.navroutes}>
                       
                           <Link href='./products'>
-                            <div style={{cursor:'not-allowed'}}><p className={router.pathname == '/products' ?styles.active:styles.notActive}>PRODUCTS</p></div>
+                            <div style={{cursor:'not-allowed'}}><p className={router.pathname == '/products' ?styles.active: styles.notActive}>PRODUCTS</p></div>
                            </Link>
                           <Link href='./services'>
                            <div ><p className={router.pathname == '/services' ?styles.active: styles.notActive}>SERVICES</p></div>

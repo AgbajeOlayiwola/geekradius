@@ -15,6 +15,7 @@ import ServicesCarousel from "../../components/home/homeCarousel/services";
 import Backgroundvideo from "../../components/commons/backgroundvideo";
 import StrategyImage from "../../components/commons/startegyImage";
 import RequestService from "../../components/commons/requestservices";
+import ScooterImg from "../../components/home/Scooterimg";
 
 
 const HomeMain =()=>{
@@ -84,12 +85,19 @@ const HomeMain =()=>{
         <div className={styles.focussed}>
             <div>
                 <div>
-                    <img src='/homeassets/fallingVrBoy.png' 
+
+                    <div>
+                        <p>We're focused on scaling a highly skilled network with strong and positive ripple effect</p>
+                    </div>
+                    <img src='/homeassets/Bike2x.png' 
                     className={styles.fallingBoy} />
                 </div>
             </div>
             <div className={styles.secondImg}>
-            <img src='/homeassets/sleepingwoman.png' 
+            <div>
+                <p>We’re applying critical thinking. We believe logic is a core tool to realising value and creativity.</p>
+            </div>
+            <img src='/homeassets/Bicycle2x.png' 
              className={styles.sleepWoman} />
             </div>
         </div>
@@ -159,7 +167,7 @@ const HomeMain =()=>{
                 </div>
                 <div className={styles.services}>
                     <div className={styles.servicesContainer}>
-                        <Playvideo height={650} width={650}/>
+                        <ScooterImg  height='950' width='950'/>
                         <div className={styles.reqServ}>
                         <RequestService/>
                         </div>
