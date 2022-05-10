@@ -9,13 +9,7 @@ import {Carcont2} from '../../data/Contentdata'
 const ServicesCarousel =(props)=>{
   // //current carrouse in view state
   const [currentslide, setCurrentSlide] =useState(0)
-    
-  // const length = props.CarouselContent.length
 
-  // const nextSlide =()=>{
-  //   setCurrent(current === length - 1 ? 0 : current+1)
-
-  // };
 
   const settings = {
     focusOnSelect: true,

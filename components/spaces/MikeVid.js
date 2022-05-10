@@ -5,7 +5,7 @@ const MikeVid = ({width, height}) =>{
 
     return (
         <div style={{width:'100%'}}>
-            <Image src={'/spacesassets/mikevid.png'} 
+            <Image src={'/homeassets/mikevid.png'} 
             width={width} height={height} />
         </div>
     )

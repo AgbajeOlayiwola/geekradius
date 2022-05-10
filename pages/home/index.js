@@ -17,6 +17,7 @@ import StrategyImage from "../../components/commons/startegyImage";
 import RequestService from "../../components/commons/requestservices";
 import ScooterImg from "../../components/home/Scooterimg";
 import MikeVid from "../../components/spaces/MikeVid";
+import ProductsSlider from "../../components/home/productsSlider";
 
 
 const HomeMain =()=>{
@@ -87,7 +88,7 @@ const HomeMain =()=>{
             <div>
                 <div>
 
-                    <div>
+                    <div className={styles.texImg}>
                         <p>We're focused on scaling a highly skilled network with strong and positive ripple effect</p>
                     </div>
                     <img src='/homeassets/Bike2x.png' 
@@ -95,7 +96,7 @@ const HomeMain =()=>{
                 </div>
             </div>
             <div className={styles.secondImg}>
-            <div>
+            <div className={styles.texImg}>
                 <p>We’re applying critical thinking. We believe logic is a core tool to realising value and creativity.</p>
             </div>
             <img src='/homeassets/Bicycle2x.png' 
@@ -135,18 +136,13 @@ const HomeMain =()=>{
         data-aos-offset='200'
         className={styles.cover}
         >
-        <div className={styles.spaceMain}>
+        <div className={styles.prodMain}>
             <div>
                 <div>
                     <h1 className={styles.productsP}>Products</h1>
                 </div>
                 <div className={styles.products}>
-                    <div className={styles.productscar}>
-                        <Carousel sliderConts={products}/>
-                    </div>
-                    <div className={styles.productImage}>
-                        <Playvideo height='950' width='950'/>
-                    </div>
+                        <ProductsSlider/>
                 </div>
                     
             </div>
@@ -162,18 +158,17 @@ const HomeMain =()=>{
         className={styles.cover}
         >
         <div className={styles.serveMain}>
-            <div>
+            <div className={styles.serveInn}>
                 <div>
                     <h1 className={styles.servicesP}>Services</h1>
                 </div>
                 <div className={styles.services}>
                     <div className={styles.servicesContainer}>
-                        <ScooterImg  height='950' width='950'/>
+                        <ScooterImg  height='350' width='350'/>
                         <div className={styles.reqServ}>
-                        <RequestService/>
+                            <RequestService/>
                         </div>
-                        </div>
-                    
+                    </div>
                     <div className={styles.containers}>
                         <ServicesCarousel CarouselContent={Carcont2}/>
                     </div>
