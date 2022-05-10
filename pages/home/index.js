@@ -16,6 +16,7 @@ import Backgroundvideo from "../../components/commons/backgroundvideo";
 import StrategyImage from "../../components/commons/startegyImage";
 import RequestService from "../../components/commons/requestservices";
 import ScooterImg from "../../components/home/Scooterimg";
+import MikeVid from "../../components/spaces/MikeVid";
 
 
 const HomeMain =()=>{
@@ -116,7 +117,7 @@ const HomeMain =()=>{
          <div className={styles.cover}>
         <div className={styles.spaceMain}>
             <div className={styles.spaceImage}>
-                <Playvideo height={850} width={850}/>
+                <MikeVid height={850} width={850}/>
                 </div>
                 <div className={styles.sliderCont}>
                 <p className={styles.spP}>Spaces</p>
