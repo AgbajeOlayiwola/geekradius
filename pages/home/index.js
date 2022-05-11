@@ -60,7 +60,7 @@ const HomeMain =()=>{
                 <div>
                     <h1 className={styles.howH1}>How</h1>
                     <p className={styles.youMay}>You may ask?</p>
-                    <p className={styles.incP}>We’re currently incubating and exploring solutions that target infrastructural growth.</p>
+                    <p className={styles.incP}>We&apos;re currently incubating and exploring solutions that target infrastructural growth.</p>
                 </div>
                 <div className={styles.test}>
                 <Testyouridea/>
@@ -89,7 +89,7 @@ const HomeMain =()=>{
                 <div>
 
                     <div className={styles.texImg}>
-                        <p>We're focused on scaling a highly skilled network with strong and positive ripple effect</p>
+                        <p>We&apos;re focused on scaling a highly skilled network with strong and positive ripple effect</p>
                     </div>
                     <img src='/homeassets/Bike2x.png' 
                     className={styles.fallingBoy} />
@@ -97,7 +97,7 @@ const HomeMain =()=>{
             </div>
             <div className={styles.secondImg}>
             <div className={styles.texImg}>
-                <p>We’re applying critical thinking. We believe logic is a core tool to realising value and creativity.</p>
+                <p>We&apos;re applying critical thinking. We believe logic is a core tool to realising value and creativity.</p>
             </div>
             <img src='/homeassets/Bicycle2x.png' 
              className={styles.sleepWoman} />
